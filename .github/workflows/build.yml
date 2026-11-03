@@ -1,0 +1,84 @@
+name: Build Tiddler click
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install build deps (native arm64)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            build-essential cmake extra-cmake-modules ninja-build pkg-config \
+            qtbase5-dev libqt5svg5-dev qtdeclarative5-dev qtquickcontrols2-5-dev \
+            qtwebengine5-dev qtfeedback5-dev \
+            kirigami2-dev libkf5purpose-dev libkf5i18n-dev libkf5config-dev \
+            libkf5coreaddons-dev libkf5dbusaddons-dev libkf5windowsystem-dev \
+            libkf5notifications-dev kirigami-addons-dev \
+            libfuturesql-dev qcoro-qt5-dev \
+            cargo rustc corrosion
+
+      - name: Build angelfish
+        run: |
+          cd angelfish-src/angelfish-23.08.5
+          cmake -B build -GNinja -DCMAKE_BUILD_TYPE=Release
+          cmake --build build -j$(nproc)
+
+      - name: Download runtime dep debs
+        run: |
+          mkdir -p click/debs click/rootfs
+          cd click/debs
+          for p in libfuturesql5-0 libqcoro5quick0t64 libkf5purpose5 \
+                   qml-module-org-kde-purpose \
+                   qml-module-org-kde-kirigami-addons-components \
+                   qml-module-org-kde-kirigami-addons-delegates \
+                   qml-module-org-kde-kirigami-addons-formcard \
+                   qml-module-org-kde-kirigami-addons-labs-components \
+                   qml-module-org-kde-kirigami-addons-labs-mobileform \
+                   qml-module-org-kde-kirigami-addons-settings \
+                   kirigami-addons-data breeze-icon-theme; do
+            sudo apt-get download "$p"
+          done
+          cd ..
+          for d in debs/*.deb; do sudo dpkg-deb -x "$d" rootfs/; done
+
+      - name: Assemble click dir
+        run: |
+          cp angelfish-src/angelfish-23.08.5/build/bin/angelfish click/
+          mkdir -p click/lib/aarch64-linux-gnu
+          cp click/rootfs/usr/lib/aarch64-linux-gnu/libfuturesql5.so* \
+             click/rootfs/usr/lib/aarch64-linux-gnu/libQCoro5Quick.so* \
+             click/rootfs/usr/lib/aarch64-linux-gnu/libKF5Purpose.so* \
+             click/rootfs/usr/lib/aarch64-linux-gnu/libReviewboard* \
+             click/rootfs/usr/lib/aarch64-linux-gnu/libPhabricator* \
+             click/lib/aarch64-linux-gnu/ 2>/dev/null || true
+          cp -r click/rootfs/usr/lib/aarch64-linux-gnu/qt5 click/lib/aarch64-linux-gnu/
+          mkdir -p click/icons
+          cp -r click/rootfs/usr/share/icons/breeze click/icons/
+          cp packaging/{manifest.json,wrapper,tiddler.desktop,angelfish.apparmor,tiddler.svg} click/
+          chmod +x click/wrapper click/angelfish
+          rm -rf click/rootfs click/debs
+
+      - name: Package click
+        run: |
+          sudo apt-get install -y click 2>/dev/null || true
+          if command -v click >/dev/null; then
+            click build click
+          else
+            tar -czf tiddler-click-dir.tar.gz -C click .
+            echo "click tool unavailable; packaged staging dir as tarball instead"
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tiddler-click
+          path: |
+            *.click
+            tiddler-click-dir.tar.gz
+          if-no-files-found: warn
