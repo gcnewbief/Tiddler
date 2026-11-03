@@ -71,27 +71,34 @@ running on a MediaTek aarch64 device. Renamed/branded **Tiddler**.
 
 ## Status
 
-- Installed/working: browse, tabs, tab switcher, downloads, video/YouTube, background
-  audio with screen off, reload/back — all confirmed by user.
-- **v23.08.5.4 shipped** (`tiddler.entropy`, queued in installer): built from source via
-  `build2` (Corrosion disabled) — has the NavigationEntrySheet keyboard fix, Tiddler
-  branding + cyber-fish icon, Material style, bundled breeze/hicolor icons.
-  Does NOT include adblock — the `angelfish-adblock` rust crate was still compiling
-  under emulation (~2h+ cpu) when this shipped.
-- The adblock rust build (`build/`) is still running in a separate container; when it
-  finishes, ship `.5` by swapping `build/src/angelfish` into `click/` and rebuilding —
-  all other parts of the click stay identical.
+- **v23.08.5.8 shipped & verified working** (`tiddler.entropy`): source build via
+  `build2` (Corrosion disabled → no adblock yet).
+- Confirmed working by user: browse, tabs, downloads, video/YouTube, background audio
+  with screen off, URL-entry sheet (fixed), context drawer menu (fixed), version
+  item in 3-dots menu.
+- Repo: `github.com/gcnewbief/tiddler` (pushed, remote `origin`). Token in `.env`
+  (`GITHUBKEY`, gitignored; has repo+workflow scope).
+- GitHub Actions arm64 CI: `.github/workflows/build.yml` on `ubuntu-24.04-arm`
+  (native, builds adblock rust crate properly). First run built the binary but
+  failed in "Assemble click dir" — fixed by dropping sudo from
+  `apt-get download`/`dpkg-deb -x`; re-triggered.
+- Local emulated adblock build was abandoned (rust crate pathological under qemu,
+  9h+). Future adblock builds come from CI or native arm64.
 
 ## Known issues / papercuts
 
-- Address-bar sheet pushed off-screen by OSK — fix included in new build, verify
-  `NavSheet geom:` log in journal (`journalctl --user | grep NavSheet`) to confirm
-  `keyboardRectangle.height` reports sanely under maliit; remove debug line after.
-- `qrc:/NavigationEntrySheet.qml:124 "Unable to assign null to double"` — benign
-  (UrlDelegate `width: parent && parent.width` transient null).
+- FIXED: address-bar sheet — maliit keyboard reports `keyboardRectangle=831` leaving a
+  36-unit "safe strip"; Qt pushes focused input into it (pageH collapses to 36).
+  Fix: `fullHeight: parent.height` + `editRow` anchored at top with `smallSpacing`
+  margin so the field sits inside the strip. Debug `NavSheet geom:` log still in
+  source — remove once confirmed stable.
+- FIXED: context drawer whitespace/overflow — `ContextDrawer.qml`'s internal menu
+  sets `topMargin = menu.height - menu.contentHeight` (bottom-aligns above the
+  handle) which misfires on UT. Worked around in `mobile.qml` by finding the
+  internal ListView and pinning `topMargin = 0`.
+- `qrc:/NavigationEntrySheet.qml:124 "Unable to assign null to double"` — benign.
 - `kf.kirigami: Failed to find a Kirigami platform plugin` — cosmetic, harmless.
-- `qrc:/Tabs.qml:0 ReferenceError: contents is not defined` — seen occasionally,
-  upstream quirk, non-fatal.
+- `qrc:/Tabs.qml:0 ReferenceError: contents is not defined` — upstream quirk.
 
 ## Future plans
 
