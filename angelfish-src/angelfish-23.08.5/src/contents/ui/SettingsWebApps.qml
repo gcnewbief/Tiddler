@@ -1,0 +1,86 @@
+// SPDX-FileCopyrightText: 2021 Jonah Brüchert <jbb@kaidan.im>
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+import QtQuick 2.3
+import QtQuick.Controls 2.4 as Controls
+import QtQuick.Layouts 1.11
+
+import org.kde.kirigami 2.7 as Kirigami
+import org.kde.angelfish 1.0
+
+import org.kde.kirigamiaddons.labs.mobileform 0.1 as MobileForm
+
+Kirigami.ScrollablePage {
+    id:root
+    title: i18n("Web Apps")
+
+    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Window
+    ColumnLayout {
+        spacing: 0
+
+        MobileForm.FormCard {
+            id: card
+            Layout.fillWidth: true
+
+            contentItem: ColumnLayout {
+                spacing: 0
+                MobileForm.FormCardHeader{
+                    title:root.title
+                }
+                Repeater {
+                    id: listView
+                    model: WebAppManagerModel {
+                        id: webAppModel
+                    }
+
+                    delegate: MobileForm.AbstractFormDelegate {
+                        required property int index;
+                        required property string desktopIcon;
+                        required property string name;
+                        required property string url;
+
+                        implicitHeight: layout.implicitHeight
+                        implicitWidth: card.implicitWidth
+
+                        RowLayout {
+                            id: layout
+                            anchors.fill: parent
+                            spacing: Kirigami.Units.largeSpacing
+                            Kirigami.Icon {
+                                Layout.leftMargin: 20
+                                Layout.margins: 10
+                                source: desktopIcon
+                            }
+                            ColumnLayout{
+                                Layout.margins: 10
+                                Controls.Label {
+                                    Layout.fillWidth: true
+                                    text: name
+                                    elide: Text.ElideRight
+                                }
+                                Controls.Label {
+                                    Layout.fillWidth: true
+                                    text: url
+                                    elide: Text.ElideRight
+                                    color: Kirigami.Theme.disabledTextColor
+                                }
+                            }
+
+                            Controls.ToolButton {
+                                Layout.margins: 10
+                                icon.name: "delete"
+                                display: Controls.AbstractButton.IconOnly
+                                onClicked: webAppModel.removeApp(index)
+                                text: i18n("Remove app")
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}

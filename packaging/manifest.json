@@ -1,0 +1,17 @@
+{
+    "architecture": "arm64",
+    "description": "Mobile web browser for Plasma Mobile - tabs, adblock, bookmarks",
+    "framework": "ubuntu-touch-24.04-1.x",
+    "hooks": {
+        "angelfish": {
+            "apparmor": "angelfish.apparmor",
+            "desktop": "tiddler.desktop"
+        }
+    },
+    "icon": "tiddler.svg",
+    "installed-size": "0",
+    "maintainer": "entropy",
+    "name": "tiddler.entropy",
+    "title": "Tiddler",
+    "version": "23.08.5.6"
+}

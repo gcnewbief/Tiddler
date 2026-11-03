@@ -1,0 +1,9 @@
+build/
+build2/
+build-out/
+*.click
+debs/
+aptlists/
+aptcache/
+.env
+angelfish.tar.gz

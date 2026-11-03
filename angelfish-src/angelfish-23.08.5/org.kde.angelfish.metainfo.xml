@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <id>org.kde.angelfish</id>
+  <name>Angelfish Web Browser</name>
+  <name xml:lang="az">Angelfish Veb Bələdçisi</name>
+  <name xml:lang="ca">Navegador web Angelfish</name>
+  <name xml:lang="ca-valencia">Navegador web Angelfish</name>
+  <name xml:lang="cs">Webový prohlížeč Angelfish</name>
+  <name xml:lang="de">Angelfish-Webbrowser</name>
+  <name xml:lang="el">Angelfish περιηγητής ιστού</name>
+  <name xml:lang="en-GB">Angelfish Web Browser</name>
+  <name xml:lang="es">Navegador web Angelfish</name>
+  <name xml:lang="eu">Angelfish web-arakatzailea</name>
+  <name xml:lang="fi">Angelfish-verkkoselain</name>
+  <name xml:lang="fr">Navigateur Internet Angelfish</name>
+  <name xml:lang="gl">Navegador web Angelfish</name>
+  <name xml:lang="hu">Angelfish webböngésző</name>
+  <name xml:lang="ia">Angelfish Webbrowser (navigator web)</name>
+  <name xml:lang="id">Browser Web Angelfish</name>
+  <name xml:lang="it">Browser web Angelfish</name>
+  <name xml:lang="ka">Angelfish ბრაუზერი</name>
+  <name xml:lang="ko">Angelfish 웹 브라우저</name>
+  <name xml:lang="lt">Angelfish saityno naršyklė</name>
+  <name xml:lang="nl">Webbrowser Angelfish</name>
+  <name xml:lang="nn">Angelfish nettlesar</name>
+  <name xml:lang="pa">ਐਂਗਲਫਿਸ਼ ਵੈੱਬ ਬਰਾਊਜ਼ਰ</name>
+  <name xml:lang="pl">Przeglądarka sieciowa Angelfish</name>
+  <name xml:lang="pt">Navegador Web Angelfish</name>
+  <name xml:lang="pt-BR">Navegador Web Angelfish</name>
+  <name xml:lang="ru">Веб-браузер Angelfish</name>
+  <name xml:lang="sk">Webový prehliadač Angelfish</name>
+  <name xml:lang="sl">Angelfish spletni brskalnik</name>
+  <name xml:lang="sv">Angelfish webbläsare</name>
+  <name xml:lang="tr">Melekbalığı</name>
+  <name xml:lang="uk">Веббраузер Angelfish</name>
+  <name xml:lang="x-test">xxAngelfish Web Browserxx</name>
+  <name xml:lang="zh-CN">Angelfish 网页浏览器</name>
+  <name xml:lang="zh-TW">Angelfish 網頁瀏覽器</name>
+  <summary>Webbrowser for mobile devices</summary>
+  <summary xml:lang="az">Mobil qurğular üçün Veb_Bələdçi</summary>
+  <summary xml:lang="ca">Navegador web per a dispositius mòbils</summary>
+  <summary xml:lang="ca-valencia">Navegador web per a dispositius mòbils</summary>
+  <summary xml:lang="cs">Webový prohlížeč pro mobilní zařízení</summary>
+  <summary xml:lang="da">Webbrowser til mobile enheder</summary>
+  <summary xml:lang="de">Webbrowser für mobile Geräte</summary>
+  <summary xml:lang="el">Περιηγητής ιστού για κινητά</summary>
+  <summary xml:lang="en-GB">Web browser for mobile devices</summary>
+  <summary xml:lang="es">Navegador web para dispositivos móviles</summary>
+  <summary xml:lang="et">Mobiilseadmete veebilehitseja</summary>
+  <summary xml:lang="eu">Gailu mugikorretarako web-arakatzailea</summary>
+  <summary xml:lang="fi">Verkkoselain mobiililaitteille</summary>
+  <summary xml:lang="fr">Navigateur web pour les appareils mobiles</summary>
+  <summary xml:lang="gl">Navegador web para dispositivos móbiles.</summary>
+  <summary xml:lang="hu">Webböngésző mobileszközökre</summary>
+  <summary xml:lang="ia">Webbrowser (Navigator de web) per dispositivos mobile</summary>
+  <summary xml:lang="id">Webbrowser untuk peranti ponsel</summary>
+  <summary xml:lang="it">Browser web per dispositivi mobili</summary>
+  <summary xml:lang="ka">ბრაუზერი მობილური მოწყობილობებისთვის</summary>
+  <summary xml:lang="ko">모바일 장치용 웹 브라우저</summary>
+  <summary xml:lang="lt">Saityno naršyklė mobiliesiems įrenginiams</summary>
+  <summary xml:lang="nl">Webbrowser voor mobiele apparaten</summary>
+  <summary xml:lang="nn">Nettlesar for mobile einingar</summary>
+  <summary xml:lang="pa">ਮੋਬਾਈਲ ਡਿਵਾਈਸਾਂ ਲਈ ਵੈੱਬ-ਬਰਾਊਜ਼ਰ</summary>
+  <summary xml:lang="pl">Przeglądarka sieciowa przystosowana do urządzeń przenośnych</summary>
+  <summary xml:lang="pt">Navegador Web para dispositivos móveis</summary>
+  <summary xml:lang="pt-BR">Navegador Web para dispositivos móveis</summary>
+  <summary xml:lang="ru">Веб-браузер для мобильных устройств</summary>
+  <summary xml:lang="sk">Webový prehliadač pre mobilné zariadenia</summary>
+  <summary xml:lang="sl">Spletni brskalnik za mobilne naprave</summary>
+  <summary xml:lang="sv">Webbläsare för mobila apparater</summary>
+  <summary xml:lang="tr">Taşınabilir aygıtlar için web tarayıcısı</summary>
+  <summary xml:lang="uk">Браузер для мобільних пристроїв</summary>
+  <summary xml:lang="x-test">xxWebbrowser for mobile devicesxx</summary>
+  <summary xml:lang="zh-CN">移动设备的网络浏览器</summary>
+  <summary xml:lang="zh-TW">適用於行動裝置的網頁瀏覽器</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  <content_rating type="oars-1.1"/>
+  <developer_name>KDE Community</developer_name>
+  <developer_name xml:lang="az">KDE İcması</developer_name>
+  <developer_name xml:lang="ca">La comunitat KDE</developer_name>
+  <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
+  <developer_name xml:lang="cs">Komunita KDE</developer_name>
+  <developer_name xml:lang="da">KDE-fællesskabet</developer_name>
+  <developer_name xml:lang="de">KDE-Gemeinschaft</developer_name>
+  <developer_name xml:lang="el">Η Κοινότητα του KDE</developer_name>
+  <developer_name xml:lang="en-GB">KDE Community</developer_name>
+  <developer_name xml:lang="es">Comunidad KDE</developer_name>
+  <developer_name xml:lang="et">KDE kogukond</developer_name>
+  <developer_name xml:lang="eu">KDE komunitatea</developer_name>
+  <developer_name xml:lang="fi">KDE-yhteisö</developer_name>
+  <developer_name xml:lang="fr">La communauté KDE</developer_name>
+  <developer_name xml:lang="gl">Comunidade KDE</developer_name>
+  <developer_name xml:lang="hu">A KDE Közösség</developer_name>
+  <developer_name xml:lang="ia">Communitate de KDE</developer_name>
+  <developer_name xml:lang="id">Komunitas KDE</developer_name>
+  <developer_name xml:lang="it">Comunità KDE</developer_name>
+  <developer_name xml:lang="ka">KDE-ის საზოგადოება</developer_name>
+  <developer_name xml:lang="ko">KDE 커뮤니티</developer_name>
+  <developer_name xml:lang="lt">KDE bendruomenė</developer_name>
+  <developer_name xml:lang="nl">KDE-gemeenschap</developer_name>
+  <developer_name xml:lang="nn">KDE-fellesskapet</developer_name>
+  <developer_name xml:lang="pa">ਕੇਡੀਈ ਕਮਿਊਨਟੀ</developer_name>
+  <developer_name xml:lang="pl">Społeczność KDE</developer_name>
+  <developer_name xml:lang="pt">Comunidade do KDE</developer_name>
+  <developer_name xml:lang="pt-BR">KDE Community</developer_name>
+  <developer_name xml:lang="ru">Сообщество KDE</developer_name>
+  <developer_name xml:lang="sk">KDE komunita</developer_name>
+  <developer_name xml:lang="sl">Skupnost KDE</developer_name>
+  <developer_name xml:lang="sv">KDE-gemenskapen</developer_name>
+  <developer_name xml:lang="tr">KDE Topluluğu</developer_name>
+  <developer_name xml:lang="uk">Спільнота KDE</developer_name>
+  <developer_name xml:lang="x-test">xxKDE Communityxx</developer_name>
+  <developer_name xml:lang="zh-CN">KDE 社区</developer_name>
+  <developer_name xml:lang="zh-TW">KDE 社群</developer_name>
+  <description>
+    <p>Angelfish is a modern mobile webbrowser</p>
+    <p xml:lang="az">Angelfish müasir mobil veb_bələdçidir</p>
+    <p xml:lang="ca">L'Angelfish és un navegador web modern per a mòbils</p>
+    <p xml:lang="ca-valencia">Angelfish és un navegador web modern per a mòbils</p>
+    <p xml:lang="cs">Angelfish je moderní mobilní webový prohlížeč</p>
+    <p xml:lang="da">Angelfish er en moderne mobil-webbrowser</p>
+    <p xml:lang="de">Angelfish ist ein moderner Webbrowser für mobile Geräte</p>
+    <p xml:lang="el">Το Angelfish είναι ένας σύγχρονος περιηγητής ιστού για κινητά</p>
+    <p xml:lang="en-GB">Angelfish is a modern mobile web browser</p>
+    <p xml:lang="es">Angelfish es un moderno navegador web móvil</p>
+    <p xml:lang="et">Angelfish on tänapäevane mobiilne veebilehitseja</p>
+    <p xml:lang="eu">Angelfish web-arakatzaile mugikor moderno bat da</p>
+    <p xml:lang="fi">Angelfish on nykyaikainen mobiiliverkkoselain</p>
+    <p xml:lang="fr">Angelfish est un navigateur web mobile moderne</p>
+    <p xml:lang="gl">Angelfish é un navegador web móbil moderno.</p>
+    <p xml:lang="hu">Az Angelfish egy modern mobilos webböngésző</p>
+    <p xml:lang="ia">Angelfish es un moderne Webbrowser (navigator web) de mobile</p>
+    <p xml:lang="id">Angelfish adalah sebuah webbrowser ponsel yang modern</p>
+    <p xml:lang="it">Angelfish è un browser web moderno per dispositivi mobili</p>
+    <p xml:lang="ka">Angelfish თანამედროვე ბრაუზერია მობილური მოწყობილობებისთვის</p>
+    <p xml:lang="ko">Angelfish는 현대적인 모바일 웹 브라우저입니다</p>
+    <p xml:lang="lt">Angelfish yra šiuolaikinė mobilioji saityno naršyklė</p>
+    <p xml:lang="nl">Angelfish is een moderne mobiele webbrowser</p>
+    <p xml:lang="nn">Angelfish er ein moderne nettlesar for mobiltelefonar.</p>
+    <p xml:lang="pa">ਐਂਗਲਫਿਸ਼ ਨਵੇਂ ਜ਼ਮਾਨੇ ਦਾ ਮੋਬਾਈਲ ਵੈੱਬ-ਬਰਾਊਜ਼ਰ ਹੈ</p>
+    <p xml:lang="pl">Angelfish to nowoczesna, przenośna przeglądarka sieciowa</p>
+    <p xml:lang="pt">O Angelfish é um navegador Web móvel moderno</p>
+    <p xml:lang="pt-BR">O Angelfish é um navegador Web móvel modem</p>
+    <p xml:lang="ru">Angelfish — это современный веб-браузер для мобильных устройств</p>
+    <p xml:lang="sk">Angelfish je moderný mobilný webový prehliadač</p>
+    <p xml:lang="sl">Angelfish je sodobni mobilni spletni brskalnik</p>
+    <p xml:lang="sv">Angelfish är en modern mobilwebbläsare</p>
+    <p xml:lang="tr">Melekbalığı; çağdaş ve taşınabilir bir web tarayıcısıdır</p>
+    <p xml:lang="uk">Angelfish — сучасний браузер для мобільних пристроїв</p>
+    <p xml:lang="x-test">xxAngelfish is a modern mobile webbrowserxx</p>
+    <p xml:lang="zh-CN">Angelfish 是一款现代化的移动设备网络浏览器</p>
+    <p xml:lang="zh-TW">Angelfish 是款現代化的行動網頁瀏覽器</p>
+    <p>It supports typical browser features, such as</p>
+    <p xml:lang="az">O, veb bələdçilərə xas aşağıda göstərilən bir çox xüsusiyyətləri dəstəkləyir</p>
+    <p xml:lang="ca">Permet les funcionalitats típiques de navegació, com</p>
+    <p xml:lang="ca-valencia">Permet les característiques típiques de navegació, com</p>
+    <p xml:lang="cs">Podporuje typické vlastnosti prohlížeče jako</p>
+    <p xml:lang="da">Den understøtter almindelige browserfunktioner såsom</p>
+    <p xml:lang="de">Er unterstützt die typischen Funktionen von Browsern wie</p>
+    <p xml:lang="el">Υποστηρίζει τις τυπικές λειτουργίες ενός περιηγητή, όπως</p>
+    <p xml:lang="en-GB">It supports typical browser features, such as</p>
+    <p xml:lang="es">Permite las funciones típicas de un navegador, como</p>
+    <p xml:lang="et">See toetab tüüpilisi veebilehitseja võimalusi, nagu</p>
+    <p xml:lang="eu">Arakatzaileen ohiko ezaugarriak ditu, besteak beste</p>
+    <p xml:lang="fi">Tukee tavallisia selainominaisuuksia kuten</p>
+    <p xml:lang="fr">Il prend en charge les fonctionnalités classiques des navigateurs :</p>
+    <p xml:lang="gl">Goza das funcionalidades habituais dos navegadores, como:</p>
+    <p xml:lang="hu">Támogatja a megszokott szolgáltatásokat, úgy mint</p>
+    <p xml:lang="ia">Il supporta typic characteristicas de navigator, tal como</p>
+    <p xml:lang="id">Ini mendukung fitur-fitur browser biasanya, sepertihalnya</p>
+    <p xml:lang="it">Supporta le funzionalità tipiche del browser, quali</p>
+    <p xml:lang="ka">მას აქვს ისეთი ფუნქციების ტიპიური ნაკრები, როგორიცაა</p>
+    <p xml:lang="ko">다음과 같은 웹 브라우저 기능을 제공합니다</p>
+    <p xml:lang="lt">Ji palaiko tipines naršyklės ypatybes, tokias kaip</p>
+    <p xml:lang="nl">Het ondersteunt typische browserfuncties, zoals</p>
+    <p xml:lang="nn">Han støttar vanlege nettlesarfunksjonar:</p>
+    <p xml:lang="pa">ਇਹ ਸਧਾਰਨ ਬਰਾਊਜ਼ਰ ਫੀਚਰਾਂ ਲਈ ਸਹਾਇਕ ਹੈ ਜਿਵੇਂ ਕਿ</p>
+    <p xml:lang="pl">Obsługuje zwyczajne funkcje przeglądarki, takie jak</p>
+    <p xml:lang="pt">Suporta as funcionalidades típicas de navegação, como</p>
+    <p xml:lang="pt-BR">Tem suporte a funcionalidades típicas de navegação, como</p>
+    <p xml:lang="ru">Он поддерживает типичные функции веб-браузеров, такие как</p>
+    <p xml:lang="sk">Podporuje typické funkcie prehliadača, ako napr.</p>
+    <p xml:lang="sl">Podpira tipične možnosti brskalnikov, kot so</p>
+    <p xml:lang="sv">Den stöder typiska webbläsarfunktioner, såsom</p>
+    <p xml:lang="tr">Aşağıda bir listesini görebileceğiniz standart web tarayıcısı özelliklerine sahiptir:</p>
+    <p xml:lang="uk">Передбачено типові можливості браузера, зокрема</p>
+    <p xml:lang="x-test">xxIt supports typical browser features, such asxx</p>
+    <p xml:lang="zh-CN">它支持典型的浏览器功能，例如：</p>
+    <p xml:lang="zh-TW">此瀏覽器支援一般瀏覽器會有的功能，例如</p>
+    <ul>
+      <li>bookmarks</li>
+      <li xml:lang="az">əlfəcinlər</li>
+      <li xml:lang="ca">adreces d'interès</li>
+      <li xml:lang="ca-valencia">adreces d'interés</li>
+      <li xml:lang="cs">záložky</li>
+      <li xml:lang="da">bogmærker</li>
+      <li xml:lang="de">Lesezeichen</li>
+      <li xml:lang="el">σελιδοδείκτες</li>
+      <li xml:lang="en-GB">bookmarks</li>
+      <li xml:lang="es">marcadores</li>
+      <li xml:lang="et">järjehoidjad</li>
+      <li xml:lang="eu">laster-markak</li>
+      <li xml:lang="fi">kirjanmerkit</li>
+      <li xml:lang="fr">signets</li>
+      <li xml:lang="gl">marcadores</li>
+      <li xml:lang="hu">könyvjelzők</li>
+      <li xml:lang="ia">Marcatores de libro</li>
+      <li xml:lang="id">markah</li>
+      <li xml:lang="it">segnalibri</li>
+      <li xml:lang="ka">სანიშნები</li>
+      <li xml:lang="ko">책갈피</li>
+      <li xml:lang="lt">žymeles</li>
+      <li xml:lang="nl">bladwijzers</li>
+      <li xml:lang="nn">bokmerke</li>
+      <li xml:lang="pa">ਬੁੱਕਮਾਰਕ</li>
+      <li xml:lang="pl">zakładki</li>
+      <li xml:lang="pt">favoritos</li>
+      <li xml:lang="pt-BR">favoritos</li>
+      <li xml:lang="ru">закладки</li>
+      <li xml:lang="sk">zalozky</li>
+      <li xml:lang="sl">zaznamki</li>
+      <li xml:lang="sv">bokmärken</li>
+      <li xml:lang="tr">yer imleri</li>
+      <li xml:lang="uk">закладки</li>
+      <li xml:lang="x-test">xxbookmarksxx</li>
+      <li xml:lang="zh-CN">书签</li>
+      <li xml:lang="zh-TW">書籤</li>
+      <li>history</li>
+      <li xml:lang="az">tarixçə</li>
+      <li xml:lang="ca">historial</li>
+      <li xml:lang="ca-valencia">historial</li>
+      <li xml:lang="cs">historie</li>
+      <li xml:lang="da">historik</li>
+      <li xml:lang="de">Verlauf</li>
+      <li xml:lang="el">ιστορικό</li>
+      <li xml:lang="en-GB">history</li>
+      <li xml:lang="es">historial</li>
+      <li xml:lang="et">ajalugu</li>
+      <li xml:lang="eu">historiala</li>
+      <li xml:lang="fi">historia</li>
+      <li xml:lang="fr">historique</li>
+      <li xml:lang="gl">historial</li>
+      <li xml:lang="hu">előzmények</li>
+      <li xml:lang="ia">Chronologia</li>
+      <li xml:lang="id">histori</li>
+      <li xml:lang="it">cronologia</li>
+      <li xml:lang="ka">ისტორია</li>
+      <li xml:lang="ko">과거 기록</li>
+      <li xml:lang="lt">istoriją</li>
+      <li xml:lang="nl">geschiedenis</li>
+      <li xml:lang="nn">besøkslogg</li>
+      <li xml:lang="pa">ਅਤੀਤ</li>
+      <li xml:lang="pl">historia</li>
+      <li xml:lang="pt">histórico</li>
+      <li xml:lang="pt-BR">histórico</li>
+      <li xml:lang="ru">журнал</li>
+      <li xml:lang="sk">História</li>
+      <li xml:lang="sl">zgodovino brskanja</li>
+      <li xml:lang="sv">historik</li>
+      <li xml:lang="tr">geçmiş</li>
+      <li xml:lang="uk">журнал</li>
+      <li xml:lang="x-test">xxhistoryxx</li>
+      <li xml:lang="zh-CN">历史记录</li>
+      <li xml:lang="zh-TW">歷史記錄</li>
+      <li>tabs</li>
+      <li xml:lang="az">vərəqlər</li>
+      <li xml:lang="ca">pestanyes</li>
+      <li xml:lang="ca-valencia">pestanyes</li>
+      <li xml:lang="cs">karty</li>
+      <li xml:lang="da">faneblade</li>
+      <li xml:lang="de">Unterfenster</li>
+      <li xml:lang="el">καρτέλες</li>
+      <li xml:lang="en-GB">tabs</li>
+      <li xml:lang="es">pestañas</li>
+      <li xml:lang="et">kaardid</li>
+      <li xml:lang="eu">fitxak</li>
+      <li xml:lang="fi">välilehdet</li>
+      <li xml:lang="fr">onglets</li>
+      <li xml:lang="gl">separadores</li>
+      <li xml:lang="hu">lapok</li>
+      <li xml:lang="ia">schedas</li>
+      <li xml:lang="id">tab</li>
+      <li xml:lang="it">schede</li>
+      <li xml:lang="ka">ჩანართები</li>
+      <li xml:lang="ko">탭</li>
+      <li xml:lang="lt">korteles</li>
+      <li xml:lang="nl">tabs</li>
+      <li xml:lang="nn">faner</li>
+      <li xml:lang="pa">ਟੈਬਾਂ</li>
+      <li xml:lang="pl">karty</li>
+      <li xml:lang="pt">páginas</li>
+      <li xml:lang="pt-BR">abas</li>
+      <li xml:lang="ru">вкладки</li>
+      <li xml:lang="sk">karty</li>
+      <li xml:lang="sl">zavihke</li>
+      <li xml:lang="sv">flikar</li>
+      <li xml:lang="tr">sekmeler</li>
+      <li xml:lang="uk">вкладки</li>
+      <li xml:lang="x-test">xxtabsxx</li>
+      <li xml:lang="zh-CN">标签页</li>
+      <li xml:lang="zh-TW">分頁</li>
+    </ul>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Homepage</caption>
+      <caption xml:lang="az">Ev səhifəsi</caption>
+      <caption xml:lang="ca">Pàgina inicial</caption>
+      <caption xml:lang="ca-valencia">Pàgina inicial</caption>
+      <caption xml:lang="cs">Domovská stránka</caption>
+      <caption xml:lang="da">Startside</caption>
+      <caption xml:lang="de">Startseite</caption>
+      <caption xml:lang="el">Προσωπική σελίδα</caption>
+      <caption xml:lang="en-GB">Homepage</caption>
+      <caption xml:lang="es">Página de inicio</caption>
+      <caption xml:lang="et">Kodulehekülg</caption>
+      <caption xml:lang="eu">Orri nagusia</caption>
+      <caption xml:lang="fi">Kotisivu</caption>
+      <caption xml:lang="fr">Page d'accueil</caption>
+      <caption xml:lang="gl">Páxina inicial.</caption>
+      <caption xml:lang="hu">Kezdőlap</caption>
+      <caption xml:lang="ia">Pagina Domo o Principal</caption>
+      <caption xml:lang="id">Laman</caption>
+      <caption xml:lang="it">Pagina iniziale</caption>
+      <caption xml:lang="ka">საწყისი გვერდი</caption>
+      <caption xml:lang="ko">홈페이지</caption>
+      <caption xml:lang="lt">Pagrindinis puslapis</caption>
+      <caption xml:lang="nl">Homepagina</caption>
+      <caption xml:lang="nn">Heimeside</caption>
+      <caption xml:lang="pa">ਮੁੱਖ ਸਫ਼ਾ</caption>
+      <caption xml:lang="pl">Strona domowa</caption>
+      <caption xml:lang="pt">Página Web</caption>
+      <caption xml:lang="pt-BR">Site</caption>
+      <caption xml:lang="ru">Домашняя страница</caption>
+      <caption xml:lang="sk">Domovská stránka</caption>
+      <caption xml:lang="sl">Domača stran</caption>
+      <caption xml:lang="sv">Hemsida</caption>
+      <caption xml:lang="tr">Anasayfa</caption>
+      <caption xml:lang="uk">Домашня сторінка</caption>
+      <caption xml:lang="x-test">xxHomepagexx</caption>
+      <caption xml:lang="zh-CN">主页</caption>
+      <caption xml:lang="zh-TW">首頁</caption>
+      <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/homepage.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Menu Actions</caption>
+      <caption xml:lang="az">Menyu fəaliyyətləri</caption>
+      <caption xml:lang="ca">Accions de menú</caption>
+      <caption xml:lang="ca-valencia">Accions de menú</caption>
+      <caption xml:lang="cs">Činnosti nabídky</caption>
+      <caption xml:lang="da">Menuhandlinger</caption>
+      <caption xml:lang="de">Menüaktionen</caption>
+      <caption xml:lang="el">Ενέργειες μενού</caption>
+      <caption xml:lang="en-GB">Menu Actions</caption>
+      <caption xml:lang="es">Acciones del menú</caption>
+      <caption xml:lang="et">Menüütoimingud</caption>
+      <caption xml:lang="eu">Menu-ekintzak</caption>
+      <caption xml:lang="fi">Valikkotoimenpiteet</caption>
+      <caption xml:lang="fr">Actions de menu</caption>
+      <caption xml:lang="gl">Accións de menú.</caption>
+      <caption xml:lang="hu">Menüműveletek</caption>
+      <caption xml:lang="ia">Actiones de menu</caption>
+      <caption xml:lang="id">Aksi Menu</caption>
+      <caption xml:lang="it">Menu Azioni</caption>
+      <caption xml:lang="ka">მენიუს ქმედებები</caption>
+      <caption xml:lang="ko">메뉴 동작</caption>
+      <caption xml:lang="lt">Meniu veiksmai</caption>
+      <caption xml:lang="nl">Menuopties</caption>
+      <caption xml:lang="nn">Menyhandlingar</caption>
+      <caption xml:lang="pa">ਮੇਨੂ ਕਾਰਵਾਈਆਂ</caption>
+      <caption xml:lang="pl">Działania menu</caption>
+      <caption xml:lang="pt">Acções do Menu</caption>
+      <caption xml:lang="pt-BR">Menu de ações</caption>
+      <caption xml:lang="ru">Действия меню</caption>
+      <caption xml:lang="sk">Akcie ponuky</caption>
+      <caption xml:lang="sl">Dejavnosti menija</caption>
+      <caption xml:lang="sv">Menyalternativ</caption>
+      <caption xml:lang="tr">Menü Eylemleri</caption>
+      <caption xml:lang="uk">Пункти меню</caption>
+      <caption xml:lang="x-test">xxMenu Actionsxx</caption>
+      <caption xml:lang="zh-CN">菜单操作</caption>
+      <caption xml:lang="zh-TW">選單動作</caption>
+      <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/actions.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Tabs View</caption>
+      <caption xml:lang="az">Vərəq görünüşü</caption>
+      <caption xml:lang="ca">Vista en pestanyes</caption>
+      <caption xml:lang="ca-valencia">Vista en pestanyes</caption>
+      <caption xml:lang="cs">Prohlížení karet</caption>
+      <caption xml:lang="de">Unterfensteransicht</caption>
+      <caption xml:lang="el">Προβολή καρτελών</caption>
+      <caption xml:lang="en-GB">Tabs View</caption>
+      <caption xml:lang="es">Vista de pestañas</caption>
+      <caption xml:lang="eu">Fitxa-ikuspegia</caption>
+      <caption xml:lang="fi">Välilehtinäkymä</caption>
+      <caption xml:lang="fr">Vue par onglets</caption>
+      <caption xml:lang="gl">Vista de separadores.</caption>
+      <caption xml:lang="hu">Lapnézet</caption>
+      <caption xml:lang="ia">Vista de Schedas</caption>
+      <caption xml:lang="id">Tampilan Tab</caption>
+      <caption xml:lang="it">Vista a schede</caption>
+      <caption xml:lang="ka">ჩანართების ხედები</caption>
+      <caption xml:lang="ko">탭 보기</caption>
+      <caption xml:lang="lt">Kortelių rodinys</caption>
+      <caption xml:lang="nl">Tabbladenweergave</caption>
+      <caption xml:lang="pa">ਟੈਬ ਝਲਕ</caption>
+      <caption xml:lang="pl">Widok kart</caption>
+      <caption xml:lang="pt">Vista de Páginas</caption>
+      <caption xml:lang="pt-BR">Visualização das abas</caption>
+      <caption xml:lang="ru">Вкладки</caption>
+      <caption xml:lang="sk">Zobrazenie kariet</caption>
+      <caption xml:lang="sl">Pogled zavihkov</caption>
+      <caption xml:lang="sv">Flikvy</caption>
+      <caption xml:lang="tr">Sekmeler Görünümü</caption>
+      <caption xml:lang="uk">Перегляд з вкладками</caption>
+      <caption xml:lang="x-test">xxTabs Viewxx</caption>
+      <caption xml:lang="zh-CN">标签页视图</caption>
+      <caption xml:lang="zh-TW">分頁檢視</caption>
+      <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/tabs.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Desktop User Interface</caption>
+      <caption xml:lang="az">İş masası İstifadəçi İnterfeysi</caption>
+      <caption xml:lang="ca">Interfície d'usuari d'escriptori</caption>
+      <caption xml:lang="ca-valencia">Interfície d'usuari d'escriptori</caption>
+      <caption xml:lang="cs">Uživatelské rozhraní pracovní plochy</caption>
+      <caption xml:lang="de">Benutzeroberfläche für die Arbeitsfläche</caption>
+      <caption xml:lang="el">Περιβάλλον χρήστη επιφάνειας εργασίας</caption>
+      <caption xml:lang="en-GB">Desktop User Interface</caption>
+      <caption xml:lang="es">Interfaz de usuario del escritorio</caption>
+      <caption xml:lang="eu">Mahaigaineko erabiltzailearen interfazea</caption>
+      <caption xml:lang="fi">Työpöytäkäyttöliittymä</caption>
+      <caption xml:lang="fr">Interface utilisateur de bureau</caption>
+      <caption xml:lang="gl">Interface de usuario de escritorio.</caption>
+      <caption xml:lang="hu">Asztali felhasználói felület</caption>
+      <caption xml:lang="ia">Interfacie de usator de scriptorio</caption>
+      <caption xml:lang="id">Antarmuka Pengguna Desktop</caption>
+      <caption xml:lang="it">Interfaccia utente desktop</caption>
+      <caption xml:lang="ka">სამუშაო მაგიდის მომხმარებლის ინტერფეისი</caption>
+      <caption xml:lang="ko">데스크톱 사용자 인터페이스</caption>
+      <caption xml:lang="nl">Gebruikersinterface op bureaublad</caption>
+      <caption xml:lang="pa">ਡੈਸਕਟਾਪ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ</caption>
+      <caption xml:lang="pl">Interfejs użytkownika na komputerze</caption>
+      <caption xml:lang="pt">Interface de Utilizador</caption>
+      <caption xml:lang="pt-BR">Desktop User Interface</caption>
+      <caption xml:lang="ru">Графический интерфейс пользователя для ПК</caption>
+      <caption xml:lang="sk">Desktopové používateľské rozhranie</caption>
+      <caption xml:lang="sl">Uporabniški vmesnik namizja</caption>
+      <caption xml:lang="sv">Användargränssnitt för skrivbord</caption>
+      <caption xml:lang="tr">Masaüstü Kullanıcı Arayüzü</caption>
+      <caption xml:lang="uk">Інтерфейс користувача стільниці</caption>
+      <caption xml:lang="x-test">xxDesktop User Interfacexx</caption>
+      <caption xml:lang="zh-CN">桌面用户界面</caption>
+      <caption xml:lang="zh-TW">桌面版使用者介面</caption>
+      <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/desktop.png</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://invent.kde.org/plasma-mobile/angelfish</url>
+  <url type="bugtracker">https://bugs.kde.org/describecomponents.cgi?product=angelfish</url>
+  <provides>
+    <binary>angelfish</binary>
+  </provides>
+  <launchable type="desktop-id">org.kde.angelfish.desktop</launchable>
+  <releases>
+    <release version="23.08.5" date="2024-02-15"/>
+    <release version="23.08.4" date="2023-12-07"/>
+    <release version="23.08.3" date="2023-11-09"/>
+    <release version="23.08.2" date="2023-10-12"/>
+    <release version="23.08.1" date="2023-09-14"/>
+    <release version="23.08.0" date="2023-08-24"/>
+    <release version="23.04.3" date="2023-07-06"/>
+    <release version="23.04.2" date="2023-06-08"/>
+    <release version="23.04.1" date="2023-05-11"/>
+    <release version="23.04.0" date="2023-04-20"/>
+    <release version="23.01" date="2023-01-30">
+      <url>https://plasma-mobile.org/2023/01/30/january-blog-post/</url>
+    </release>
+    <release version="22.11" date="2022-11-30">
+      <url>https://plasma-mobile.org/2022/11/30/plasma-mobile-gear-22-11/</url>
+    </release>
+    <release version="22.09" date="2022-09-27">
+      <url>https://www.plasma-mobile.org/2022/09/27/plasma-mobile-gear-22-09/</url>
+    </release>
+    <release version="22.06" date="2022-06-24">
+      <url>https://www.plasma-mobile.org/2022/06/28/plasma-mobile-gear-22-06/</url>
+      <description>
+        <ul>
+          <li>Allow to hide tab bar when single tab is open</li>
+          <li>Fix window activation on wayland</li>
+        </ul>
+      </description>
+    </release>
+    <release version="22.04" date="2022-04-26">
+      <url>https://www.plasma-mobile.org/2022/04/26/plasma-mobile-gear-22-04/</url>
+      <description>
+        <ul>
+          <li>Update adblock crate version</li>
+          <li>Fix webapp entries not showing up in phosh</li>
+          <li>Expose downloads in the desktop version</li>
+        </ul>
+      </description>
+    </release>
+    <release version="22.02" date="2022-02-09">
+      <url>https://www.plasma-mobile.org/2022/02/09/plasma-mobile-gear-22-02/</url>
+      <description>
+        <ul>
+          <li>Fix developer tools</li>
+          <li>Fix displaying the page title in tab switcher</li>
+          <li>Fix wrong check in ad-blocker</li>
+          <li>Implement a desktop UI</li>
+          <li>Re-organize the settings UI and unify for desktop and mobile</li>
+          <li>Simplify the navigation logic</li>
+          <li>Show a popup when URL bar is focused showing history and related text for current URL</li>
+          <li>Use a better default user-agent for mobile devices</li>
+        </ul>
+      </description>
+    </release>
+    <release version="21.12" date="2021-12-07">
+      <url>https://www.plasma-mobile.org/2021/12/07/plasma-mobile-gear-21-12/</url>
+      <description>
+        <ul>
+          <li>Add action button to clear history</li>
+          <li>Improve virtual keyboard integration</li>
+          <li>Allow user to ignore SSL errors</li>
+          <li>Fix loading chrome:// URLs</li>
+          <li>Improved ad-blocker support for cosmetic filters</li>
+        </ul>
+      </description>
+    </release>
+    <release version="21.08" date="2021-08-31">
+      <url>https://www.plasma-mobile.org/2021/08/31/plasma-mobile-gear-21-08/</url>
+    </release>
+    <release version="21.07" date="2021-07-20">
+      <description>
+        <ul>
+          <li>Improve the startup time of the ad blocker</li>
+          <li>Fix various bugs and safety issues in the web app manager</li>
+          <li>Improve flatpak support</li>
+        </ul>
+      </description>
+      <url>https://www.plasma-mobile.org/2021/07/20/plasma-mobile-gear-21-07/</url>
+    </release>
+    <release version="21.06" date="2021-06-10">
+      <description>
+        <ul>
+          <li>Add a settings page for managing web apps</li>
+        </ul>
+      </description>
+      <url>https://www.plasma-mobile.org/2021/06/10/plasma-mobile-update-june/</url>
+    </release>
+    <release version="21.05" date="2021-05-10"/>
+  </releases>
+</component>

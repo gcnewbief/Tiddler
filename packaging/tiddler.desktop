@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Tiddler
+GenericName=Web Browser
+Comment=Mobile web browser with tabs and adblock
+Exec=wrapper ./angelfish %u
+Icon=tiddler.svg
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;x-scheme-handler/http;x-scheme-handler/https;

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1424"/>
+      <stop offset="1" stop-color="#12263a"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#37e6d4"/>
+      <stop offset="1" stop-color="#1f8fce"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+
+  <!-- circuit fins -->
+  <g stroke="#37e6d4" stroke-width="3" fill="none" opacity="0.85" filter="url(#glow)">
+    <polyline points="96,74 96,52 118,52"/>
+    <circle cx="122" cy="52" r="4" fill="#37e6d4" stroke="none"/>
+    <polyline points="126,82 142,60 164,60"/>
+    <circle cx="168" cy="60" r="4" fill="#37e6d4" stroke="none"/>
+    <polyline points="104,178 104,202 132,202"/>
+    <circle cx="136" cy="202" r="4" fill="#37e6d4" stroke="none"/>
+  </g>
+
+  <!-- fish body -->
+  <polygon points="196,128 168,96 112,84 68,104 46,128 68,152 112,172 168,160"
+           fill="url(#body)"/>
+
+  <!-- tail -->
+  <polygon points="52,100 26,74 34,110 24,128 34,146 26,182 52,156 60,128"
+           fill="#1f8fce"/>
+
+  <!-- dorsal fin -->
+  <polygon points="96,86 128,56 144,60 124,88" fill="#37e6d4" opacity="0.9"/>
+
+  <!-- body circuit traces -->
+  <g stroke="#0b1424" stroke-width="3" fill="none" opacity="0.9">
+    <polyline points="150,104 132,118 132,140"/>
+    <circle cx="152" cy="102" r="3.5" fill="#0b1424" stroke="none"/>
+    <polyline points="110,96 98,110 98,132"/>
+    <circle cx="112" cy="94" r="3.5" fill="#0b1424" stroke="none"/>
+  </g>
+
+  <!-- eye -->
+  <circle cx="172" cy="116" r="12" fill="#0b1424"/>
+  <circle cx="172" cy="116" r="6" fill="#37e6d4"/>
+  <circle cx="174" cy="114" r="2.4" fill="#eafcff"/>
+
+  <!-- gill slit -->
+  <path d="M156 104 L148 152" stroke="#0b1424" stroke-width="4" opacity="0.55"/>
+</svg>

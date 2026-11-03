@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2020 Jonah Brüchert <jbb@kaidan.im>
+
+SPDX-License-Identifier: LGPL-2.0-or-later
+-->
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name="angelfishrc" />
+    <include>"settingshelper.h"</include>
+    <group name="SettingsPage">
+        <!-- The custom search engine that can be added to the list of engines -->
+        <entry key="searchCustomUrl" type="string" />
+    </group>
+    <group name="Browser">
+        <entry key="homepage" type="url">
+            <default>QUrl(QStringLiteral("https://start.duckduckgo.com"))</default>
+        </entry>
+        <entry key="showHomeButton" type="bool">
+            <default>true</default>
+        </entry>
+        <entry key="showTabBar" type="bool">
+            <default>true</default>
+        </entry>
+        <entry key="searchBaseUrl" type="url">
+            <default>QUrl(QStringLiteral("https://start.duckduckgo.com/?q="))</default>
+        </entry>
+        <entry key="newTabUrl" type="url">
+            <default>QUrl(QStringLiteral("https://start.duckduckgo.com/?q="))</default>
+        </entry>
+        <entry key="switchToNewTab" type="bool">
+            <default>true</default>
+        </entry>
+    </group>
+    <!-- Remember states -->
+    <group name="WebView">
+        <entry key="profile" type="string">
+            <default>QStringLiteral("DefaultProfile")</default>
+        </entry>
+        <entry key="webAutoLoadImages" type="bool">
+            <default>true</default>
+        </entry>
+        <entry key="webJavaScriptEnabled" type="bool">
+            <default>true</default>
+        </entry>
+        <entry key="webSmoothScrollingEnabled" type="bool">
+            <default>false</default>
+        </entry>
+        <entry key="webDarkModeEnabled" type="bool">
+            <default>false</default>
+        </entry>
+    </group>
+    <group name="NavigationBar">
+        <entry key="navBarMainMenu" type="bool">
+            <default>true</default>
+        </entry>
+        <entry key="navBarTabs" type="bool">
+            <default>true</default>
+        </entry>
+        <entry key="navBarBack" type="bool">
+            <default>!SettingsHelper::isMobile()</default>
+        </entry>
+        <entry key="navBarForward" type="bool">
+            <default>!SettingsHelper::isMobile()</default>
+        </entry>
+        <entry key="navBarReload" type="bool">
+            <default>!SettingsHelper::isMobile()</default>
+        </entry>
+        <entry key="navBarContextMenu" type="bool"></entry>
+    </group>
+    <group name="Window">
+        <entry key="windowX" type="int" />
+        <entry key="windowY" type="int" />
+        <entry key="windowWidth" type="int">
+            <default>SettingsHelper::isMobile() ? 300 : 1020</default>
+        </entry>
+        <entry key="windowHeight" type="int">
+            <default>SettingsHelper::isMobile() ? 450 : 680</default>
+        </entry>
+    </group>
+    <!-- Store adblock lists -->
+    <group name="Adblock">
+        <entry key="adblockEnabled" type="bool">
+            <default>true</default>
+        </entry>
+        <entry key="adblockFilterUrls" type="urlList">
+            <default>
+                {
+                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt")),
+                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt")),
+                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt")),
+                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt")),
+                    QUrl(QStringLiteral("https://easylist.to/easylist/easyprivacy.txt")),
+                    QUrl(QStringLiteral("https://easylist.to/easylist/easylist.txt")),
+                    QUrl(QStringLiteral("https://filters.adtidy.org/extension/ublock/filters/14.txt")),
+                    QUrl(QStringLiteral("https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"))
+                }
+            </default>
+        </entry>
+        <entry key="adblockFilterNames" type="stringList">
+            <default>
+                {
+                    QStringLiteral("uBlock filters"),
+                    QStringLiteral("uBlock filters – Privacy"),
+                    QStringLiteral("uBlock filters – Resource abuse"),
+                    QStringLiteral("uBlock filters – Unbreak"),
+                    QStringLiteral("EasyPrivacy"),
+                    QStringLiteral("Easylist"),
+                    QStringLiteral("AdGuard Annoyances"),
+                    QStringLiteral("Adblock Warning Removal List")
+                }
+            </default>
+        </entry>
+        <entry key="adblockFilterDownloadDismissed" type="bool">
+            <default>false</default>
+        </entry>
+    </group>
+</kcfg>
