@@ -379,6 +379,10 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
                 }
+            },
+            Kirigami.Action {
+                text: i18n("Tiddler %1", "23.08.5.7")
+                enabled: false
             }
         ]
 

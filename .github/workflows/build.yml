@@ -43,10 +43,10 @@ jobs:
                    qml-module-org-kde-kirigami-addons-labs-mobileform \
                    qml-module-org-kde-kirigami-addons-settings \
                    kirigami-addons-data breeze-icon-theme; do
-            sudo apt-get download "$p"
+            apt-get download "$p"
           done
           cd ..
-          for d in debs/*.deb; do sudo dpkg-deb -x "$d" rootfs/; done
+          for d in debs/*.deb; do dpkg-deb -x "$d" rootfs/; done
 
       - name: Assemble click dir
         run: |
