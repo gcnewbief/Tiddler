@@ -25,7 +25,7 @@ jobs:
 
       - name: Install Qt6 dev stack (base 6.10.2 + webengine 6.11.2)
         run: |
-          sudo apt-get install -y --no-install-recommends \
+          sudo apt-get install -y --allow-downgrades --no-install-recommends \
             build-essential cmake ninja-build pkg-config \
             qt6-base-dev qt6-base-private-dev qt6-base-dev-tools \
             qt6-declarative-dev qt6-declarative-private-dev qt6-declarative-dev-tools \
