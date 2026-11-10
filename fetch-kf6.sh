@@ -24,7 +24,7 @@ get() { # $1=out  $2=url
 }
 
 KF=6.31.0
-frameworks="extra-cmake-modules kcoreaddons kconfig ki18n kdbusaddons kwindowsystem kguiaddons kcolorscheme knotifications kcrash kirigami kitemmodels karchive kwidgetsaddons kiconthemes breeze-icons"
+frameworks="extra-cmake-modules kcoreaddons kconfig ki18n kdbusaddons kwindowsystem kguiaddons kcolorscheme knotifications kcrash kirigami kitemmodels karchive kwidgetsaddons kiconthemes breeze-icons kglobalaccel"
 
 for f in $frameworks; do
   get "kf6-src/$f-$KF.tar.xz" "https://download.kde.org/stable/frameworks/${KF%.*}/$f-$KF.tar.xz" && echo "ok: $f"
