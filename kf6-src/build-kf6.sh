@@ -36,6 +36,10 @@ build knotifications-6.31.0 -DBUILD_TESTING=OFF
 build kcrash-6.31.0 -DBUILD_TESTING=OFF
 build kitemmodels-6.31.0 -DBUILD_TESTING=OFF
 build kirigami-6.31.0 -DBUILD_TESTING=OFF -DBUILD_EXAMPLES=OFF
+build karchive-6.31.0 -DBUILD_TESTING=OFF
+build kwidgetsaddons-6.31.0 -DBUILD_TESTING=OFF
+build breeze-icons-6.31.0 -DBUILD_TESTING=OFF
+build kiconthemes-6.31.0 -DBUILD_TESTING=OFF
 build kirigami-addons-1.16.1 -DBUILD_TESTING=OFF
 build qcoro-0.13.0 -DBUILD_TESTING=OFF -DQCORO_BUILD_EXAMPLES=OFF \
   -DQCORO_WITH_QTDBUS=OFF -DQCORO_WITH_QTNETWORK=OFF \
