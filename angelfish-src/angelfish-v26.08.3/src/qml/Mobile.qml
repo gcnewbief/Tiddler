@@ -150,23 +150,6 @@ Kirigami.ApplicationWindow {
         enabled: true
 
         handleVisible: false
-
-        // UT workaround: kirigami's internal menu bottom-aligns content above the
-        // drawer handle via topMargin = menu.height - menu.contentHeight, which
-        // misfires here and pushes the list off-screen. Pin it to 0.
-        Component.onCompleted: {
-            function findMenu(item) {
-                if (!item) return null;
-                if (item.hasOwnProperty("topMargin") && item.hasOwnProperty("contentHeight")) return item;
-                for (var i = 0; i < item.children.length; i++) {
-                    var r = findMenu(item.children[i]);
-                    if (r) return r;
-                }
-                return null;
-            }
-            var list = findMenu(contextDrawer.contentItem);
-            if (list) list.topMargin = 0;
-        }
     }
 
     // Main Page

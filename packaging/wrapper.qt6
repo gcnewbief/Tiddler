@@ -10,6 +10,7 @@ export QT_IM_MODULE=maliit
 export QT_OPENGL_VARIANT=gles
 export QT_QUICK_CONTROLS_MOBILE=true
 export QT_QUICK_CONTROLS_STYLE=Material
+export QT_SCALE_FACTOR=1.8
 export XDG_DATA_DIRS=$(pwd):${XDG_DATA_DIRS:-/usr/local/share:/usr/share}
 
 exec "$@"
