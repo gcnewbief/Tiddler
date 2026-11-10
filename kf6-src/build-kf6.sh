@@ -4,7 +4,7 @@
 set -euo pipefail
 SRC=${SRC:-/src}
 OUT=${OUT:-/kf6}
-PFX="-DCMAKE_PREFIX_PATH=$OUT -DCMAKE_INSTALL_PREFIX=$OUT -DCMAKE_BUILD_TYPE=Release -GNinja"
+PFX="-DCMAKE_PREFIX_PATH=$OUT -DCMAKE_INSTALL_PREFIX=$OUT -DCMAKE_BUILD_TYPE=Release -DBUILD_PYTHON_BINDINGS=OFF -GNinja"
 
 build() { # $1 = tarball basename (no ext), $2.. = extra cmake args
   local name="$1"; shift
