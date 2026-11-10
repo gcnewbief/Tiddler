@@ -12,10 +12,10 @@ build() { # $1 = tarball basename (no ext), $2.. = extra cmake args
   echo "== building $name"
   local work=/tmp/kf6work-$name
   rm -rf "$work" && mkdir -p "$work" && cd "$work"
-  case "$SRC/$name".* in
-    *.tar.xz) tar xJf "$SRC/$name.tar.xz" ;;
-    *.tar.gz) tar xzf "$SRC/$name.tar.gz" ;;
-  esac
+  if [ -f "$SRC/$name.tar.xz" ]; then tar xJf "$SRC/$name.tar.xz"
+  elif [ -f "$SRC/$name.tar.gz" ]; then tar xzf "$SRC/$name.tar.gz"
+  else echo "missing tarball for $name" >&2; exit 1
+  fi
   cd "$(find . -maxdepth 1 -mindepth 1 -type d | head -1)"
   cmake -B build $PFX "$@"
   cmake --build build -j"$(nproc)"
