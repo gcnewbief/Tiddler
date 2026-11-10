@@ -46,7 +46,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends -o Acquire::Ret
     libxcb-sync-dev libxcb-xinerama0-dev libxcb-xtest0-dev libxcb-record0-dev \
     libxcb-screensaver0-dev libxcb-present-dev libxcb-dri3-dev libxcb-composite0-dev \
     libxcb-damage0-dev libxcb-render0-dev libxcb-shm0-dev libxcb-glx0-dev \
-    libxcb-xinput-dev libxcb-xv0-dev libxcb-dri2-0-dev \
+    libxcb-xinput-dev libxcb-xv0-dev libxcb-dri2-0-dev libxfixes-dev libxrender-dev libxext-dev \
  && rm -rf /var/lib/apt/lists/*
 
 COPY kf6-src/extra-cmake-modules-6.31.0.tar.xz /tmp/
