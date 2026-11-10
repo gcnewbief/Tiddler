@@ -45,7 +45,7 @@ jobs:
             qml6-module-qtquick-controls qml6-module-qtquick-layouts \
             qml6-module-qtquick-templates qml6-module-qt-labs-settings \
             qml6-module-qtcore qml6-module-qtqml-workerscript \
-            gettext liblzma-dev libzstd-dev libbz2-dev libcanberra-dev libwayland-dev wayland-protocols libxkbcommon-dev libxkbcommon-x11-dev \
+            gettext python3-lxml liblzma-dev libzstd-dev libbz2-dev libcanberra-dev libwayland-dev wayland-protocols libxkbcommon-dev libxkbcommon-x11-dev \
             libxcb1-dev libxcb-util-dev libxcb-keysyms1-dev libxcb-res0-dev libxcb-icccm4-dev \
             libxcb-ewmh-dev libxcb-image0-dev libxcb-render-util0-dev libxcb-xkb-dev \
             libxcb-cursor-dev libxcb-randr0-dev libxcb-xfixes0-dev libxcb-shape0-dev \

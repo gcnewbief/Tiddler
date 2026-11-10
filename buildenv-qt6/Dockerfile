@@ -39,7 +39,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends -o Acquire::Ret
 
 # KF6 build deps (noble arm64) + ECM 6.31 (noble only ships ECM 5.115)
 RUN apt-get update && apt-get install -y --no-install-recommends -o Acquire::Retries=5 \
-    gettext liblzma-dev libzstd-dev libbz2-dev libcanberra-dev libwayland-dev wayland-protocols libxkbcommon-dev libxkbcommon-x11-dev \
+    gettext python3-lxml liblzma-dev libzstd-dev libbz2-dev libcanberra-dev libwayland-dev wayland-protocols libxkbcommon-dev libxkbcommon-x11-dev \
     libxcb1-dev libxcb-util-dev libxcb-keysyms1-dev libxcb-res0-dev libxcb-icccm4-dev \
     libxcb-ewmh-dev libxcb-image0-dev libxcb-render-util0-dev libxcb-xkb-dev \
     libxcb-cursor-dev libxcb-randr0-dev libxcb-xfixes0-dev libxcb-shape0-dev \
