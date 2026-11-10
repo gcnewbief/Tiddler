@@ -1,0 +1,1287 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the angelfish package.
+# SPDX-FileCopyrightText: 2023-2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-27 03:17+0000\n"
+"PO-Revision-Date: 2026-05-21 11:14+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Lokalize 26.08.1\n"
+
+#: angelfish-webapp/main.cpp:65
+#, kde-format
+msgid "desktop file to open"
+msgstr "ملف سطح مكتب للفتح"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "بيئة انجيلفيش لتشغيل تطبيقات الويب"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "جميع الحقوق محفوظة 2020 لمطوري انجيلقيش"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "ماركو مارتن"
+
+#: lib/angelfishwebprofile.cpp:47
+#, kde-format
+msgid "Open"
+msgstr "افتح"
+
+#: lib/contents/ui/AuthSheet.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Authentication Required"
+msgstr "الاستيثاق مطلوب"
+
+#: lib/contents/ui/AuthSheet.qml:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Username:"
+msgstr "اسم المستخدِم:"
+
+#: lib/contents/ui/AuthSheet.qml:35
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "كلمة السر:"
+
+#: lib/contents/ui/DownloadQuestion.qml:16
+#, kde-format
+msgctxt "Would you like to download (filename) from (domain)?"
+msgid "Would you like to download %1 from %2?"
+msgstr "هل تريد تحميل %1 من %2؟"
+
+#: lib/contents/ui/DownloadQuestion.qml:25
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Download"
+msgstr "نزل"
+
+#: lib/contents/ui/DownloadQuestion.qml:33
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "ألغِ"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgctxt "@title"
+msgid "Error Loading the Page"
+msgstr "خطأ في تحميل الصفحة"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Retry"
+msgstr "أعد المحاولة"
+
+#: lib/contents/ui/ErrorHandler.qml:74
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"هل ترغب في المتابعة؟\n"
+"\n"
+"إذا كنت ترغب بذلك، بإمكانك المتابعة بشهادة لم يتُحقق منها.\n"
+"قبول شهادة غير متحقق منها يعني\n"
+"أنك قد لا تكون متصل بالخادم الذي تريد الاتصال به.\n"
+"هل تريد تخط هذا التحقق الأمني والمتابعة؟"
+
+#: lib/contents/ui/ErrorHandler.qml:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Yes"
+msgstr "نعم"
+
+#: lib/contents/ui/ErrorHandler.qml:90
+#, kde-format
+msgctxt "@action:button"
+msgid "No"
+msgstr "لا"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
+#, kde-format
+msgctxt "@title:window"
+msgid "This Page Says"
+msgstr "هذه الصفحة تقول"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"هذا الموقع يسألك للتأكد من انك تريد المغادرة. المعلومات غير المحفوظة لن تحفظ."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgctxt "@action:button"
+msgid "Leave Page"
+msgstr "غادر الصفحة"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgctxt "@action:button"
+msgid "Submit"
+msgstr "أرسل"
+
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr "انتهى التنزيل"
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr "فشل التنزيل"
+
+#: lib/contents/ui/ListWebView.qml:79 lib/contents/ui/ListWebView.qml:82
+#, kde-format
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "يحمّل"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"موقع يريد فتح لسان جديد:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "افتح"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
+msgstr "هل تريد أنت تسمح للموقع <b>%1</b> بالوصول إلى <b>لاقط الصوت</b>؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:24
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
+msgstr "هل تريد أنت تسمح للموقع <b>%1</b> بالوصول إلى <b>الكاميرا</b>؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:26
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>camera and the "
+"microphone</b>?"
+msgstr ""
+"هل تريد أنت تسمح للموقع <b>%1</b> بالوصول إلى <b>الكاميرا ولاقط الصوت</b>؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
+msgstr "هل تريد أنت تسمح للموقع <b>%1</b> بمشاركة <b>شاشتك</b>؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:30
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
+msgstr "هل تريد أنت تسمح للموقع <b>%1</b> بمشاركة <b>الصوت</b>؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:32
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
+msgstr "هل تريد أنت تسمح للموقع <b>%1</b> بإرسال <b>إشعارات</b>؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
+msgstr "هل تريد أنت تسمح للموقع <b>%1</b> بالوصول إلى <b>موقعك الجغرافي</b>؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:36
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
+msgstr "هل تريد أنت تسمح للموقع <b>%1</b> بالوصول إلى <b>الكاميرا</b>؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:38
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
+msgstr "هل تريد أنت تسمح للموقع <b>%1</b> بمشاركة <b>شاشتك</b>؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:40
+#, kde-format
+msgctxt ""
+"The website (website) requested an unknown permission: Do you want to allow "
+"the website (website) to access your fonts?"
+msgid "The website %1 requested an unknown permission: %2"
+msgstr "لقد طلب موقع الويب %1 إذنًا غير معروف: %2"
+
+#: lib/contents/ui/PermissionQuestion.qml:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr "اقبل"
+
+#: lib/contents/ui/PermissionQuestion.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Decline"
+msgstr "ارفض"
+
+#: lib/contents/ui/PrintPreview.qml:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "اطبع"
+
+#: lib/contents/ui/PrintPreview.qml:88
+#, kde-format
+msgctxt "@title:group"
+msgid "Destination"
+msgstr "المقصد"
+
+#: lib/contents/ui/PrintPreview.qml:92
+#, kde-format
+msgctxt "@title:group"
+msgid "Save to PDF"
+msgstr "احفظ إلى PDF"
+
+#: lib/contents/ui/PrintPreview.qml:101
+#, kde-format
+msgctxt "@title:group"
+msgid "Orientation"
+msgstr "الاتّجاه"
+
+#: lib/contents/ui/PrintPreview.qml:126
+#, kde-format
+msgctxt "@label:combobox"
+msgid "Paper Size"
+msgstr "حجم الورقة"
+
+#: lib/contents/ui/PrintPreview.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "خيارات"
+
+#: lib/contents/ui/PrintPreview.qml:173
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Print backgrounds"
+msgstr "اطبع الخلفيات"
+
+#: lib/contents/ui/WebView.qml:352
+#, kde-format
+msgctxt "@info:status"
+msgid "Website was opened in a new tab"
+msgstr "الموقع فتح في لسان جديد"
+
+#: lib/contents/ui/WebView.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "Entered Full Screen mode"
+msgstr "ادخل وضع ملئ الشاشة"
+
+#: lib/contents/ui/WebView.qml:371
+#, kde-format
+msgctxt "@action:button"
+msgid "Exit Full Screen (Esc)"
+msgstr "اخرج من ملئ الشاشة (Esc)"
+
+#: lib/contents/ui/WebView.qml:506
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Play"
+msgstr "شغّل"
+
+#: lib/contents/ui/WebView.qml:507
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Pause"
+msgstr "ألبث"
+
+#: lib/contents/ui/WebView.qml:514
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Unmute"
+msgstr "ألغ الكتم"
+
+#: lib/contents/ui/WebView.qml:515
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Mute"
+msgstr "اكتم"
+
+#: lib/contents/ui/WebView.qml:525
+#, kde-format
+msgctxt "@label"
+msgid "Speed"
+msgstr "السرعة"
+
+#: lib/contents/ui/WebView.qml:548
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Loop"
+msgstr "تكرار"
+
+#: lib/contents/ui/WebView.qml:555
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exit Fullscreen"
+msgstr "أخرج من ملء الشّاشة"
+
+#: lib/contents/ui/WebView.qml:555
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enter Fullscreen"
+msgstr "ادخل ملء الشّاشة"
+
+#: lib/contents/ui/WebView.qml:568
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Controls"
+msgstr "أخف أدوات التحكم"
+
+#: lib/contents/ui/WebView.qml:569
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Controls"
+msgstr "اظهر أدوات التحكم"
+
+#: lib/contents/ui/WebView.qml:577
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video"
+msgstr "افتح الفيديو"
+
+#: lib/contents/ui/WebView.qml:577
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio"
+msgstr "افتح صوتًا"
+
+#: lib/contents/ui/WebView.qml:578
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video in New Tab"
+msgstr "افتح الفيديو في لسان جديد"
+
+#: lib/contents/ui/WebView.qml:578
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio in New Tab"
+msgstr "افتح الصوت في لسان جديد"
+
+#: lib/contents/ui/WebView.qml:590
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Video"
+msgstr "احفظ الفيديو"
+
+#: lib/contents/ui/WebView.qml:596
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Video Link"
+msgstr "انسخ رابط الفيديو"
+
+#: lib/contents/ui/WebView.qml:602
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image"
+msgstr "افتح صورة"
+
+#: lib/contents/ui/WebView.qml:602
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image in New Tab"
+msgstr "افتح الصورة في لسان جديد"
+
+#: lib/contents/ui/WebView.qml:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Image"
+msgstr "احفظ الصّورة"
+
+#: lib/contents/ui/WebView.qml:620
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image"
+msgstr "انسخ الصورة"
+
+#: lib/contents/ui/WebView.qml:626
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image Link"
+msgstr "انسخ رابط الصورة"
+
+#: lib/contents/ui/WebView.qml:632
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link"
+msgstr "افتح الوصلة"
+
+#: lib/contents/ui/WebView.qml:632
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link in New Tab"
+msgstr "افتح الرابط في لسان جديد"
+
+#: lib/contents/ui/WebView.qml:644
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Link"
+msgstr "أضف الرابط للمفضلة"
+
+#: lib/contents/ui/WebView.qml:656
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Link"
+msgstr "احفظ الرابط"
+
+#: lib/contents/ui/WebView.qml:662
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr "انسخ الرابط"
+
+#: lib/contents/ui/WebView.qml:669
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "انسخ"
+
+#: lib/contents/ui/WebView.qml:675
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "قصّ"
+
+#: lib/contents/ui/WebView.qml:681
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "ألصِق"
+
+#: lib/contents/ui/WebView.qml:689
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search for “%1”"
+msgstr "ابحث عن “%1”"
+
+#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
+#: src/qml/Mobile.qml:350
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Share Page"
+msgstr "شارك الصفحة"
+
+#: lib/contents/ui/WebView.qml:714
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View Page Source"
+msgstr "اعرض النص المصدري للصفحة"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "رابط ليفتح"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Angelfish"
+msgstr "انجلفش"
+
+#: src/main.cpp:88
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr "متصفح ويب لبلازما الجوال"
+
+#: src/main.cpp:90
+#, kde-format
+msgid "© 2015-2026 KDE Community"
+msgstr "© 2015-2026 مجتمع كِيدِي"
+
+#: src/main.cpp:93
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr "جوناه بروكيرت"
+
+#: src/main.cpp:93
+#, kde-format
+msgid "Maintainer"
+msgstr "الصائن"
+
+#: src/main.cpp:94
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "عبدالله الفضل"
+
+#: src/main.cpp:94
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alfadhel.a@gmail.com"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The adblocker is missing its filter lists, do you want to download them now?"
+msgstr "حاجب الإعلان ينقصه قوائم المرشحات. هل تريد تنزيلهم الآن؟"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
+#, kde-format
+msgctxt "@info"
+msgid "Downloading…"
+msgstr "يُنزّل…"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "عطّل حاجب الإعلانات"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr "حاجب الإعلانات معطّل…"
+
+#: src/qml/Bookmarks.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Bookmarks"
+msgstr "العلامات"
+
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "أغلق"
+
+#: src/qml/desktop/Desktop.qml:152
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search or enter URL…"
+msgstr "ابحث أو ادخل العنوان…"
+
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
+#: src/qml/Navigation.qml:462
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "لسان جديد"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Leave Private Mode"
+msgstr "اخرج من وضع الخصوصية"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Private Mode"
+msgstr "وضع الخصوصية"
+
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:106
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "History"
+msgstr "السجل"
+
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:98
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmarks"
+msgstr "العلامات"
+
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:110
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Downloads"
+msgstr "التنزيلات"
+
+#: src/qml/desktop/Desktop.qml:335
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr "بدّل وضع الجوال"
+
+#: src/qml/desktop/Desktop.qml:345
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Print"
+msgstr "اطبع"
+
+#: src/qml/desktop/Desktop.qml:351
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Full Screen"
+msgstr "ملء الشاشة"
+
+#: src/qml/desktop/Desktop.qml:368
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Developer Tools"
+msgstr "اخف أدوات المطورين"
+
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:448
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Developer Tools"
+msgstr "اعرض أدوات المطورين"
+
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:346
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Find in Page"
+msgstr "ابحث في الصفحة"
+
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:431
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr "وضع القارئ"
+
+#: src/qml/desktop/Desktop.qml:404
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Application Launcher"
+msgstr "اضف إلى مشغل البرامج"
+
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:125
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "إعدادات"
+
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Angelfish"
+msgstr "عن انجلفش"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:277
+#, kde-format
+msgctxt "@label"
+msgid "Reader mode: %1"
+msgstr "وضع القارئ: %1"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:293
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close tab"
+msgstr "أغلق اللسان"
+
+#: src/qml/desktop/DesktopTabs.qml:203
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "افتح لسانًا جديدًا"
+
+#: src/qml/desktop/DesktopTabs.qml:236
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "List all tabs"
+msgstr "اعرض قائمة الألسنة"
+
+#: src/qml/desktop/DesktopTabs.qml:276
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload Tab"
+msgstr "أعد تحميل اللسان"
+
+#: src/qml/desktop/DesktopTabs.qml:284
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Duplicate Tab"
+msgstr "كرّر اللسان"
+
+#: src/qml/desktop/DesktopTabs.qml:292
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Tab"
+msgstr "اضف اللسان للمفضلة"
+
+#: src/qml/desktop/DesktopTabs.qml:308
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "أغلق اللسان"
+
+#: src/qml/desktop/DesktopTabs.qml:314
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
+msgstr "أعد فتح اللسان المغلق"
+
+#: src/qml/Downloads.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Downloads"
+msgstr "التنزيلات"
+
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr "امسح التنزيلات المنتهية"
+
+#: src/qml/Downloads.qml:47
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No running downloads"
+msgstr "لا يوجد تنزيلات تعمل"
+
+#: src/qml/Downloads.qml:96
+#, kde-format
+msgctxt "@info:progress"
+msgid "Starting…"
+msgstr "يبدأ…"
+
+#: src/qml/Downloads.qml:98
+#, kde-format
+msgctxt "@info:progress"
+msgid "Completed"
+msgstr "اكتمل"
+
+#: src/qml/Downloads.qml:100
+#, kde-format
+msgctxt "@info:progress"
+msgid "Cancelled"
+msgstr "أُلغيَ"
+
+#: src/qml/Downloads.qml:102
+#, kde-format
+msgctxt "@info:progress"
+msgid "Interrupted"
+msgstr "قوطع"
+
+#: src/qml/Downloads.qml:104
+#, kde-format
+msgctxt "@info:progress"
+msgid "In progress…"
+msgstr "جاري…"
+
+#: src/qml/Downloads.qml:111
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel"
+msgstr "ألغِ"
+
+#: src/qml/Downloads.qml:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "ألبِث"
+
+#: src/qml/Downloads.qml:136
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Continue"
+msgstr "تابع"
+
+#: src/qml/FindInPageBar.qml:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "ابحث…"
+
+#: src/qml/History.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "History"
+msgstr "السجل"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "امحُ كل السجل"
+
+#: src/qml/Mobile.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Angelfish Web Browser"
+msgstr "متصفح ويب انجيلفيش"
+
+#: src/qml/Mobile.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Tabs"
+msgstr "الألسنة"
+
+#: src/qml/Mobile.qml:118
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Desktop Mode"
+msgstr "بدّل نمط سطح المكتب"
+
+#: src/qml/Mobile.qml:361
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Homescreen"
+msgstr "اضف إلى الشاشة الرئيسة"
+
+#: src/qml/Mobile.qml:373
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in App"
+msgstr "افتح في تطبيق"
+
+#: src/qml/Mobile.qml:381
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr "عُد"
+
+#: src/qml/Mobile.qml:389
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Forward"
+msgstr "تقدم"
+
+#: src/qml/Mobile.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
+msgstr "أوقف التحميل"
+
+#: src/qml/Mobile.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Refresh"
+msgstr "حدث"
+
+#: src/qml/Mobile.qml:406
+#, kde-format
+msgctxt "@info:status"
+msgid "Bookmarked"
+msgstr "أُضيف للمفضلة"
+
+#: src/qml/Mobile.qml:406
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark"
+msgstr "اضف للعلامات"
+
+#: src/qml/Mobile.qml:422
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Desktop Site"
+msgstr "اعرض موقع سطح المكتب"
+
+#: src/qml/Mobile.qml:439
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Navigation Bar"
+msgstr "أخف شريط الملاحة"
+
+#: src/qml/Navigation.qml:435
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Done"
+msgstr "تمّ"
+
+#: src/qml/Navigation.qml:448
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 tabs"
+msgstr "%1 ألسنة"
+
+#: src/qml/ShareSheet.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Share Page"
+msgstr "شارك الصفحة"
+
+#: src/qml/WebAppNameDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Add to Application Launcher"
+msgstr "اضف إلى مشغل البرامج"
+
+#: src/qml/WebAppNameDialog.qml:32
+#, kde-format
+msgctxt "@info"
+msgid "Enter a name for the web application:"
+msgstr "أدخل اسمًا للتطبيق الويب:"
+
+#: src/qml/WebAppNameDialog.qml:39
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Application name"
+msgstr "اسم التطبيق"
+
+#: src/settings/AngelfishConfigurationView.qml:14
+#: src/settings/SettingsGeneral.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "General"
+msgstr "عامّ"
+
+#: src/settings/AngelfishConfigurationView.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock"
+msgstr "حاجب الإعلانات"
+
+#: src/settings/AngelfishConfigurationView.qml:26
+#: src/settings/SettingsWebApps.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Web Apps"
+msgstr "تطبيقات الويب"
+
+#: src/settings/AngelfishConfigurationView.qml:32
+#: src/settings/SettingsSearchEnginePage.qml:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Search Engines"
+msgstr "محرّكات البحث"
+
+#: src/settings/AngelfishConfigurationView.qml:38
+#: src/settings/DesktopHomeSettingsPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Toolbars"
+msgstr "شريط الأدوات"
+
+#: src/settings/AngelfishConfigurationView.qml:44
+#, kde-format
+msgid "About Angelfish"
+msgstr "عن انجلفش"
+
+#: src/settings/AngelfishConfigurationView.qml:47
+#, kde-format
+msgctxt "@title:group"
+msgid "About"
+msgstr "عن"
+
+#: src/settings/DesktopHomeSettingsPage.qml:25
+#, kde-format
+msgctxt "@label"
+msgid "Show home button:"
+msgstr "اعرض زر المنزل:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:26
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr "سيُعرض زر المنزل بجوار زر إعادة التحميل في شريط الأدوات."
+
+#: src/settings/DesktopHomeSettingsPage.qml:36
+#, kde-format
+msgctxt "@label"
+msgid "Homepage:"
+msgstr "الصفحة الرئيسة:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:59
+#, kde-format
+msgctxt "@label"
+msgid "New tabs:"
+msgstr "الألسنة الجديدة:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:82
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Always show the tab bar"
+msgstr "اعرض شريط الألسنة دائما"
+
+#: src/settings/DesktopHomeSettingsPage.qml:83
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open."
+msgstr "شريط الألسنة سيظهر حتى لو كان هناك لسان واحد مفتوح."
+
+#: src/settings/SettingsAdblock.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock Settings"
+msgstr "إعدادات حاجب الإعلانات"
+
+#: src/settings/SettingsAdblock.qml:23
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add filter list"
+msgstr "أضف قائمة ترشيح"
+
+#: src/settings/SettingsAdblock.qml:27
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Update Lists"
+msgstr "حدّث القوائم"
+
+#: src/settings/SettingsAdblock.qml:49
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "ميزة حجم الإعلانات غير متضمنة في هذا البناء."
+
+#: src/settings/SettingsAdblock.qml:101
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this filter list"
+msgstr "امحُ قائمة الترشيح هذه"
+
+#: src/settings/SettingsAdblock.qml:113
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Filter List"
+msgstr "أضف قائمة ترشيح"
+
+#: src/settings/SettingsAdblock.qml:125
+#, kde-format
+msgctxt "@title:group"
+msgid "Add Filter List"
+msgstr "أضف قائمة ترشيح"
+
+#: src/settings/SettingsAdblock.qml:130
+#, kde-format
+msgctxt "@label"
+msgid "Name"
+msgstr "الاسم"
+
+#: src/settings/SettingsAdblock.qml:139
+#, kde-format
+msgctxt "@label"
+msgid "URL"
+msgstr "المسار"
+
+#: src/settings/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "مكن جافاسكربت"
+
+#: src/settings/SettingsGeneral.qml:29
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr "قد يكون هذا متطلب في بعض المواقع المحددة حتى تعمل."
+
+#: src/settings/SettingsGeneral.qml:38
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Load images"
+msgstr "تحميل الصور"
+
+#: src/settings/SettingsGeneral.qml:39
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr "ما إذا كان ستُحمل الصور على المواقع."
+
+#: src/settings/SettingsGeneral.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Enable adblock"
+msgstr "فعل حاجب الإعلانات"
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr "يحاول منع عرض الإعلانات في الموقع."
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Adblock functionality was not included in this build."
+msgstr "ميزة حجم الإعلانات غير متضمنة في هذا البناء."
+
+#: src/settings/SettingsGeneral.qml:59
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Switch to new tab immediately"
+msgstr "انتقل إلى اللسان الجديد فورا"
+
+#: src/settings/SettingsGeneral.qml:60
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately."
+msgstr "عندما تفتح رابط, صورة أو وسائط في لسان جديد سينتقل له مباشر."
+
+#: src/settings/SettingsGeneral.qml:69
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use smooth scrolling"
+msgstr "استخدم التمرير الناعم"
+
+#: src/settings/SettingsGeneral.qml:70
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+"التمرير سيكون سلسل ولن يتوقف فجأة عندما توقف التمرير. يحتاج إلى إعادة تشغيل."
+
+#: src/settings/SettingsGeneral.qml:79
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use dark color scheme"
+msgstr "استخدم السمة الغامقة"
+
+#: src/settings/SettingsGeneral.qml:80
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+"المواقع سيكون لديها وضعها الغامق. يتطلب إعادة تشغيل التطبيق ليحدث التغيير."
+
+#: src/settings/SettingsNavigationBarPage.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Navigation Bar"
+msgstr "شريط الملاحة"
+
+#: src/settings/SettingsNavigationBarPage.qml:27
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"اختر الأزرار المفعلة في شريط الملاحة. بعض الأزرار يمكن أن تخفى في الوضع "
+"الطولي للمتصفح ودائما تظهر إذا كان عرض المتصفح اكبر من طوله.\n"
+"\n"
+"لاحظ إذا عطلت أزرار القائمة، ستستطيع الوصول لكل القوائم أما بالسحب من اليسار "
+"إلى اليمين أو الجنب بمحاذاة اسفل النافذة."
+
+#: src/settings/SettingsNavigationBarPage.qml:36
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Main menu in portrait"
+msgstr "القائمة الرئيسة في الوضع الطولي"
+
+#: src/settings/SettingsNavigationBarPage.qml:42
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Tabs in portrait"
+msgstr "الألسنة في الوضع الطولي"
+
+#: src/settings/SettingsNavigationBarPage.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Context menu in portrait"
+msgstr "قائمة السياق في الوضع الطولي"
+
+#: src/settings/SettingsNavigationBarPage.qml:54
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go back"
+msgstr "عُد"
+
+#: src/settings/SettingsNavigationBarPage.qml:60
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go forward"
+msgstr "اذهب للأمام"
+
+#: src/settings/SettingsNavigationBarPage.qml:66
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Reload/Stop"
+msgstr "اعد تحميل/أوقف"
+
+#: src/settings/SettingsSearchEnginePage.qml:18
+#, kde-format
+msgctxt "@window:title"
+msgid "Search Engines"
+msgstr "محرّكات البحث"
+
+#: src/settings/SettingsSearchEnginePage.qml:21
+#, kde-format
+msgctxt "@label"
+msgid "Custom"
+msgstr "مخصص"
+
+#: src/settings/SettingsSearchEnginePage.qml:123
+#, kde-format
+msgctxt "@label"
+msgid "Base URL of your preferred search engine"
+msgstr "الرابط الأساسي لمحرك البحث الذي تفضله"
+
+#: src/settings/SettingsWebApps.qml:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove app"
+msgstr "احذف التطبيق"
+
+#: src/settings/SettingsWebApps.qml:85
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No web apps installed"
+msgstr "لا يوجد تطبيقات ويب مثبته"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search bookmarks…"
+#~ msgstr "ابحث في المفضلة…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No bookmarks yet"
+#~ msgstr "لا يوجد مفضلات حتى الآن"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search history…"
+#~ msgstr "ابحث في السجل…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No history yet"
+#~ msgstr "لا يوجد سجل حتى الآن"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "احفظ"
+
+#~ msgid "Fullscreen"
+#~ msgstr "ملئ الشاشة"
+
+#~ msgid "Search..."
+#~ msgstr "ابحث…"
+
+#~ msgid "Go previous"
+#~ msgstr "عد للسابق"
+
+#~ msgid "Reader Mode"
+#~ msgstr "وضع القارئ"
+
+#~ msgid "Share page to"
+#~ msgstr "شارك الصفحة إلى"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add Filterlist"
+#~ msgstr "أضف قائمة ترشيح"
+
+#~ msgid "Url"
+#~ msgstr "الرابط"
+
+#~ msgid "Show navigation bar"
+#~ msgstr "أظهر شريط المالحة"
+
+#~ msgid "Add"
+#~ msgstr "أضف"

@@ -1,0 +1,1265 @@
+# Translation of angelfish.po to Catalan (Valencian)
+# Copyright (C) 2019-2026 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# SPDX-FileCopyrightText: 2019-2026 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2019-2022 Antoni Bella Pérez <antonibella5@yahoo.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-27 03:17+0000\n"
+"PO-Revision-Date: 2026-09-06 16:31+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.04.0\n"
+"X-Accelerator-Marker: &\n"
+
+#: angelfish-webapp/main.cpp:65
+#, kde-format
+msgid "desktop file to open"
+msgstr "Fitxer «desktop» que s'ha d'obrir"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Entorn d'execució de l'aplicació web Angelfish"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "Copyright 2020 Els desenvolupadors d'Angelfish"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:47
+#, kde-format
+msgid "Open"
+msgstr "Obri"
+
+#: lib/contents/ui/AuthSheet.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Authentication Required"
+msgstr "Es requerix autenticació"
+
+#: lib/contents/ui/AuthSheet.qml:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Username:"
+msgstr "Nom d'usuari:"
+
+#: lib/contents/ui/AuthSheet.qml:35
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "Contrasenya:"
+
+#: lib/contents/ui/DownloadQuestion.qml:16
+#, kde-format
+msgctxt "Would you like to download (filename) from (domain)?"
+msgid "Would you like to download %1 from %2?"
+msgstr "Voleu baixar %1 des de %2?"
+
+#: lib/contents/ui/DownloadQuestion.qml:25
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Download"
+msgstr "Baixa"
+
+#: lib/contents/ui/DownloadQuestion.qml:33
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgctxt "@title"
+msgid "Error Loading the Page"
+msgstr "S'ha produït un error mentre es carregava la pàgina"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Retry"
+msgstr "Torna-ho a intentar"
+
+#: lib/contents/ui/ErrorHandler.qml:74
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"Voleu continuar?\n"
+"\n"
+" Si voleu, podeu continuar amb un certificat sense verificar.\n"
+" Acceptar un certificat sense verificar vol dir que no podreu connectar amb "
+"l'amfitrió amb el qual intenteu connectar.\n"
+"\n"
+" Voleu anul·lar la comprovació de seguretat i continuar?"
+
+#: lib/contents/ui/ErrorHandler.qml:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Yes"
+msgstr "Sí"
+
+#: lib/contents/ui/ErrorHandler.qml:90
+#, kde-format
+msgctxt "@action:button"
+msgid "No"
+msgstr "No"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
+#, kde-format
+msgctxt "@title:window"
+msgid "This Page Says"
+msgstr "Esta pàgina diu"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"El lloc web demana confirmació que voleu eixir. La informació sense guardar "
+"es podria perdre."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgctxt "@action:button"
+msgid "Leave Page"
+msgstr "Ix de la pàgina"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgctxt "@action:button"
+msgid "Submit"
+msgstr "Envia"
+
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr "Ha acabat la baixada"
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr "Ha fallat la baixada"
+
+#: lib/contents/ui/ListWebView.qml:79 lib/contents/ui/ListWebView.qml:82
+#, kde-format
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "S'està carregant"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"El lloc vol obrir una pestanya nova:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Obri"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
+msgstr "Voleu permetre que el lloc web <b>%1</b> accedisca al <b>micròfon</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:24
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
+msgstr "Voleu permetre que el lloc web <b>%1</b> accedisca a la <b>càmera</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:26
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>camera and the "
+"microphone</b>?"
+msgstr ""
+"Voleu permetre que el lloc web <b>%1</b> accedisca a la <b>càmera i al "
+"micròfon</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
+msgstr ""
+"Voleu permetre que el lloc web <b>%1</b> compartisca la vostra <b>pantalla</"
+"b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:30
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
+msgstr ""
+"Voleu permetre que el lloc web <b>%1</b> compartisca la <b>eixida</b> de so?"
+
+#: lib/contents/ui/PermissionQuestion.qml:32
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
+msgstr ""
+"Voleu permetre que el lloc web <b>%1</b> vos envie <b>notificacions</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
+msgstr ""
+"Voleu permetre que el lloc web <b>%1</b> accedisca a la <b>geolocalització</"
+"b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:36
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
+msgstr ""
+"Voleu permetre que el lloc web <b>%1</b> accedisca al <b>porta-retalls</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:38
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
+msgstr ""
+"Voleu permetre que el lloc web <b>%1</b> accedisca a les vostres <b>lletres</"
+"b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:40
+#, kde-format
+msgctxt ""
+"The website (website) requested an unknown permission: Do you want to allow "
+"the website (website) to access your fonts?"
+msgid "The website %1 requested an unknown permission: %2"
+msgstr "El lloc web %1 ha sol·licitat un permís desconegut: %2"
+
+#: lib/contents/ui/PermissionQuestion.qml:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr "Accepta"
+
+#: lib/contents/ui/PermissionQuestion.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Decline"
+msgstr "Declina"
+
+#: lib/contents/ui/PrintPreview.qml:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Imprimix"
+
+#: lib/contents/ui/PrintPreview.qml:88
+#, kde-format
+msgctxt "@title:group"
+msgid "Destination"
+msgstr "Destinació"
+
+#: lib/contents/ui/PrintPreview.qml:92
+#, kde-format
+msgctxt "@title:group"
+msgid "Save to PDF"
+msgstr "Guarda a un PDF"
+
+#: lib/contents/ui/PrintPreview.qml:101
+#, kde-format
+msgctxt "@title:group"
+msgid "Orientation"
+msgstr "Orientació"
+
+#: lib/contents/ui/PrintPreview.qml:126
+#, kde-format
+msgctxt "@label:combobox"
+msgid "Paper Size"
+msgstr "Mida del paper"
+
+#: lib/contents/ui/PrintPreview.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Opcions"
+
+#: lib/contents/ui/PrintPreview.qml:173
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Print backgrounds"
+msgstr "Imprimix els fons"
+
+#: lib/contents/ui/WebView.qml:352
+#, kde-format
+msgctxt "@info:status"
+msgid "Website was opened in a new tab"
+msgstr "El lloc web s'ha obert en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "Entered Full Screen mode"
+msgstr "Ha entrat en el mode de pantalla completa"
+
+#: lib/contents/ui/WebView.qml:371
+#, kde-format
+msgctxt "@action:button"
+msgid "Exit Full Screen (Esc)"
+msgstr "Ix de pantalla completa («Esc»)"
+
+#: lib/contents/ui/WebView.qml:506
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Play"
+msgstr "Reproduïx"
+
+#: lib/contents/ui/WebView.qml:507
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Pause"
+msgstr "Pausa"
+
+#: lib/contents/ui/WebView.qml:514
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Unmute"
+msgstr "Activa el so"
+
+#: lib/contents/ui/WebView.qml:515
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Mute"
+msgstr "Silencia"
+
+#: lib/contents/ui/WebView.qml:525
+#, kde-format
+msgctxt "@label"
+msgid "Speed"
+msgstr "Velocitat"
+
+#: lib/contents/ui/WebView.qml:548
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Loop"
+msgstr "Repetició"
+
+#: lib/contents/ui/WebView.qml:555
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exit Fullscreen"
+msgstr "Ix de la pantalla completa"
+
+#: lib/contents/ui/WebView.qml:555
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enter Fullscreen"
+msgstr "Entra a la pantalla completa"
+
+#: lib/contents/ui/WebView.qml:568
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Controls"
+msgstr "Oculta els controls"
+
+#: lib/contents/ui/WebView.qml:569
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Controls"
+msgstr "Mostra els controls"
+
+#: lib/contents/ui/WebView.qml:577
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video"
+msgstr "Obri el vídeo"
+
+#: lib/contents/ui/WebView.qml:577
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio"
+msgstr "Obri l'àudio"
+
+#: lib/contents/ui/WebView.qml:578
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video in New Tab"
+msgstr "Obri el vídeo en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:578
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio in New Tab"
+msgstr "Obri l'àudio en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:590
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Video"
+msgstr "Guardeu el vídeo"
+
+#: lib/contents/ui/WebView.qml:596
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Video Link"
+msgstr "Copia l'enllaç del vídeo"
+
+#: lib/contents/ui/WebView.qml:602
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image"
+msgstr "Obri la imatge"
+
+#: lib/contents/ui/WebView.qml:602
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image in New Tab"
+msgstr "Obri la imatge en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Image"
+msgstr "Guarda la imatge"
+
+#: lib/contents/ui/WebView.qml:620
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image"
+msgstr "Copia la imatge"
+
+#: lib/contents/ui/WebView.qml:626
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image Link"
+msgstr "Copia l'enllaç de la imatge"
+
+#: lib/contents/ui/WebView.qml:632
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link"
+msgstr "Obri l'enllaç"
+
+#: lib/contents/ui/WebView.qml:632
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link in New Tab"
+msgstr "Obri l'enllaç en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:644
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Link"
+msgstr "Afig l'enllaç a les adreces d'interés"
+
+#: lib/contents/ui/WebView.qml:656
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Link"
+msgstr "Guarda l'enllaç"
+
+#: lib/contents/ui/WebView.qml:662
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr "Copia l'enllaç"
+
+#: lib/contents/ui/WebView.qml:669
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Copia"
+
+#: lib/contents/ui/WebView.qml:675
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "Retalla"
+
+#: lib/contents/ui/WebView.qml:681
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "Apega"
+
+#: lib/contents/ui/WebView.qml:689
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search for “%1”"
+msgstr "Busca «%1»"
+
+#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
+#: src/qml/Mobile.qml:350
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Share Page"
+msgstr "Compartix la pàgina"
+
+#: lib/contents/ui/WebView.qml:714
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View Page Source"
+msgstr "Mostra el codi font de la pàgina"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "URL que s'ha d'obrir"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Angelfish"
+msgstr "Angelfish"
+
+#: src/main.cpp:88
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr "Navegador web per a Plasma Mobile"
+
+#: src/main.cpp:90
+#, kde-format
+msgid "© 2015-2026 KDE Community"
+msgstr "© 2015-2026 La comunitat KDE"
+
+#: src/main.cpp:93
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr "Jonah Brüchert"
+
+#: src/main.cpp:93
+#, kde-format
+msgid "Maintainer"
+msgstr "Mantenidor"
+
+#: src/main.cpp:94
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Josep M. Ferrer"
+
+#: src/main.cpp:94
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "txemaq@gmail.com"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The adblocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+"Falten les llistes de filtres del bloquejador d'anuncis. Les voleu baixar "
+"ara?"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
+#, kde-format
+msgctxt "@info"
+msgid "Downloading…"
+msgstr "S'està baixant…"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Desactiva Adblock"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr "AdBlock està desactivat…"
+
+#: src/qml/Bookmarks.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Bookmarks"
+msgstr "Adreces d'interés"
+
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Tanca"
+
+#: src/qml/desktop/Desktop.qml:152
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search or enter URL…"
+msgstr "Busca o introduïu un URL…"
+
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
+#: src/qml/Navigation.qml:462
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Pestanya nova"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Leave Private Mode"
+msgstr "Ix del mode privat"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Private Mode"
+msgstr "Mode privat"
+
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:106
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "History"
+msgstr "Historial"
+
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:98
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmarks"
+msgstr "Adreces d'interés"
+
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:110
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Downloads"
+msgstr "Baixades"
+
+#: src/qml/desktop/Desktop.qml:335
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr "Canvia al mode mòbil"
+
+#: src/qml/desktop/Desktop.qml:345
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Print"
+msgstr "Imprimix"
+
+#: src/qml/desktop/Desktop.qml:351
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Full Screen"
+msgstr "Pantalla completa"
+
+#: src/qml/desktop/Desktop.qml:368
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Developer Tools"
+msgstr "Oculta les eines de desenvolupament"
+
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:448
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Developer Tools"
+msgstr "Mostra les eines del desenvolupador"
+
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:346
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Find in Page"
+msgstr "Busca en la pàgina"
+
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:431
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr "Mode lector"
+
+#: src/qml/desktop/Desktop.qml:404
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Application Launcher"
+msgstr "Afig a l'iniciador d'aplicacions"
+
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:125
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "Configuració"
+
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Angelfish"
+msgstr "Quant a Angelfish"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:277
+#, kde-format
+msgctxt "@label"
+msgid "Reader mode: %1"
+msgstr "Mode lector: %1"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:293
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close tab"
+msgstr "Tanca la pestanya"
+
+#: src/qml/desktop/DesktopTabs.qml:203
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "Obri una pestanya nova"
+
+#: src/qml/desktop/DesktopTabs.qml:236
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "List all tabs"
+msgstr "Llista totes les pestanyes"
+
+#: src/qml/desktop/DesktopTabs.qml:276
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload Tab"
+msgstr "Torna a carregar la pestanya"
+
+#: src/qml/desktop/DesktopTabs.qml:284
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Duplicate Tab"
+msgstr "Duplica la pestanya"
+
+#: src/qml/desktop/DesktopTabs.qml:292
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Tab"
+msgstr "Pestanya d'adreces d'interés"
+
+#: src/qml/desktop/DesktopTabs.qml:308
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Tanca la pestanya"
+
+#: src/qml/desktop/DesktopTabs.qml:314
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
+msgstr "Torna a obrir la pestanya tancada"
+
+#: src/qml/Downloads.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Downloads"
+msgstr "Baixades"
+
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr "Neteja les baixades acabades"
+
+#: src/qml/Downloads.qml:47
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No running downloads"
+msgstr "No hi ha cap baixada en execució"
+
+#: src/qml/Downloads.qml:96
+#, kde-format
+msgctxt "@info:progress"
+msgid "Starting…"
+msgstr "S'està iniciant…"
+
+#: src/qml/Downloads.qml:98
+#, kde-format
+msgctxt "@info:progress"
+msgid "Completed"
+msgstr "Completada"
+
+#: src/qml/Downloads.qml:100
+#, kde-format
+msgctxt "@info:progress"
+msgid "Cancelled"
+msgstr "Cancel·lada"
+
+#: src/qml/Downloads.qml:102
+#, kde-format
+msgctxt "@info:progress"
+msgid "Interrupted"
+msgstr "Interrompuda"
+
+#: src/qml/Downloads.qml:104
+#, kde-format
+msgctxt "@info:progress"
+msgid "In progress…"
+msgstr "En curs…"
+
+#: src/qml/Downloads.qml:111
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: src/qml/Downloads.qml:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "Pausa"
+
+#: src/qml/Downloads.qml:136
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Continue"
+msgstr "Continua"
+
+#: src/qml/FindInPageBar.qml:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Busca…"
+
+#: src/qml/History.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "History"
+msgstr "Historial"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Neteja tot l'historial"
+
+#: src/qml/Mobile.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Angelfish Web Browser"
+msgstr "Navegador web Angelfish"
+
+#: src/qml/Mobile.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Tabs"
+msgstr "Pestanyes"
+
+#: src/qml/Mobile.qml:118
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Desktop Mode"
+msgstr "Canvia al mode escriptori"
+
+#: src/qml/Mobile.qml:361
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Homescreen"
+msgstr "Afig a la pantalla principal"
+
+#: src/qml/Mobile.qml:373
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in App"
+msgstr "Obri en l'aplicació"
+
+#: src/qml/Mobile.qml:381
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr "Retrocedix"
+
+#: src/qml/Mobile.qml:389
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Forward"
+msgstr "Avança"
+
+#: src/qml/Mobile.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
+msgstr "Para la càrrega"
+
+#: src/qml/Mobile.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Refresh"
+msgstr "Actualitza"
+
+#: src/qml/Mobile.qml:406
+#, kde-format
+msgctxt "@info:status"
+msgid "Bookmarked"
+msgstr "Afegida a les adreces d'interés"
+
+#: src/qml/Mobile.qml:406
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark"
+msgstr "Adreça d'interés"
+
+#: src/qml/Mobile.qml:422
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Desktop Site"
+msgstr "Mostra una pàgina de l'escriptori"
+
+#: src/qml/Mobile.qml:439
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Navigation Bar"
+msgstr "Oculta la barra de navegació"
+
+#: src/qml/Navigation.qml:435
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Done"
+msgstr "Fet"
+
+#: src/qml/Navigation.qml:448
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 tabs"
+msgstr "%1 pestanyes"
+
+#: src/qml/ShareSheet.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Share Page"
+msgstr "Compartix la pàgina"
+
+#: src/qml/WebAppNameDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Add to Application Launcher"
+msgstr "Afig a l'iniciador d'aplicacions"
+
+#: src/qml/WebAppNameDialog.qml:32
+#, kde-format
+msgctxt "@info"
+msgid "Enter a name for the web application:"
+msgstr "Introduïu un nom per a l'aplicació web:"
+
+#: src/qml/WebAppNameDialog.qml:39
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Application name"
+msgstr "Nom de l'aplicació"
+
+#: src/settings/AngelfishConfigurationView.qml:14
+#: src/settings/SettingsGeneral.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "General"
+msgstr "General"
+
+#: src/settings/AngelfishConfigurationView.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock"
+msgstr "Bloqueig de publicitat"
+
+#: src/settings/AngelfishConfigurationView.qml:26
+#: src/settings/SettingsWebApps.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Web Apps"
+msgstr "Aplicacions web"
+
+#: src/settings/AngelfishConfigurationView.qml:32
+#: src/settings/SettingsSearchEnginePage.qml:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Search Engines"
+msgstr "Motors de busca"
+
+#: src/settings/AngelfishConfigurationView.qml:38
+#: src/settings/DesktopHomeSettingsPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Toolbars"
+msgstr "Barres d'eines"
+
+#: src/settings/AngelfishConfigurationView.qml:44
+#, kde-format
+msgid "About Angelfish"
+msgstr "Quant a Angelfish"
+
+#: src/settings/AngelfishConfigurationView.qml:47
+#, kde-format
+msgctxt "@title:group"
+msgid "About"
+msgstr "Quant a"
+
+#: src/settings/DesktopHomeSettingsPage.qml:25
+#, kde-format
+msgctxt "@label"
+msgid "Show home button:"
+msgstr "Mostra el botó «Inici»:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:26
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr ""
+"El botó d'inici es mostrarà al costat del botó de recàrrega en la barra "
+"d'eines."
+
+#: src/settings/DesktopHomeSettingsPage.qml:36
+#, kde-format
+msgctxt "@label"
+msgid "Homepage:"
+msgstr "Pàgina web:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:59
+#, kde-format
+msgctxt "@label"
+msgid "New tabs:"
+msgstr "Pestanyes noves:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:82
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Always show the tab bar"
+msgstr "Mostra sempre la barra de pestanyes"
+
+#: src/settings/DesktopHomeSettingsPage.qml:83
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open."
+msgstr ""
+"La barra de pestanyes es mostrarà inclús si només hi ha una pestanya oberta."
+
+#: src/settings/SettingsAdblock.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock Settings"
+msgstr "Configureu Adblock"
+
+#: src/settings/SettingsAdblock.qml:23
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add filter list"
+msgstr "Afig una llista de filtres"
+
+#: src/settings/SettingsAdblock.qml:27
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Update Lists"
+msgstr "Actualitza les llistes"
+
+#: src/settings/SettingsAdblock.qml:49
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "La característica «adblock» no està inclosa en esta construcció."
+
+#: src/settings/SettingsAdblock.qml:101
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this filter list"
+msgstr "Elimina esta llista de filtres"
+
+#: src/settings/SettingsAdblock.qml:113
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Filter List"
+msgstr "Afig una llista de filtres"
+
+#: src/settings/SettingsAdblock.qml:125
+#, kde-format
+msgctxt "@title:group"
+msgid "Add Filter List"
+msgstr "Afig una llista de filtres"
+
+#: src/settings/SettingsAdblock.qml:130
+#, kde-format
+msgctxt "@label"
+msgid "Name"
+msgstr "Nom"
+
+#: src/settings/SettingsAdblock.qml:139
+#, kde-format
+msgctxt "@label"
+msgid "URL"
+msgstr "URL"
+
+#: src/settings/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Habilita JavaScript"
+
+#: src/settings/SettingsGeneral.qml:29
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr "Açò ho poden requerir determinats llocs web perquè funcionen."
+
+#: src/settings/SettingsGeneral.qml:38
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Load images"
+msgstr "Carrega les imatges"
+
+#: src/settings/SettingsGeneral.qml:39
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr "Si s'han de carregar les imatges dels llocs web."
+
+#: src/settings/SettingsGeneral.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Enable adblock"
+msgstr "Activa Adblock"
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr "Intenta evitar que es mostren anuncis en els llocs web."
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Adblock functionality was not included in this build."
+msgstr "La característica Adblock no s'ha inclòs en esta construcció."
+
+#: src/settings/SettingsGeneral.qml:59
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Switch to new tab immediately"
+msgstr "Canvia a una pestanya nova immediatament"
+
+#: src/settings/SettingsGeneral.qml:60
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately."
+msgstr ""
+"Quan obriu un enllaç, imatge o element multimèdia en una pestanya nova, hi "
+"canviarà immediatament."
+
+#: src/settings/SettingsGeneral.qml:69
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use smooth scrolling"
+msgstr "Utilitza un desplaçament suau"
+
+#: src/settings/SettingsGeneral.qml:70
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+"El desplaçament serà més suau i no es pararà de sobte quan pareu el "
+"desplaçament. Requerix reiniciar l'aplicació perquè tinga efecte."
+
+#: src/settings/SettingsGeneral.qml:79
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use dark color scheme"
+msgstr "Utilitza l'esquema de color fosc"
+
+#: src/settings/SettingsGeneral.qml:80
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+"Els llocs web tindran els seus esquemes de color establits a foscos. "
+"Requerix reiniciar l'aplicació perquè tinga efecte."
+
+#: src/settings/SettingsNavigationBarPage.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Navigation Bar"
+msgstr "Barra de navegació"
+
+#: src/settings/SettingsNavigationBarPage.qml:27
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Trieu els botons habilitats en la barra de navegació. Algun dels botons pot "
+"estar ocult en l'orientació de retrat del navegador i es mostra sempre si el "
+"navegador és més ample que la seua alçària.\n"
+"\n"
+" Cal tindre en compte que si inhabiliteu els botons del menú, podreu accedir "
+"als menús lliscant des de la banda esquerra o dreta, o a una banda al llarg "
+"de la part inferior de la finestra."
+
+#: src/settings/SettingsNavigationBarPage.qml:36
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Main menu in portrait"
+msgstr "Menú principal en vertical"
+
+#: src/settings/SettingsNavigationBarPage.qml:42
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Tabs in portrait"
+msgstr "Pestanyes en vertical"
+
+#: src/settings/SettingsNavigationBarPage.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Context menu in portrait"
+msgstr "Menú contextual en vertical"
+
+#: src/settings/SettingsNavigationBarPage.qml:54
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go back"
+msgstr "Retrocedix"
+
+#: src/settings/SettingsNavigationBarPage.qml:60
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go forward"
+msgstr "Avança"
+
+#: src/settings/SettingsNavigationBarPage.qml:66
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Reload/Stop"
+msgstr "Torna a carregar/Para"
+
+#: src/settings/SettingsSearchEnginePage.qml:18
+#, kde-format
+msgctxt "@window:title"
+msgid "Search Engines"
+msgstr "Motors de busca"
+
+#: src/settings/SettingsSearchEnginePage.qml:21
+#, kde-format
+msgctxt "@label"
+msgid "Custom"
+msgstr "Personalitzat"
+
+#: src/settings/SettingsSearchEnginePage.qml:123
+#, kde-format
+msgctxt "@label"
+msgid "Base URL of your preferred search engine"
+msgstr "URL base del motor de busca preferit"
+
+#: src/settings/SettingsWebApps.qml:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove app"
+msgstr "Elimina l'aplicació"
+
+#: src/settings/SettingsWebApps.qml:85
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No web apps installed"
+msgstr "No hi ha instal·lada cap aplicació web"

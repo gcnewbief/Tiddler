@@ -1,0 +1,1355 @@
+# Lithuanian translations for plasma-angelfish package.
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the plasma-angelfish package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-27 03:17+0000\n"
+"PO-Revision-Date: 2026-05-16 00:54+0300\n"
+"Last-Translator: Moo\n"
+"Language-Team: lt\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: angelfish-webapp/main.cpp:65
+#, kde-format
+msgid "desktop file to open"
+msgstr "darbalaukio failas, kurį atverti"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Angelfish saityno programėlės dinaminė programa"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "Autorių teisės 2020 Angelfish programuotojai"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:47
+#, kde-format
+msgid "Open"
+msgstr "Atverti"
+
+#: lib/contents/ui/AuthSheet.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Authentication Required"
+msgstr "Reikia nustatyti tapatybę"
+
+#: lib/contents/ui/AuthSheet.qml:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Username:"
+msgstr "Naudotojo vardas:"
+
+#: lib/contents/ui/AuthSheet.qml:35
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "Slaptažodis:"
+
+#: lib/contents/ui/DownloadQuestion.qml:16
+#, kde-format
+msgctxt "Would you like to download (filename) from (domain)?"
+msgid "Would you like to download %1 from %2?"
+msgstr "Ar norėtumėte atsisiųsti %1 iš %2?"
+
+#: lib/contents/ui/DownloadQuestion.qml:25
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Download"
+msgstr "Atsisiųsti"
+
+#: lib/contents/ui/DownloadQuestion.qml:33
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgctxt "@title"
+msgid "Error Loading the Page"
+msgstr "Klaida įkeliant puslapį"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Retry"
+msgstr "Bandyti dar kartą"
+
+#: lib/contents/ui/ErrorHandler.qml:74
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"Ar norite tęsti?\n"
+"\n"
+" Jei pageidaujate, galite tęsti naudodamiesi nepatikrintu liudijimu.\n"
+" Jei sutiksite naudotis nepatikrintu liudijimu, tai reikš,\n"
+" jog gali būti tikimybė, kad būsite prisijungę ne prie to mazgo, prie kurio "
+"ketinote jungtis.\n"
+"\n"
+" Ar norite nustelbti saugumo patikrinimą ir tęsti?"
+
+#: lib/contents/ui/ErrorHandler.qml:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Yes"
+msgstr "Taip"
+
+#: lib/contents/ui/ErrorHandler.qml:90
+#, kde-format
+msgctxt "@action:button"
+msgid "No"
+msgstr "Ne"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
+#, kde-format
+msgctxt "@title:window"
+msgid "This Page Says"
+msgstr "Šis puslapis sako,"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Internetinė svetainė prašo patvirtinimo, kad norite išeiti. Visa neįrašyta "
+"informacija gali likti neįrašyta."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgctxt "@action:button"
+msgid "Leave Page"
+msgstr "Išeiti iš puslapio"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgctxt "@action:button"
+msgid "Submit"
+msgstr "Pateikti"
+
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr "Atsiuntimas užbaigtas"
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr "Nepavyko atsisiųsti"
+
+#: lib/contents/ui/ListWebView.qml:79 lib/contents/ui/ListWebView.qml:82
+#, kde-format
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Įkeliama"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Svetainė nori atverti naują kortelę: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Atverti"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
+msgstr ""
+"Ar norite internetinei svetainei <b>%1</b> leisti prieigą prie <b>mikrofono</"
+"b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:24
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
+msgstr ""
+"Ar norite internetinei svetainei <b>%1</b> leisti prieigą prie <b>kameros</"
+"b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:26
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>camera and the "
+"microphone</b>?"
+msgstr ""
+"Ar norite internetinei svetainei <b>%1</b> leisti prieigą prie <b>kameros ir "
+"mikrofono</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
+msgstr ""
+"Ar norite internetinei svetainei <b>%1</b> leisti bendrinti jūsų <b>ekraną</"
+"b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:30
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
+msgstr ""
+"Ar norite internetinei svetainei <b>%1</b> leisti bendrinti garso "
+"<b>išvestį</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:32
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
+msgstr ""
+"Ar norite internetinei svetainei <b>%1</b> leisti siųsti jums <b>pranešimus</"
+"b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
+msgstr ""
+"Ar norite internetinei svetainei <b>%1</b> leisti prieigą prie "
+"<b>geografinės buvimo vietos</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:36
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
+msgstr ""
+"Ar norite internetinei svetainei <b>%1</b> leisti prieigą prie "
+"<b>iškaprinės</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:38
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
+msgstr ""
+"Ar norite internetinei svetainei <b>%1</b> leisti prieigą prie jūsų "
+"<b>šriftų</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:40
+#, kde-format
+msgctxt ""
+"The website (website) requested an unknown permission: Do you want to allow "
+"the website (website) to access your fonts?"
+msgid "The website %1 requested an unknown permission: %2"
+msgstr "Internetinė svetainė %1 paprašė nežinomo leidimo: %2"
+
+#: lib/contents/ui/PermissionQuestion.qml:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr "Priimti"
+
+#: lib/contents/ui/PermissionQuestion.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Decline"
+msgstr "Atmesti"
+
+#: lib/contents/ui/PrintPreview.qml:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Spausdinti"
+
+#: lib/contents/ui/PrintPreview.qml:88
+#, kde-format
+msgctxt "@title:group"
+msgid "Destination"
+msgstr "Paskirtis"
+
+#: lib/contents/ui/PrintPreview.qml:92
+#, kde-format
+msgctxt "@title:group"
+msgid "Save to PDF"
+msgstr "Įrašyti į PDF"
+
+#: lib/contents/ui/PrintPreview.qml:101
+#, kde-format
+msgctxt "@title:group"
+msgid "Orientation"
+msgstr "Orientacija"
+
+#: lib/contents/ui/PrintPreview.qml:126
+#, kde-format
+msgctxt "@label:combobox"
+msgid "Paper Size"
+msgstr "Popieriaus dydis"
+
+#: lib/contents/ui/PrintPreview.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Parinktys"
+
+#: lib/contents/ui/PrintPreview.qml:173
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Print backgrounds"
+msgstr "Spausdinti foną"
+
+#: lib/contents/ui/WebView.qml:352
+#, kde-format
+msgctxt "@info:status"
+msgid "Website was opened in a new tab"
+msgstr "Internetinė svetainė atverta naujoje kortelėje"
+
+#: lib/contents/ui/WebView.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "Entered Full Screen mode"
+msgstr "Įjungta viso ekrano veiksena"
+
+#: lib/contents/ui/WebView.qml:371
+#, kde-format
+msgctxt "@action:button"
+msgid "Exit Full Screen (Esc)"
+msgstr "Išjungti viso ekrano veikseną (Gr)"
+
+#: lib/contents/ui/WebView.qml:506
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Play"
+msgstr "Atkurti"
+
+#: lib/contents/ui/WebView.qml:507
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Pause"
+msgstr "Pristabdyti"
+
+#: lib/contents/ui/WebView.qml:514
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Unmute"
+msgstr "Įjungti garsą"
+
+#: lib/contents/ui/WebView.qml:515
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Mute"
+msgstr "Nutildyti"
+
+#: lib/contents/ui/WebView.qml:525
+#, kde-format
+msgctxt "@label"
+msgid "Speed"
+msgstr "Greitis"
+
+#: lib/contents/ui/WebView.qml:548
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Loop"
+msgstr "Kartoti vis iš naujo"
+
+#: lib/contents/ui/WebView.qml:555
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exit Fullscreen"
+msgstr "Išjungti viso ekrano veikseną"
+
+#: lib/contents/ui/WebView.qml:555
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enter Fullscreen"
+msgstr "Įjungti viso ekrano veikseną"
+
+#: lib/contents/ui/WebView.qml:568
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Controls"
+msgstr "Slėpti valdiklius"
+
+#: lib/contents/ui/WebView.qml:569
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Controls"
+msgstr "Rodyti valdiklius"
+
+#: lib/contents/ui/WebView.qml:577
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video"
+msgstr "Atverti vaizdo įrašą"
+
+#: lib/contents/ui/WebView.qml:577
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio"
+msgstr "Atverti garso įrašą"
+
+#: lib/contents/ui/WebView.qml:578
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video in New Tab"
+msgstr "Atverti vaizdo įrašą naujoje kortelėje"
+
+#: lib/contents/ui/WebView.qml:578
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio in New Tab"
+msgstr "Atverti garso įrašą naujoje kortelėje"
+
+#: lib/contents/ui/WebView.qml:590
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Video"
+msgstr "Įrašyti vaizdo įrašą"
+
+#: lib/contents/ui/WebView.qml:596
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Video Link"
+msgstr "Kopijuoti vaizdo įrašo nuorodą"
+
+#: lib/contents/ui/WebView.qml:602
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image"
+msgstr "Atverti paveikslą"
+
+#: lib/contents/ui/WebView.qml:602
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image in New Tab"
+msgstr "Atverti paveikslą naujoje kortelėje"
+
+#: lib/contents/ui/WebView.qml:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Image"
+msgstr "Įrašyti paveikslą"
+
+#: lib/contents/ui/WebView.qml:620
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image"
+msgstr "Kopijuoti paveikslą"
+
+#: lib/contents/ui/WebView.qml:626
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image Link"
+msgstr "Kopijuoti paveikslo nuorodą"
+
+#: lib/contents/ui/WebView.qml:632
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link"
+msgstr "Atverti nuorodą"
+
+#: lib/contents/ui/WebView.qml:632
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link in New Tab"
+msgstr "Atverti nuorodą naujoje kortelėje"
+
+#: lib/contents/ui/WebView.qml:644
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Link"
+msgstr "Įrašyti nuorodą į žymeles"
+
+#: lib/contents/ui/WebView.qml:656
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Link"
+msgstr "Įrašyti nuorodą"
+
+#: lib/contents/ui/WebView.qml:662
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr "Kopijuoti nuorodą"
+
+#: lib/contents/ui/WebView.qml:669
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#: lib/contents/ui/WebView.qml:675
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "Iškirpti"
+
+#: lib/contents/ui/WebView.qml:681
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "Įdėti"
+
+#: lib/contents/ui/WebView.qml:689
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search for “%1”"
+msgstr "Ieškoti „%1“"
+
+#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
+#: src/qml/Mobile.qml:350
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Share Page"
+msgstr "Bendrinti puslapį"
+
+#: lib/contents/ui/WebView.qml:714
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View Page Source"
+msgstr "Rodyti pradinį puslapio kodą"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "URL, kurį atverti"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Angelfish"
+msgstr "Angelfish"
+
+#: src/main.cpp:88
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr "Plasma Mobile saityno naršyklė"
+
+#: src/main.cpp:90
+#, kde-format
+msgid "© 2015-2026 KDE Community"
+msgstr "© 2015–2026 KDE bendruomenė"
+
+#: src/main.cpp:93
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr "Jonah Brüchert"
+
+#: src/main.cpp:93
+#, kde-format
+msgid "Maintainer"
+msgstr "Prižiūrėtojas"
+
+#: src/main.cpp:94
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Moo"
+
+#: src/main.cpp:94
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "<>"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The adblocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+"Reklamos blokavimui trūksta reikalingų filtrų sąrašų, ar norite juos dabar "
+"atsisiųsti?"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
+#, kde-format
+msgctxt "@info"
+msgid "Downloading…"
+msgstr "Atsiunčiama…"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Išjungti reklamos blokavimą"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr "Reklamos blokavimas išjungtas…"
+
+#: src/qml/Bookmarks.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Bookmarks"
+msgstr "Žymelės"
+
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Užverti"
+
+#: src/qml/desktop/Desktop.qml:152
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search or enter URL…"
+msgstr "Atlikite paiešką arba įveskite URL adresą…"
+
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
+#: src/qml/Navigation.qml:462
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Nauja kortelė"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Leave Private Mode"
+msgstr "Išeiti iš privačios veiksenos"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Private Mode"
+msgstr "Privati veiksena"
+
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:106
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "History"
+msgstr "Istorija"
+
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:98
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmarks"
+msgstr "Žymelės"
+
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:110
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Downloads"
+msgstr "Atsiuntimai"
+
+#: src/qml/desktop/Desktop.qml:335
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr "Perjungti mobiliąją veikseną"
+
+#: src/qml/desktop/Desktop.qml:345
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Print"
+msgstr "Spausdinti"
+
+#: src/qml/desktop/Desktop.qml:351
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Full Screen"
+msgstr "Visas ekranas"
+
+#: src/qml/desktop/Desktop.qml:368
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Developer Tools"
+msgstr "Slėpti plėtotojo įrankius"
+
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:448
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Developer Tools"
+msgstr "Rodyti plėtotojo įrankius"
+
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:346
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Find in Page"
+msgstr "Rasti puslapyje"
+
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:431
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr "Skaitytojo veiksena"
+
+#: src/qml/desktop/Desktop.qml:404
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Application Launcher"
+msgstr "Pridėti į programų paleidyklę"
+
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:125
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "Nuostatos"
+
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Angelfish"
+msgstr "Apie Angelfish"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:277
+#, kde-format
+msgctxt "@label"
+msgid "Reader mode: %1"
+msgstr "Skaitytojo veiksena: %1"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:293
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close tab"
+msgstr "Užverti kortelę"
+
+#: src/qml/desktop/DesktopTabs.qml:203
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "Atverti naują kortelę"
+
+#: src/qml/desktop/DesktopTabs.qml:236
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "List all tabs"
+msgstr "Išvardyti visas korteles"
+
+#: src/qml/desktop/DesktopTabs.qml:276
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload Tab"
+msgstr "Įkelti kortelę iš naujo"
+
+#: src/qml/desktop/DesktopTabs.qml:284
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Duplicate Tab"
+msgstr "Dubliuoti kortelę"
+
+#: src/qml/desktop/DesktopTabs.qml:292
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Tab"
+msgstr "Įrašyti kortelę į žymeles"
+
+#: src/qml/desktop/DesktopTabs.qml:308
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Užverti kortelę"
+
+#: src/qml/desktop/DesktopTabs.qml:314
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
+msgstr "Iš naujo atverti užvertą kortelę"
+
+#: src/qml/Downloads.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Downloads"
+msgstr "Atsiuntimai"
+
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr "Išvalyti užbaigtus atsiuntimus"
+
+#: src/qml/Downloads.qml:47
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No running downloads"
+msgstr "Nėra vykdomų atsiuntimų"
+
+#: src/qml/Downloads.qml:96
+#, kde-format
+msgctxt "@info:progress"
+msgid "Starting…"
+msgstr "Pradedama…"
+
+#: src/qml/Downloads.qml:98
+#, kde-format
+msgctxt "@info:progress"
+msgid "Completed"
+msgstr "Užbaigtas"
+
+#: src/qml/Downloads.qml:100
+#, kde-format
+msgctxt "@info:progress"
+msgid "Cancelled"
+msgstr "Atsisakytas"
+
+#: src/qml/Downloads.qml:102
+#, kde-format
+msgctxt "@info:progress"
+msgid "Interrupted"
+msgstr "Pertrauktas"
+
+#: src/qml/Downloads.qml:104
+#, kde-format
+msgctxt "@info:progress"
+msgid "In progress…"
+msgstr "Eigoje…"
+
+#: src/qml/Downloads.qml:111
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: src/qml/Downloads.qml:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "Pristabdyti"
+
+#: src/qml/Downloads.qml:136
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Continue"
+msgstr "Tęsti"
+
+#: src/qml/FindInPageBar.qml:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Ieškoti…"
+
+#: src/qml/History.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "History"
+msgstr "Istorija"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Išvalyti visą istoriją"
+
+#: src/qml/Mobile.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Angelfish Web Browser"
+msgstr "Angelfish saityno naršyklė"
+
+#: src/qml/Mobile.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Tabs"
+msgstr "Kortelės"
+
+#: src/qml/Mobile.qml:118
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Desktop Mode"
+msgstr "Perjungti darbalaukiui skirtą svetainės versiją"
+
+#: src/qml/Mobile.qml:361
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Homescreen"
+msgstr "Pridėti į pradžios ekraną"
+
+#: src/qml/Mobile.qml:373
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in App"
+msgstr "Atverti programėlėje"
+
+#: src/qml/Mobile.qml:381
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr "Grįžti"
+
+#: src/qml/Mobile.qml:389
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Forward"
+msgstr "Eiti pirmyn"
+
+#: src/qml/Mobile.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
+msgstr "Stabdyti įkėlimą"
+
+#: src/qml/Mobile.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Refresh"
+msgstr "Įkelti iš naujo"
+
+#: src/qml/Mobile.qml:406
+#, kde-format
+msgctxt "@info:status"
+msgid "Bookmarked"
+msgstr "Įrašyta į žymeles"
+
+#: src/qml/Mobile.qml:406
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark"
+msgstr "Įrašyti į žymeles"
+
+#: src/qml/Mobile.qml:422
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Desktop Site"
+msgstr "Rodyti darbalaukiui skirtą svetainės versiją"
+
+#: src/qml/Mobile.qml:439
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Navigation Bar"
+msgstr "Slėpti naršymo juostą"
+
+#: src/qml/Navigation.qml:435
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Done"
+msgstr "Atlikta"
+
+#: src/qml/Navigation.qml:448
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 tabs"
+msgstr "Kortelių: %1"
+
+#: src/qml/ShareSheet.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Share Page"
+msgstr "Bendrinti puslapį"
+
+#: src/qml/WebAppNameDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Add to Application Launcher"
+msgstr "Pridėti į programų paleidyklę"
+
+#: src/qml/WebAppNameDialog.qml:32
+#, kde-format
+msgctxt "@info"
+msgid "Enter a name for the web application:"
+msgstr "Įveskite saityno programėlės pavadinimą:"
+
+#: src/qml/WebAppNameDialog.qml:39
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Application name"
+msgstr "Programos pavadinimas"
+
+#: src/settings/AngelfishConfigurationView.qml:14
+#: src/settings/SettingsGeneral.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "General"
+msgstr "Bendra"
+
+#: src/settings/AngelfishConfigurationView.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock"
+msgstr "Reklamos blokavimas"
+
+#: src/settings/AngelfishConfigurationView.qml:26
+#: src/settings/SettingsWebApps.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Web Apps"
+msgstr "Saityno programėlės"
+
+#: src/settings/AngelfishConfigurationView.qml:32
+#: src/settings/SettingsSearchEnginePage.qml:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Search Engines"
+msgstr "Paieškos sistemos"
+
+#: src/settings/AngelfishConfigurationView.qml:38
+#: src/settings/DesktopHomeSettingsPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Toolbars"
+msgstr "Įrankių juostos"
+
+#: src/settings/AngelfishConfigurationView.qml:44
+#, kde-format
+msgid "About Angelfish"
+msgstr "Apie Angelfish"
+
+#: src/settings/AngelfishConfigurationView.qml:47
+#, kde-format
+msgctxt "@title:group"
+msgid "About"
+msgstr "Apie"
+
+#: src/settings/DesktopHomeSettingsPage.qml:25
+#, kde-format
+msgctxt "@label"
+msgid "Show home button:"
+msgstr "Rodyti pradžios mygtuką:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:26
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr ""
+"Pradžios mygtukas bus rodomas įrankių juostoje šalia įkėlimo iš naujo "
+"mygtuko."
+
+#: src/settings/DesktopHomeSettingsPage.qml:36
+#, kde-format
+msgctxt "@label"
+msgid "Homepage:"
+msgstr "Pagrindinis puslapis:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:59
+#, kde-format
+msgctxt "@label"
+msgid "New tabs:"
+msgstr "Naujos kortelės:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:82
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Always show the tab bar"
+msgstr "Visada rodyti kortelių juostą"
+
+#: src/settings/DesktopHomeSettingsPage.qml:83
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open."
+msgstr "Kortelių juosta bus rodoma net tuomet, kai yra tik viena kortelė."
+
+#: src/settings/SettingsAdblock.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock Settings"
+msgstr "Reklamos blokavimo nuostatos"
+
+#: src/settings/SettingsAdblock.qml:23
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add filter list"
+msgstr "Pridėti filtrų sąrašą"
+
+#: src/settings/SettingsAdblock.qml:27
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Update Lists"
+msgstr "Atnaujinti sąrašus"
+
+#: src/settings/SettingsAdblock.qml:49
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "Reklamos blokavimo funkcionalumas nėra įtrauktas į šį darinį."
+
+#: src/settings/SettingsAdblock.qml:101
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this filter list"
+msgstr "Šalinti šį filtrų sąrašą"
+
+#: src/settings/SettingsAdblock.qml:113
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Filter List"
+msgstr "Pridėti filtrų sąrašą"
+
+#: src/settings/SettingsAdblock.qml:125
+#, kde-format
+msgctxt "@title:group"
+msgid "Add Filter List"
+msgstr "Pridėti filtrų sąrašą"
+
+#: src/settings/SettingsAdblock.qml:130
+#, kde-format
+msgctxt "@label"
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: src/settings/SettingsAdblock.qml:139
+#, kde-format
+msgctxt "@label"
+msgid "URL"
+msgstr "URL"
+
+#: src/settings/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Įjungti JavaScript"
+
+#: src/settings/SettingsGeneral.qml:29
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr ""
+"To gali prireikti tam tikrose internetinėse svetainėse, kad jos veiktų."
+
+#: src/settings/SettingsGeneral.qml:38
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Load images"
+msgstr "Įkelti paveikslus"
+
+#: src/settings/SettingsGeneral.qml:39
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr "Ar įkelti internetinėse svetainėse paveikslus."
+
+#: src/settings/SettingsGeneral.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Enable adblock"
+msgstr "Įjungti reklamos blokavimą"
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr "Stengiasi neleisti internetinėse svetainėse rodyti reklamų."
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Adblock functionality was not included in this build."
+msgstr "Reklamos blokavimo funkcionalumas nebuvo įtrauktas į šį darinį."
+
+#: src/settings/SettingsGeneral.qml:59
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Switch to new tab immediately"
+msgstr "Nedelsiant perjungti į naują kortelę"
+
+#: src/settings/SettingsGeneral.qml:60
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately."
+msgstr ""
+"Kai naujoje kortelėje atveriate nuorodą, paveikslą ar mediją, nedelsiant į "
+"ją perjungti."
+
+#: src/settings/SettingsGeneral.qml:69
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use smooth scrolling"
+msgstr "Naudoti glotnų slinkimą"
+
+#: src/settings/SettingsGeneral.qml:70
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+"Slinkimas bus glotnesnis ir, jums nustojus slinkti, staigiai nesustos. Tam, "
+"kad įsigaliotų, reikia paleisti programą iš naujo."
+
+#: src/settings/SettingsGeneral.qml:79
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use dark color scheme"
+msgstr "Naudoti tamsių spalvų rinkinį"
+
+#: src/settings/SettingsGeneral.qml:80
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+"Internetinės svetainės turės nustatytą tamsų spalvų rinkinį. Tam, kad "
+"įsigaliotų, reikia paleisti programą iš naujo."
+
+#: src/settings/SettingsNavigationBarPage.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Navigation Bar"
+msgstr "Naršymo juostą"
+
+#: src/settings/SettingsNavigationBarPage.qml:27
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Pasirinkite mygtukus, kurie bus įjungti naršymo juostoje. Kai kurie mygtukai "
+"stačioje naršyklės veiksenoje gali būti paslėpti ir visada rodomi tik tuo "
+"atveju, jei naršyklė yra platesnė nei jos aukštis.\n"
+"\n"
+" Turėkite omenyje, jog jeigu išjungsite meniu mygtukus, meniu galėsite "
+"pasiekti braukdami iš kairės ar dešinės pusės arba į šoną palei lango apačią."
+
+#: src/settings/SettingsNavigationBarPage.qml:36
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Main menu in portrait"
+msgstr "Pagrindinis meniu stačiai"
+
+#: src/settings/SettingsNavigationBarPage.qml:42
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Tabs in portrait"
+msgstr "Kortelės stačiai"
+
+#: src/settings/SettingsNavigationBarPage.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Context menu in portrait"
+msgstr "Kontekstinis meniu stačiai"
+
+#: src/settings/SettingsNavigationBarPage.qml:54
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go back"
+msgstr "Grįžti"
+
+#: src/settings/SettingsNavigationBarPage.qml:60
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go forward"
+msgstr "Eiti pirmyn"
+
+#: src/settings/SettingsNavigationBarPage.qml:66
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Reload/Stop"
+msgstr "Įkelti iš naujo/Stabdyti"
+
+#: src/settings/SettingsSearchEnginePage.qml:18
+#, kde-format
+msgctxt "@window:title"
+msgid "Search Engines"
+msgstr "Paieškos sistemos"
+
+#: src/settings/SettingsSearchEnginePage.qml:21
+#, kde-format
+msgctxt "@label"
+msgid "Custom"
+msgstr "Tinkinta"
+
+#: src/settings/SettingsSearchEnginePage.qml:123
+#, kde-format
+msgctxt "@label"
+msgid "Base URL of your preferred search engine"
+msgstr "Pagrindinis, jūsų pageidaujamos paieškos sistemos, URL"
+
+#: src/settings/SettingsWebApps.qml:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove app"
+msgstr "Šalinti programėlę"
+
+#: src/settings/SettingsWebApps.qml:85
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No web apps installed"
+msgstr "Nėra įdiegta jokių saityno programėlių"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search bookmarks…"
+#~ msgstr "Ieškoti žymelių…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No bookmarks yet"
+#~ msgstr "Kol kas žymelių nėra"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search history…"
+#~ msgstr "Ieškoti istorijoje…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No history yet"
+#~ msgstr "Kol kas istorijos nėra"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Įrašyti"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Visas ekranas"
+
+#~ msgid "Private mode"
+#~ msgstr "Privati veiksena"
+
+#~ msgid "Search..."
+#~ msgstr "Ieškoti..."
+
+#~ msgid "Go previous"
+#~ msgstr "Eiti į ankstesnį"
+
+#~ msgid "Reader Mode"
+#~ msgstr "Skaitytojo veiksena"
+
+#~ msgid "Share page to"
+#~ msgstr "Bendrinti puslapį į"
+
+#, fuzzy
+#~| msgid "add Filterlist"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add Filterlist"
+#~ msgstr "Pridėti filtrų sąrašą"
+
+#~ msgid "Url"
+#~ msgstr "Url"
+
+#~ msgid "Show navigation bar"
+#~ msgstr "Rodyti naršymo juostą"
+
+#~ msgid "Add"
+#~ msgstr "Pridėti"
+
+#~ msgid "Search online"
+#~ msgstr "Ieškoti internete"
+
+#~ msgid "Confirm"
+#~ msgstr "Patvirtinti"
+
+#~ msgid "OK"
+#~ msgstr "Gerai"
+
+#, fuzzy
+#~| msgid "Homepage"
+#~ msgid "Home"
+#~ msgstr "Pradžios tinklalapis"
+
+#~ msgid "New"
+#~ msgstr "Nauja"
+
+#~ msgid "Choose the buttons enabled in navigation bar. "
+#~ msgstr "Pasirinkite mygtukus, kurie atsiras naršymo juostoje. "
+
+#~ msgid "Website that should be loaded on startup"
+#~ msgstr "Paleidimo metu įkeliama internetinė svetainė"
+
+#~ msgid "Find..."
+#~ msgstr "Rasti..."
+
+#~ msgid "Highlight text on the current website"
+#~ msgstr "Paryškinti tekstą dabartinėje internetinėje svetainėje"
+
+#~ msgid "Start without UI"
+#~ msgstr "Paleisti be naudotojo sąsajos"

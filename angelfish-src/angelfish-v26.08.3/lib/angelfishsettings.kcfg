@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2020 Jonah Brüchert <jbb@kaidan.im>
+
+SPDX-License-Identifier: LGPL-2.0-or-later
+-->
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name="angelfishrc" />
+    <include>"settingshelper.h"</include>
+    <group name="SettingsPage">
+        <!-- The custom search engine that can be added to the list of engines -->
+        <entry key="searchCustomUrl" type="String" />
+    </group>
+    <group name="Browser">
+        <entry key="homepage" type="Url">
+            <default>https://noai.duckduckgo.com</default>
+        </entry>
+        <entry key="showHomeButton" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry key="showTabBar" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry key="searchBaseUrl" type="Url">
+            <default>https://noai.duckduckgo.com/?q=</default>
+        </entry>
+        <entry key="newTabUrl" type="Url">
+            <default>https://noai.duckduckgo.com/?q=</default>
+        </entry>
+        <entry key="switchToNewTab" type="Bool">
+            <default>false</default>
+        </entry>
+    </group>
+    <!-- Remember states -->
+    <group name="WebView">
+        <entry key="profile" type="String">
+            <default>DefaultProfile</default>
+        </entry>
+        <entry key="webAutoLoadImages" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry key="webJavaScriptEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry key="webSmoothScrollingEnabled" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry key="webDarkModeEnabled" type="Bool">
+            <default>false</default>
+        </entry>
+    </group>
+    <group name="NavigationBar">
+        <entry key="navBarMainMenu" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry key="navBarTabs" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry key="navBarBack" type="Bool">
+            <default>!SettingsHelper::isMobile()</default>
+        </entry>
+        <entry key="navBarForward" type="Bool">
+            <default>!SettingsHelper::isMobile()</default>
+        </entry>
+        <entry key="navBarReload" type="Bool">
+            <default>!SettingsHelper::isMobile()</default>
+        </entry>
+        <entry key="navBarContextMenu" type="Bool"></entry>
+    </group>
+    <group name="Window">
+        <entry key="windowX" type="Int" />
+        <entry key="windowY" type="Int" />
+        <entry key="windowWidth" type="Int">
+            <default>SettingsHelper::isMobile() ? 300 : 1020</default>
+        </entry>
+        <entry key="windowHeight" type="Int">
+            <default>SettingsHelper::isMobile() ? 450 : 680</default>
+        </entry>
+    </group>
+    <!-- Store adblock lists -->
+    <group name="Adblock">
+        <entry key="adblockEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry key="adblockFilterUrls" type="UrlList">
+            <default>https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt,https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt,https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt,https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt,https://easylist.to/easylist/easyprivacy.txt,https://easylist.to/easylist/easylist.txt,https://filters.adtidy.org/extension/ublock/filters/14.txt,https://easylist-downloads.adblockplus.org/antiadblockfilters.txt</default>
+        </entry>
+        <entry key="adblockFilterNames" type="StringList">
+            <default>uBlock filters,uBlock filters – Privacy,uBlock filters – Resource abuse,uBlock filters – Unbreak,EasyPrivacy,Easylist,AdGuard Annoyances,Adblock Warning Removal List</default>
+        </entry>
+        <entry key="adblockFilterDownloadDismissed" type="Bool">
+            <default>false</default>
+        </entry>
+    </group>
+</kcfg>

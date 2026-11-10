@@ -1,0 +1,320 @@
+// SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
+// SPDX-FileCopyrightText: 2023 Michael Lang <criticaltemp@protonmail.com>
+// SPDX-License-Identifier: LGPL-2.0-or-later
+
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
+
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
+
+RowLayout {
+    id: tabsComponent
+    spacing: 0
+
+    Shortcut {
+        sequences: ["Ctrl+Tab", "Ctrl+PgDown"]
+        onActivated: {
+            if (listview.currentIndex != listview.count - 1) {
+                tabs.currentIndex++;
+            } else {
+                tabs.currentIndex = 0;
+            }
+        }
+    }
+    Shortcut {
+        sequences: ["Ctrl+Shift+Tab", "Ctrl+PgUp"]
+        onActivated: {
+            if (listview.currentIndex === 0) {
+                tabs.currentIndex = listview.count - 1;
+            } else {
+                tabs.currentIndex--;
+            }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+Shift+T"
+        onActivated: {
+            tabs.tabsModel.reopenTab();
+        }
+    }
+
+    Shortcut {
+        sequence: "Ctrl+W"
+        onActivated: {
+            tabs.tabsModel.closeTab(listview.currentIndex);
+        }
+    }
+
+    Shortcut {
+        sequence: "Ctrl+1"
+        onActivated: {
+            if (listview.currentIndex !== 0) {
+                tabs.currentIndex = 0;
+            }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+2"
+        onActivated: {
+            if (listview.currentIndex !== 1) {
+                tabs.currentIndex = 1;
+            }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+3"
+        onActivated: {
+            if (listview.currentIndex !== 2) {
+                tabs.currentIndex = 2;
+            }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+4"
+        onActivated: {
+            if (listview.currentIndex !== 3) {
+                tabs.currentIndex = 3;
+            }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+5"
+        onActivated: {
+            if (listview.currentIndex !== 4) {
+                tabs.currentIndex = 4;
+            }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+6"
+        onActivated: {
+            if (listview.currentIndex !== 5) {
+                tabs.currentIndex = 5;
+            }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+7"
+        onActivated: {
+            if (listview.currentIndex !== 6) {
+                tabs.currentIndex = 6;
+            }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+8"
+        onActivated: {
+            if (listview.currentIndex !== 7) {
+                tabs.currentIndex = 7;
+            }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+9"
+        onActivated: {
+            if (listview.currentIndex !== listview.count - 1) {
+                tabs.currentIndex = listview.count - 1;
+            }
+        }
+    }
+
+    ListView {
+        id: listview
+        visible: Core.AngelfishSettings.showTabBar || listview.count > 1
+
+        Layout.fillWidth: true
+        Layout.preferredHeight: footerItem.height
+
+        model: tabs.model
+        orientation: ListView.Horizontal
+        currentIndex: tabs.currentIndex
+        interactive: false
+        boundsBehavior: Flickable.StopAtBounds
+        headerPositioning: ListView.OverlayHeader
+        header: Rectangle {
+            z: 3
+            height: parent.height
+            width: listview.tabScroll ? height : 0
+            color: Kirigami.Theme.backgroundColor
+
+            QQC2.ToolButton {
+                visible: listview.tabScroll
+                enabled: !listview.atXBeginning
+                icon.name: "arrow-left"
+                onClicked: listview.flick(1000, 0)
+                onDoubleClicked: listview.flick(5000, 0)
+            }
+        }
+
+        WheelHandler {
+            acceptedDevices: PointerDevice.Mouse | PointerDevice.TouchPad
+            onWheel: listview.flick(event.angleDelta.y * 10, 0)
+        }
+
+        property int baseWidth: Kirigami.Units.gridUnit * 14
+        property real tabWidth: baseWidth * Math.min(Math.max(listview.width / (baseWidth * (listview.count + 1)), 0.4), 1)
+        property bool tabScroll: listview.tabWidth * listview.count > listview.width
+
+        delegate: DesktopTabDelegate {
+            id: control
+            width: listview.tabWidth
+            height: tabsComponent.height
+            tab: tabs.itemAt(model.index)
+
+            onCloseRequested: tabs.tabsModel.closeTab(model.index)
+            onRightClicked: {
+                tabMenu.index = model.index
+                if (tabMenu.visible) {
+                    tabMenu.close()
+                } else {
+                    tabMenu.popup(control)
+                }
+            }
+            onClicked: {
+                tabs.currentIndex = model.index;
+            }
+        }
+
+        footerPositioning: listview.tabScroll ? ListView.OverlayFooter : ListView.InlineFooter
+        footer: Rectangle {
+            z: 3
+            height: row.height
+            width: row.width
+            color: Kirigami.Theme.backgroundColor
+
+            Row {
+                id: row
+                QQC2.ToolButton {
+                    visible: listview.tabScroll
+                    enabled: !listview.atXEnd
+                    icon.name: "arrow-right"
+                    onClicked: listview.flick(-1000, 0)
+                    onDoubleClicked: listview.flick(-5000, 0)
+                }
+                QQC2.ToolButton {
+                    icon.name: "list-add"
+                    onClicked: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
+
+                    QQC2.ToolTip.visible: hoverHandler.hovered
+                    QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
+                    QQC2.ToolTip.text: i18nc("@info:tooltip", "Open a new tab")
+
+                    HoverHandler {
+                        id: hoverHandler
+                        acceptedDevices: PointerDevice.Mouse | PointerDevice.Stylus
+                    }
+                }
+
+            }
+        }
+        add: Transition {
+            NumberAnimation { property: "opacity"; from: 0; to: 1; duration: Kirigami.Units.longDuration; easing.type: Easing.InQuad }
+        }
+        remove: Transition {
+            NumberAnimation { property: "opacity"; to: 0; duration: Kirigami.Units.longDuration; easing.type: Easing.OutQuad }
+        }
+    }
+
+    Rectangle {
+        Layout.alignment: Qt.AlignRight
+        z: 3
+        height: listview.footerItem.height
+        width: height
+        color: Kirigami.Theme.backgroundColor
+
+        QQC2.ToolButton {
+            id: menuButton
+            icon.name: "arrow-down"
+            down: menu.visible
+            onPressed: menu.visible ? menu.close() : menu.popup(tabsComponent.width, tabsComponent.y + menuButton.height)
+
+            QQC2.ToolTip.visible: hoverHandler.hovered
+            QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
+            QQC2.ToolTip.text: i18nc("@info:tooltip", "List all tabs")
+
+            HoverHandler {
+                id: hoverHandler
+                acceptedDevices: PointerDevice.Mouse | PointerDevice.Stylus
+            }
+        }
+    }
+
+    QQC2.Menu {
+        id: menu
+        Instantiator {
+            model: tabs.model
+            onObjectAdded: (index, object) => menu.insertItem(index, object)
+            onObjectRemoved: (index, object) => menu.removeItem(object)
+            delegate: QQC2.MenuItem {
+                icon.name: tabs.itemAt(model.index).icon
+                text: tabs.itemAt(model.index).title
+                onTriggered: {
+                    tabs.currentIndex = model.index;
+                    menu.close();
+                }
+            }
+        }
+    }
+
+    QQC2.Menu {
+        id: tabMenu
+        property int index
+
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "New Tab")
+            icon.name: "list-add"
+            shortcut: "Ctrl+T"
+            onTriggered: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
+        }
+
+        QQC2.MenuSeparator {}
+
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Reload Tab")
+            icon.name: "view-refresh"
+            shortcut: "Ctrl+R"
+            onTriggered: {
+                currentWebView.reload();
+            }
+        }
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Duplicate Tab")
+            icon.name: "tab-duplicate"
+            onTriggered: tabs.tabsModel.newTab(currentWebView.url)
+        }
+
+        QQC2.MenuSeparator {}
+
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Bookmark Tab")
+            icon.name: urlObserver.bookmarked ? "rating" : "rating-unrated"
+            shortcut: "Ctrl+D"
+            onTriggered: {
+                const request = {
+                    url: currentWebView.url,
+                    title: currentWebView.title,
+                    icon: currentWebView.icon
+                }
+                BrowserManager.addBookmark(request)
+            }
+        }
+
+        QQC2.MenuSeparator {}
+
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Close Tab")
+            icon.name: "tab-close"
+            onTriggered: tabs.tabsModel.closeTab(tabMenu.index)
+        }
+
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Reopen Closed Tab")
+            icon.name: "edit-undo"
+            shortcut: "Ctrl+Shift+T"
+            onTriggered: tabs.tabsModel.reopenTab()
+        }
+    }
+}

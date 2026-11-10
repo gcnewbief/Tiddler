@@ -1,0 +1,1334 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-angelfish package.
+#
+# Alexander Potashev <aspotashev@gmail.com>, 2019.
+# SPDX-FileCopyrightText: 2020, 2025-2026 Alexander Yavorsky <kekcuha@gmail.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Olesya Gerasimenko <translation-team@basealt.ru>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-27 03:17+0000\n"
+"PO-Revision-Date: 2026-06-26 20:54+0200\n"
+"Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 26.04.2\n"
+
+#: angelfish-webapp/main.cpp:65
+#, kde-format
+msgid "desktop file to open"
+msgstr "файл рабочего стола для открытия"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Модуль веб-приложения Angelfish"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "© Разработчики Angelfish, 2020"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:47
+#, kde-format
+msgid "Open"
+msgstr "Открыть"
+
+#: lib/contents/ui/AuthSheet.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Authentication Required"
+msgstr "Требуется аутентификация"
+
+#: lib/contents/ui/AuthSheet.qml:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: lib/contents/ui/AuthSheet.qml:35
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "Пароль:"
+
+#: lib/contents/ui/DownloadQuestion.qml:16
+#, kde-format
+msgctxt "Would you like to download (filename) from (domain)?"
+msgid "Would you like to download %1 from %2?"
+msgstr "Выполнить загрузку %1 с %2?"
+
+#: lib/contents/ui/DownloadQuestion.qml:25
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Download"
+msgstr "Загрузить"
+
+#: lib/contents/ui/DownloadQuestion.qml:33
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Отмена"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgctxt "@title"
+msgid "Error Loading the Page"
+msgstr "Ошибка при загрузке страницы"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Retry"
+msgstr "Повторить попытку"
+
+#: lib/contents/ui/ErrorHandler.qml:74
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"Продолжить?\n"
+"\n"
+" Возможно продолжить с непроверенным сертификатом.\n"
+" Принятие непроверенного сертификата означает, что может быть установлено "
+"соединение не с тем узлом сети, с которым планировалось.\n"
+"\n"
+" Пропустить проверку безопасности и продолжить?"
+
+#: lib/contents/ui/ErrorHandler.qml:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Yes"
+msgstr "Да"
+
+#: lib/contents/ui/ErrorHandler.qml:90
+#, kde-format
+msgctxt "@action:button"
+msgid "No"
+msgstr "Нет"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
+#, kde-format
+msgctxt "@title:window"
+msgid "This Page Says"
+msgstr "Сообщение страницы"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Эта страница просит вас подтвердить, что вы хотите уйти — при этом введённые "
+"вами данные могут не сохраниться."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgctxt "@action:button"
+msgid "Leave Page"
+msgstr "Покинуть страницу"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgctxt "@action:button"
+msgid "Submit"
+msgstr "Отправить"
+
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr "Загрузка завершена"
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr "Ошибка загрузки"
+
+#: lib/contents/ui/ListWebView.qml:79 lib/contents/ui/ListWebView.qml:82
+#, kde-format
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Загрузка"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Сайт пытается открыть новую вкладку:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Открыть"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
+msgstr "Разрешить веб-сайту <b>%1</b> доступ к <b>микрофону</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:24
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
+msgstr "Разрешить веб-сайту <b>%1</b> доступ к <b>камере</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:26
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>camera and the "
+"microphone</b>?"
+msgstr "Разрешить веб-сайту <b>%1</b> доступ к <b>камере и микрофону</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
+msgstr "Разрешить трансляцию <b>экрана</b> через веб-сайт <b>%1</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:30
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
+msgstr "Разрешить трансляцию <b>звука</b> через веб-сайт <b>%1</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:32
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
+msgstr "Разрешить получение <b>уведомлений</b> с веб-сайта <b>%1</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
+msgstr "Разрешить веб-сайту <b>%1</b> доступ к данным о <b>местоположении</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:36
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
+msgstr "Разрешить веб-сайту <b>%1</b> доступ к данным в <b>буфере обмена</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:38
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
+msgstr "Разрешить веб-сайту <b>%1</b> доступ к <b>шрифтам</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:40
+#, kde-format
+msgctxt ""
+"The website (website) requested an unknown permission: Do you want to allow "
+"the website (website) to access your fonts?"
+msgid "The website %1 requested an unknown permission: %2"
+msgstr "Веб-сайт %1 запросил неизвестное разрешение. %2"
+
+#: lib/contents/ui/PermissionQuestion.qml:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr "Принять"
+
+#: lib/contents/ui/PermissionQuestion.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Decline"
+msgstr "Отклонить"
+
+#: lib/contents/ui/PrintPreview.qml:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Печать"
+
+#: lib/contents/ui/PrintPreview.qml:88
+#, kde-format
+msgctxt "@title:group"
+msgid "Destination"
+msgstr "Назначение"
+
+#: lib/contents/ui/PrintPreview.qml:92
+#, kde-format
+msgctxt "@title:group"
+msgid "Save to PDF"
+msgstr "Сохранение в PDF"
+
+#: lib/contents/ui/PrintPreview.qml:101
+#, kde-format
+msgctxt "@title:group"
+msgid "Orientation"
+msgstr "Ориентация"
+
+#: lib/contents/ui/PrintPreview.qml:126
+#, kde-format
+msgctxt "@label:combobox"
+msgid "Paper Size"
+msgstr "Размер бумаги"
+
+#: lib/contents/ui/PrintPreview.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Параметры"
+
+#: lib/contents/ui/PrintPreview.qml:173
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Print backgrounds"
+msgstr "Печать фона"
+
+#: lib/contents/ui/WebView.qml:352
+#, kde-format
+msgctxt "@info:status"
+msgid "Website was opened in a new tab"
+msgstr "Страница открыта в новой вкладке"
+
+#: lib/contents/ui/WebView.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "Entered Full Screen mode"
+msgstr "Выполнен переход в полноэкранный режим"
+
+#: lib/contents/ui/WebView.qml:371
+#, kde-format
+msgctxt "@action:button"
+msgid "Exit Full Screen (Esc)"
+msgstr "Выйти из полноэкранного режима (Esc)"
+
+#: lib/contents/ui/WebView.qml:506
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Play"
+msgstr "Воспроизвести"
+
+#: lib/contents/ui/WebView.qml:507
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Pause"
+msgstr "Приостановить"
+
+#: lib/contents/ui/WebView.qml:514
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Unmute"
+msgstr "Включить звук"
+
+#: lib/contents/ui/WebView.qml:515
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Mute"
+msgstr "Отключить звук"
+
+#: lib/contents/ui/WebView.qml:525
+#, kde-format
+msgctxt "@label"
+msgid "Speed"
+msgstr "Скорость"
+
+#: lib/contents/ui/WebView.qml:548
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Loop"
+msgstr "Цикл"
+
+#: lib/contents/ui/WebView.qml:555
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exit Fullscreen"
+msgstr "Выйти из полноэкранного режима"
+
+#: lib/contents/ui/WebView.qml:555
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enter Fullscreen"
+msgstr "Перейти в полноэкранный режим"
+
+#: lib/contents/ui/WebView.qml:568
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Controls"
+msgstr "Скрыть элементы управления"
+
+#: lib/contents/ui/WebView.qml:569
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Controls"
+msgstr "Показать элементы управления"
+
+#: lib/contents/ui/WebView.qml:577
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video"
+msgstr "Открыть видео"
+
+#: lib/contents/ui/WebView.qml:577
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio"
+msgstr "Открыть аудио"
+
+#: lib/contents/ui/WebView.qml:578
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video in New Tab"
+msgstr "Открыть видео в новой вкладке"
+
+#: lib/contents/ui/WebView.qml:578
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio in New Tab"
+msgstr "Открыть аудио в новой вкладке"
+
+#: lib/contents/ui/WebView.qml:590
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Video"
+msgstr "Сохранить видео"
+
+#: lib/contents/ui/WebView.qml:596
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Video Link"
+msgstr "Копировать ссылку на видео"
+
+#: lib/contents/ui/WebView.qml:602
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image"
+msgstr "Открыть изображение"
+
+#: lib/contents/ui/WebView.qml:602
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image in New Tab"
+msgstr "Открыть изображение в новой вкладке"
+
+#: lib/contents/ui/WebView.qml:614
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Image"
+msgstr "Сохранить изображение"
+
+#: lib/contents/ui/WebView.qml:620
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image"
+msgstr "Копировать изображение"
+
+#: lib/contents/ui/WebView.qml:626
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image Link"
+msgstr "Копировать ссылку на изображение"
+
+#: lib/contents/ui/WebView.qml:632
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link"
+msgstr "Открыть ссылку"
+
+#: lib/contents/ui/WebView.qml:632
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link in New Tab"
+msgstr "Открыть ссылку в новой вкладке"
+
+#: lib/contents/ui/WebView.qml:644
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Link"
+msgstr "Добавить ссылку в закладки"
+
+#: lib/contents/ui/WebView.qml:656
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Link"
+msgstr "Сохранить ссылку"
+
+#: lib/contents/ui/WebView.qml:662
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr "Копировать ссылку"
+
+#: lib/contents/ui/WebView.qml:669
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Копировать"
+
+#: lib/contents/ui/WebView.qml:675
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "Вырезать"
+
+#: lib/contents/ui/WebView.qml:681
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "Вставить"
+
+#: lib/contents/ui/WebView.qml:689
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search for “%1”"
+msgstr "Найти «%1» в Интернете"
+
+#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
+#: src/qml/Mobile.qml:350
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Share Page"
+msgstr "Поделиться страницей"
+
+#: lib/contents/ui/WebView.qml:714
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View Page Source"
+msgstr "Показать исходный код страницы"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "URL-адрес для открытия"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Angelfish"
+msgstr "Angelfish"
+
+#: src/main.cpp:88
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr "Веб-браузер для Plasma Mobile"
+
+#: src/main.cpp:90
+#, kde-format
+msgid "© 2015-2026 KDE Community"
+msgstr "© Сообщество KDE, 2015-2026"
+
+#: src/main.cpp:93
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr "Jonah Brüchert"
+
+#: src/main.cpp:93
+#, kde-format
+msgid "Maintainer"
+msgstr "Сопровождающий"
+
+#: src/main.cpp:94
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Дмитрий Астанков, Олеся Герасименко"
+
+#: src/main.cpp:94
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mornie@basealt.ru, translation-team@basealt.ru"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The adblocker is missing its filter lists, do you want to download them now?"
+msgstr "Блокировщику рекламы не хватает списков фильтров. Загрузить их сейчас?"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
+#, kde-format
+msgctxt "@info"
+msgid "Downloading…"
+msgstr "Загрузка…"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Отключить блокировку рекламы"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr "Блокировка рекламы отключена…"
+
+#: src/qml/Bookmarks.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/qml/desktop/Desktop.qml:152
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search or enter URL…"
+msgstr "Выполнить поиск или ввести URL-адрес…"
+
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
+#: src/qml/Navigation.qml:462
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Новая вкладка"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Leave Private Mode"
+msgstr "Отключить приватный режим"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Private Mode"
+msgstr "Включить приватный режим"
+
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:106
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "History"
+msgstr "Журнал"
+
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:98
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:110
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: src/qml/desktop/Desktop.qml:335
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr "Мобильный режим просмотра"
+
+#: src/qml/desktop/Desktop.qml:345
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Print"
+msgstr "Печать"
+
+#: src/qml/desktop/Desktop.qml:351
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Full Screen"
+msgstr "Во весь экран"
+
+#: src/qml/desktop/Desktop.qml:368
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Developer Tools"
+msgstr "Скрыть инструменты для разработки"
+
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:448
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Developer Tools"
+msgstr "Показать инструменты для разработки"
+
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:346
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Find in Page"
+msgstr "Найти на странице"
+
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:431
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr "Режим чтения"
+
+#: src/qml/desktop/Desktop.qml:404
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Application Launcher"
+msgstr "Добавить в средство запуска программ"
+
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:125
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "Параметры"
+
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Angelfish"
+msgstr "О Angelfish"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:277
+#, kde-format
+msgctxt "@label"
+msgid "Reader mode: %1"
+msgstr "Режим чтения: %1"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:293
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close tab"
+msgstr "Закрыть вкладку"
+
+#: src/qml/desktop/DesktopTabs.qml:203
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "Открыть новую вкладку"
+
+#: src/qml/desktop/DesktopTabs.qml:236
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "List all tabs"
+msgstr "Показать все вкладки"
+
+#: src/qml/desktop/DesktopTabs.qml:276
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload Tab"
+msgstr "Обновить вкладку"
+
+#: src/qml/desktop/DesktopTabs.qml:284
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Duplicate Tab"
+msgstr "Создать копию вкладки"
+
+#: src/qml/desktop/DesktopTabs.qml:292
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Tab"
+msgstr "Добавить вкладку в закладки"
+
+#: src/qml/desktop/DesktopTabs.qml:308
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Закрыть вкладку"
+
+#: src/qml/desktop/DesktopTabs.qml:314
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
+msgstr "Повторно открыть закрытую вкладку"
+
+#: src/qml/Downloads.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr "Очистить завершённые загрузки"
+
+#: src/qml/Downloads.qml:47
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No running downloads"
+msgstr "Нет выполняемых загрузок"
+
+#: src/qml/Downloads.qml:96
+#, kde-format
+msgctxt "@info:progress"
+msgid "Starting…"
+msgstr "Запуск…"
+
+#: src/qml/Downloads.qml:98
+#, kde-format
+msgctxt "@info:progress"
+msgid "Completed"
+msgstr "Завершено"
+
+#: src/qml/Downloads.qml:100
+#, kde-format
+msgctxt "@info:progress"
+msgid "Cancelled"
+msgstr "Отменено"
+
+#: src/qml/Downloads.qml:102
+#, kde-format
+msgctxt "@info:progress"
+msgid "Interrupted"
+msgstr "Прервано"
+
+#: src/qml/Downloads.qml:104
+#, kde-format
+msgctxt "@info:progress"
+msgid "In progress…"
+msgstr "Выполняется…"
+
+#: src/qml/Downloads.qml:111
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/qml/Downloads.qml:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "Приостановить"
+
+#: src/qml/Downloads.qml:136
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Continue"
+msgstr "Продолжить"
+
+#: src/qml/FindInPageBar.qml:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Выполнить поиск…"
+
+#: src/qml/History.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "History"
+msgstr "Журнал"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Очистить весь журнал"
+
+#: src/qml/Mobile.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Angelfish Web Browser"
+msgstr "Веб-браузер Angelfish"
+
+#: src/qml/Mobile.qml:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: src/qml/Mobile.qml:118
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Desktop Mode"
+msgstr "Режим просмотра для ПК"
+
+#: src/qml/Mobile.qml:361
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Homescreen"
+msgstr "Добавить на домашний экран"
+
+#: src/qml/Mobile.qml:373
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in App"
+msgstr "Открыть в приложении"
+
+#: src/qml/Mobile.qml:381
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr "На предыдущую страницу"
+
+#: src/qml/Mobile.qml:389
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Forward"
+msgstr "На следующую страницу"
+
+#: src/qml/Mobile.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
+msgstr "Остановить загрузку"
+
+#: src/qml/Mobile.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Refresh"
+msgstr "Обновить"
+
+#: src/qml/Mobile.qml:406
+#, kde-format
+msgctxt "@info:status"
+msgid "Bookmarked"
+msgstr "В закладках"
+
+#: src/qml/Mobile.qml:406
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark"
+msgstr "Добавить закладку"
+
+#: src/qml/Mobile.qml:422
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Desktop Site"
+msgstr "Показать версию для настольного ПК"
+
+#: src/qml/Mobile.qml:439
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Navigation Bar"
+msgstr "Скрыть панель навигации"
+
+#: src/qml/Navigation.qml:435
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Done"
+msgstr "Готово"
+
+#: src/qml/Navigation.qml:448
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 tabs"
+msgstr "Вкладок: %1"
+
+#: src/qml/ShareSheet.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Share Page"
+msgstr "Публикация страницы"
+
+#: src/qml/WebAppNameDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Add to Application Launcher"
+msgstr "Добавить в средство запуска программ"
+
+#: src/qml/WebAppNameDialog.qml:32
+#, kde-format
+msgctxt "@info"
+msgid "Enter a name for the web application:"
+msgstr "Укажите имя веб-приложения:"
+
+#: src/qml/WebAppNameDialog.qml:39
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Application name"
+msgstr "Имя приложения"
+
+#: src/settings/AngelfishConfigurationView.qml:14
+#: src/settings/SettingsGeneral.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "General"
+msgstr "Общие"
+
+#: src/settings/AngelfishConfigurationView.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock"
+msgstr "Блокировка рекламы"
+
+#: src/settings/AngelfishConfigurationView.qml:26
+#: src/settings/SettingsWebApps.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Web Apps"
+msgstr "Веб-приложения"
+
+#: src/settings/AngelfishConfigurationView.qml:32
+#: src/settings/SettingsSearchEnginePage.qml:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Search Engines"
+msgstr "Поисковые системы"
+
+#: src/settings/AngelfishConfigurationView.qml:38
+#: src/settings/DesktopHomeSettingsPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Toolbars"
+msgstr "Панели инструментов"
+
+#: src/settings/AngelfishConfigurationView.qml:44
+#, kde-format
+msgid "About Angelfish"
+msgstr "О Angelfish"
+
+#: src/settings/AngelfishConfigurationView.qml:47
+#, kde-format
+msgctxt "@title:group"
+msgid "About"
+msgstr "О приложении"
+
+#: src/settings/DesktopHomeSettingsPage.qml:25
+#, kde-format
+msgctxt "@label"
+msgid "Show home button:"
+msgstr "Показывать кнопку «Домой»:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:26
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr ""
+"Кнопка «Домой» будет показана рядом с кнопкой обновления на панели "
+"инструментов."
+
+#: src/settings/DesktopHomeSettingsPage.qml:36
+#, kde-format
+msgctxt "@label"
+msgid "Homepage:"
+msgstr "Домашняя страница:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:59
+#, kde-format
+msgctxt "@label"
+msgid "New tabs:"
+msgstr "Новые вкладки:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:82
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Always show the tab bar"
+msgstr "Всегда показывать панель вкладок"
+
+#: src/settings/DesktopHomeSettingsPage.qml:83
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open."
+msgstr ""
+"Панель вкладок будет показана даже тогда, когда открыта всего одна вкладка."
+
+#: src/settings/SettingsAdblock.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock Settings"
+msgstr "Параметры блокировки рекламы"
+
+#: src/settings/SettingsAdblock.qml:23
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add filter list"
+msgstr "Добавить список фильтров"
+
+#: src/settings/SettingsAdblock.qml:27
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Update Lists"
+msgstr "Обновить списки"
+
+#: src/settings/SettingsAdblock.qml:49
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr ""
+"В эту сборку не включена функциональная возможность блокировки рекламы."
+
+#: src/settings/SettingsAdblock.qml:101
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this filter list"
+msgstr "Удалить этот список фильтров"
+
+#: src/settings/SettingsAdblock.qml:113
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Filter List"
+msgstr "Добавить список фильтров"
+
+#: src/settings/SettingsAdblock.qml:125
+#, kde-format
+msgctxt "@title:group"
+msgid "Add Filter List"
+msgstr "Добавление списка фильтров"
+
+#: src/settings/SettingsAdblock.qml:130
+#, kde-format
+msgctxt "@label"
+msgid "Name"
+msgstr "Название"
+
+#: src/settings/SettingsAdblock.qml:139
+#, kde-format
+msgctxt "@label"
+msgid "URL"
+msgstr "URL-адрес"
+
+#: src/settings/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Включить JavaScript"
+
+#: src/settings/SettingsGeneral.qml:29
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr ""
+"Некоторые веб-сайты могут работать некорректно, если этот параметр отключён."
+
+#: src/settings/SettingsGeneral.qml:38
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Load images"
+msgstr "Загружать изображения"
+
+#: src/settings/SettingsGeneral.qml:39
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr "Следует ли загружать изображения на веб-сайтах."
+
+#: src/settings/SettingsGeneral.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Enable adblock"
+msgstr "Включить блокировку рекламы"
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr "Попытаться предотвратить показ рекламы на веб-сайтах."
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Adblock functionality was not included in this build."
+msgstr ""
+"В эту сборку не включена функциональная возможность блокировки рекламы."
+
+#: src/settings/SettingsGeneral.qml:59
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Switch to new tab immediately"
+msgstr "Сразу переключаться на новую вкладку"
+
+#: src/settings/SettingsGeneral.qml:60
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately."
+msgstr ""
+"Когда ссылка, изображение или мультимедийные данные открываются в новой "
+"вкладке, сразу переключаться на неё."
+
+#: src/settings/SettingsGeneral.qml:69
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use smooth scrolling"
+msgstr "Использовать плавную прокрутку"
+
+#: src/settings/SettingsGeneral.qml:70
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+"Прокрутка выполняется более плавно и не останавливается сразу же при "
+"прекращении соответствующего действия пользователем. Для применения "
+"необходимо перезапустить программу."
+
+#: src/settings/SettingsGeneral.qml:79
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use dark color scheme"
+msgstr "Использовать тёмную цветовую схему"
+
+#: src/settings/SettingsGeneral.qml:80
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+"Для веб-сайтов будут установлены тёмные цветовые схемы. Для применения "
+"необходимо перезапустить программу."
+
+#: src/settings/SettingsNavigationBarPage.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Navigation Bar"
+msgstr "Панель навигации"
+
+#: src/settings/SettingsNavigationBarPage.qml:27
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Выберите кнопки, включённые на панели навигации. Некоторые из кнопок могут "
+"быть скрыты только при книжной ориентации браузера и будут всегда показаны, "
+"когда ширина браузера превышает его высоту.\n"
+"\n"
+" Обратите внимание: если кнопки меню отключены, доступ к меню возможно "
+"получить путём проведения пальцем с левого или правого края экрана или вдоль "
+"нижнего края окна."
+
+#: src/settings/SettingsNavigationBarPage.qml:36
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Main menu in portrait"
+msgstr "Главное меню в книжной ориентации"
+
+#: src/settings/SettingsNavigationBarPage.qml:42
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Tabs in portrait"
+msgstr "Вкладки в книжной ориентации"
+
+#: src/settings/SettingsNavigationBarPage.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Context menu in portrait"
+msgstr "Контекстное меню в книжной ориентации"
+
+#: src/settings/SettingsNavigationBarPage.qml:54
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go back"
+msgstr "На предыдущую страницу"
+
+#: src/settings/SettingsNavigationBarPage.qml:60
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go forward"
+msgstr "На следующую страницу"
+
+#: src/settings/SettingsNavigationBarPage.qml:66
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Reload/Stop"
+msgstr "Обновить/Остановить"
+
+#: src/settings/SettingsSearchEnginePage.qml:18
+#, kde-format
+msgctxt "@window:title"
+msgid "Search Engines"
+msgstr "Поисковые системы"
+
+#: src/settings/SettingsSearchEnginePage.qml:21
+#, kde-format
+msgctxt "@label"
+msgid "Custom"
+msgstr "Другая"
+
+#: src/settings/SettingsSearchEnginePage.qml:123
+#, kde-format
+msgctxt "@label"
+msgid "Base URL of your preferred search engine"
+msgstr "Основной URL-адрес предпочитаемой поисковой системы"
+
+#: src/settings/SettingsWebApps.qml:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove app"
+msgstr "Удалить приложение"
+
+#: src/settings/SettingsWebApps.qml:85
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No web apps installed"
+msgstr "Установленные веб-приложения отсутствуют"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search bookmarks…"
+#~ msgstr "Выполнить поиск в закладках…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No bookmarks yet"
+#~ msgstr "Закладок ещё нет"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search history…"
+#~ msgstr "Выполнить поиск в журнале…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No history yet"
+#~ msgstr "В журнале ещё нет записей"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Fullscreen"
+#~ msgstr "На весь экран"
+
+#~ msgid "Private mode"
+#~ msgstr "Включить приватный режим"
+
+#~ msgid "Search..."
+#~ msgstr "Поиск..."
+
+#~ msgid "Go previous"
+#~ msgstr "На предыдущую страницу"
+
+#~ msgid "Reader Mode"
+#~ msgstr "Режим чтения"
+
+#~ msgid "Share page to"
+#~ msgstr "Поделиться страницей"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add Filterlist"
+#~ msgstr "Добавить список фильтров"
+
+#~ msgid "Url"
+#~ msgstr "URL"
+
+#~ msgid "Show navigation bar"
+#~ msgstr "Показать панель навигации"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "Enabled"
+#~ msgstr "Включено"
+
+#~ msgid "Disabled"
+#~ msgstr "Отключено"
+
+#~ msgid "Search online"
+#~ msgstr "Поиск в Интернете"
+
+#~ msgid "Confirm"
+#~ msgstr "Подтвердить"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid "Home"
+#~ msgstr "Домашняя страница"
+
+#~ msgid "New"
+#~ msgstr "Создать"
+
+#~ msgid "Choose the buttons enabled in navigation bar. "
+#~ msgstr "Выберите кнопки, включённые на панели навигации."
+
+#~ msgid "Website that should be loaded on startup"
+#~ msgstr "Веб-сайт, загружаемый при запуске программы"

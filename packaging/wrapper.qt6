@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+export LD_LIBRARY_PATH=$(pwd)/lib/aarch64-linux-gnu
+export QTWEBENGINEPROCESS_PATH=$(pwd)/lib/aarch64-linux-gnu/bin/QtWebEngineProcess
+export QTWEBENGINE_RESOURCES_PATH=$(pwd)/lib/aarch64-linux-gnu/resources
+export QTWEBENGINE_LOCALES_PATH=$(pwd)/lib/aarch64-linux-gnu/translations/qtwebengine_locales
+export QT_PLUGIN_PATH=$(pwd)/lib/aarch64-linux-gnu/qt6/plugins
+export QML_IMPORT_PATH=$(pwd)/lib/aarch64-linux-gnu/qt6/qml
+export QT_IM_MODULE=maliit
+export QT_OPENGL_VARIANT=gles
+export QT_QUICK_CONTROLS_MOBILE=true
+export QT_QUICK_CONTROLS_STYLE=Material
+export XDG_DATA_DIRS=$(pwd):${XDG_DATA_DIRS:-/usr/local/share:/usr/share}
+
+exec "$@"

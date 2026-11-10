@@ -1,0 +1,8 @@
+.clang-format
+CMakeLists.txt.user
+build*
+_build
+compile_commands.json
+src/angelfish.generated.qrc
+angelfish-webapp/webapp-resources.generated.qrc
+lib/resources-angelfish.generated.qrc

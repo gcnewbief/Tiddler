@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <id>org.kde.angelfish</id>
+  <name>Angelfish</name>
+  <name xml:lang="ar">انجلفش</name>
+  <name xml:lang="ca">Angelfish</name>
+  <name xml:lang="ca-valencia">Angelfish</name>
+  <name xml:lang="cs">Angelfish</name>
+  <name xml:lang="de">Angelfish</name>
+  <name xml:lang="el">Angelfish</name>
+  <name xml:lang="en-GB">Angelfish</name>
+  <name xml:lang="eo">Angelfish</name>
+  <name xml:lang="es">Angelfish</name>
+  <name xml:lang="eu">Angelfish</name>
+  <name xml:lang="fi">Angelfish</name>
+  <name xml:lang="fr">Angelfish</name>
+  <name xml:lang="gl">Angelfish</name>
+  <name xml:lang="he">Angelfish</name>
+  <name xml:lang="hi">एंजेलफ़िश</name>
+  <name xml:lang="hu">Angelfish</name>
+  <name xml:lang="ia">Angelfish</name>
+  <name xml:lang="it">Angelfish</name>
+  <name xml:lang="ka">Angelfish</name>
+  <name xml:lang="ko">Angelfish</name>
+  <name xml:lang="lt">Angelfish</name>
+  <name xml:lang="lv">Angelfish</name>
+  <name xml:lang="nl">Angelfish</name>
+  <name xml:lang="pa">ਐਂਜਲਫਿਸ਼</name>
+  <name xml:lang="pl">Angelfish</name>
+  <name xml:lang="pt-BR">Angelfish</name>
+  <name xml:lang="ru">Angelfish</name>
+  <name xml:lang="sa">एन्जिल्फिश</name>
+  <name xml:lang="sk">Angelfish</name>
+  <name xml:lang="sl">Angelfish</name>
+  <name xml:lang="sv">Angelfish</name>
+  <name xml:lang="ta">ஏஞ்சல்ஃபிஷ்</name>
+  <name xml:lang="tr">Melekbalığı</name>
+  <name xml:lang="uk">Angelfish</name>
+  <name xml:lang="zh-CN">Angelfish</name>
+  <name xml:lang="zh-TW">Angelfish</name>
+  <summary>Webbrowser for mobile devices</summary>
+  <summary xml:lang="ar">متصفح وبّ للأجهزة المحمولة</summary>
+  <summary xml:lang="az">Mobil qurğular üçün Veb_Bələdçi</summary>
+  <summary xml:lang="ca">Navegador web per a dispositius mòbils</summary>
+  <summary xml:lang="ca-valencia">Navegador web per a dispositius mòbils</summary>
+  <summary xml:lang="cs">Webový prohlížeč pro mobilní zařízení</summary>
+  <summary xml:lang="da">Webbrowser til mobile enheder</summary>
+  <summary xml:lang="de">Webbrowser für mobile Geräte</summary>
+  <summary xml:lang="el">Περιηγητής ιστού για κινητά</summary>
+  <summary xml:lang="en-GB">Web browser for mobile devices</summary>
+  <summary xml:lang="eo">Retumilo por porteblaj aparatoj</summary>
+  <summary xml:lang="es">Navegador web para dispositivos móviles</summary>
+  <summary xml:lang="et">Mobiilseadmete veebilehitseja</summary>
+  <summary xml:lang="eu">Gailu mugikorretarako web-arakatzailea</summary>
+  <summary xml:lang="fi">Verkkoselain mobiililaitteille</summary>
+  <summary xml:lang="fr">Navigateur web pour les appareils mobiles</summary>
+  <summary xml:lang="gl">Navegador web para dispositivos móbiles</summary>
+  <summary xml:lang="he">דפדפן אינטרנט למכשירים ניידים</summary>
+  <summary xml:lang="hi">मोबाइल उपकरणों के लिए वेब ब्राउज़र</summary>
+  <summary xml:lang="hu">Webböngésző mobileszközökre</summary>
+  <summary xml:lang="ia">Webbrowser (Navigator de web) per dispositivos mobile</summary>
+  <summary xml:lang="id">Webbrowser untuk peranti ponsel</summary>
+  <summary xml:lang="it">Browser web per dispositivi mobili</summary>
+  <summary xml:lang="ka">ბრაუზერი მობილური მოწყობილობებისთვის</summary>
+  <summary xml:lang="ko">모바일 장치용 웹 브라우저</summary>
+  <summary xml:lang="lt">Saityno naršyklė mobiliesiems įrenginiams</summary>
+  <summary xml:lang="lv">Tīmekļa pārlūks mobilajā ierīcēm</summary>
+  <summary xml:lang="nl">Webbrowser voor mobiele apparaten</summary>
+  <summary xml:lang="nn">Nettlesar for mobile einingar</summary>
+  <summary xml:lang="pa">ਮੋਬਾਈਲ ਡਿਵਾਈਸਾਂ ਲਈ ਵੈੱਬ-ਬਰਾਊਜ਼ਰ</summary>
+  <summary xml:lang="pl">Przeglądarka sieciowa przystosowana do urządzeń przenośnych</summary>
+  <summary xml:lang="pt">Navegador Web para dispositivos móveis</summary>
+  <summary xml:lang="pt-BR">Navegador Web para dispositivos móveis</summary>
+  <summary xml:lang="ru">Веб-браузер для мобильных устройств</summary>
+  <summary xml:lang="sa">चलयन्त्राणां कृते जालपुटम्</summary>
+  <summary xml:lang="sk">Webový prehliadač pre mobilné zariadenia</summary>
+  <summary xml:lang="sl">Spletni brskalnik za mobilne naprave</summary>
+  <summary xml:lang="sv">Webbläsare för mobila apparater</summary>
+  <summary xml:lang="tr">Taşınabilir aygıtlar için web tarayıcısı</summary>
+  <summary xml:lang="uk">Браузер для мобільних пристроїв</summary>
+  <summary xml:lang="zh-CN">移动设备的网络浏览器</summary>
+  <summary xml:lang="zh-TW">適用於行動裝置的網頁瀏覽器</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  <content_rating type="oars-1.1"/>
+  <developer id="org.kde">
+    <name translate="no">KDE</name>
+  </developer>
+  <description>
+    <p>Angelfish is a modern mobile webbrowser</p>
+    <p xml:lang="ar">انجيلفيش هو متصفح وبّ حديث للأجهزة المحمولة</p>
+    <p xml:lang="az">Angelfish müasir mobil veb_bələdçidir</p>
+    <p xml:lang="ca">L'Angelfish és un navegador web modern per a mòbils</p>
+    <p xml:lang="ca-valencia">Angelfish és un navegador web modern per a mòbils</p>
+    <p xml:lang="cs">Angelfish je moderní mobilní webový prohlížeč</p>
+    <p xml:lang="da">Angelfish er en moderne mobil-webbrowser</p>
+    <p xml:lang="de">Angelfish ist ein moderner Webbrowser für mobile Geräte</p>
+    <p xml:lang="el">Το Angelfish είναι ένας σύγχρονος περιηγητής ιστού για κινητά</p>
+    <p xml:lang="en-GB">Angelfish is a modern mobile web browser</p>
+    <p xml:lang="eo">Angelfish estas moderna movebla retumilo</p>
+    <p xml:lang="es">Angelfish es un moderno navegador web móvil</p>
+    <p xml:lang="et">Angelfish on tänapäevane mobiilne veebilehitseja</p>
+    <p xml:lang="eu">Angelfish web-arakatzaile mugikor moderno bat da</p>
+    <p xml:lang="fi">Angelfish on nykyaikainen mobiiliverkkoselain</p>
+    <p xml:lang="fr">Angelfish est un navigateur web mobile moderne</p>
+    <p xml:lang="gl">Angelfish é un navegador web móbil moderno.</p>
+    <p xml:lang="he">Angelfish הוא דפדפן אינטרנט מודרני למכשירים ניידים</p>
+    <p xml:lang="hi">एंजेलफिश एक आधुनिक मोबाइल वेब ब्राउज़र है</p>
+    <p xml:lang="hu">Az Angelfish egy modern mobilos webböngésző</p>
+    <p xml:lang="ia">Angelfish es un moderne Webbrowser (navigator web) de mobile</p>
+    <p xml:lang="id">Angelfish adalah sebuah webbrowser ponsel yang modern</p>
+    <p xml:lang="it">Angelfish è un browser web moderno per dispositivi mobili</p>
+    <p xml:lang="ka">Angelfish თანამედროვე ბრაუზერია მობილური მოწყობილობებისთვის</p>
+    <p xml:lang="ko">Angelfish는 현대적인 모바일 웹 브라우저입니다</p>
+    <p xml:lang="lt">Angelfish yra šiuolaikinė mobilioji saityno naršyklė</p>
+    <p xml:lang="lv">„Angelfish“ ir moderna tīmekļa pārlūkprogramma</p>
+    <p xml:lang="nl">Angelfish is een moderne mobiele webbrowser</p>
+    <p xml:lang="nn">Angelfish er ein moderne nettlesar for mobiltelefonar.</p>
+    <p xml:lang="pa">ਐਂਜਲਫਿਸ਼ ਨਵੇਂ ਜ਼ਮਾਨੇ ਦਾ ਮੋਬਾਈਲ ਵੈੱਬ-ਬਰਾਊਜ਼ਰ ਹੈ</p>
+    <p xml:lang="pl">Angelfish to nowoczesna, przenośna przeglądarka sieciowa</p>
+    <p xml:lang="pt">O Angelfish é um navegador Web móvel moderno</p>
+    <p xml:lang="pt-BR">O Angelfish é um navegador Web móvel modem</p>
+    <p xml:lang="ru">Angelfish — это современный веб-браузер для мобильных устройств</p>
+    <p xml:lang="sa">एन्जेल्फिश आधुनिकः चलजालपुटः अस्ति</p>
+    <p xml:lang="sk">Angelfish je moderný mobilný webový prehliadač</p>
+    <p xml:lang="sl">Angelfish je sodobni mobilni spletni brskalnik</p>
+    <p xml:lang="sv">Angelfish är en modern mobilwebbläsare</p>
+    <p xml:lang="tr">Melekbalığı; çağdaş ve taşınabilir bir web tarayıcısıdır</p>
+    <p xml:lang="uk">Angelfish — сучасний браузер для мобільних пристроїв</p>
+    <p xml:lang="zh-CN">Angelfish 是一款现代化的移动设备网络浏览器</p>
+    <p xml:lang="zh-TW">Angelfish 是款現代化的行動網頁瀏覽器</p>
+    <p>It supports typical browser features, such as</p>
+    <p xml:lang="ar">يدعم مزايا المتصفح التقليدي مثل</p>
+    <p xml:lang="az">O, veb bələdçilərə xas aşağıda göstərilən bir çox xüsusiyyətləri dəstəkləyir</p>
+    <p xml:lang="ca">Permet les funcionalitats típiques de navegació, com</p>
+    <p xml:lang="ca-valencia">Permet les característiques típiques de navegació, com</p>
+    <p xml:lang="cs">Podporuje typické vlastnosti prohlížeče jako</p>
+    <p xml:lang="da">Den understøtter almindelige browserfunktioner såsom</p>
+    <p xml:lang="de">Er unterstützt die typischen Funktionen von Browsern wie</p>
+    <p xml:lang="el">Υποστηρίζει τις τυπικές λειτουργίες ενός περιηγητή, όπως</p>
+    <p xml:lang="en-GB">It supports typical browser features, such as</p>
+    <p xml:lang="eo">Ĝi subtenas tipajn retumilajn funkciojn, kiel ekzemple</p>
+    <p xml:lang="es">Permite las funciones típicas de un navegador, como</p>
+    <p xml:lang="et">See toetab tüüpilisi veebilehitseja võimalusi, nagu</p>
+    <p xml:lang="eu">Arakatzaileen ohiko ezaugarriak ditu, besteak beste</p>
+    <p xml:lang="fi">Tukee tavallisia selainominaisuuksia kuten</p>
+    <p xml:lang="fr">Il prend en charge les fonctionnalités classiques des navigateurs :</p>
+    <p xml:lang="gl">Goza das funcionalidades habituais dos navegadores, como:</p>
+    <p xml:lang="he">הוא תומך במגוון יכולות טיפוסיות של דפדפנים כגון</p>
+    <p xml:lang="hi">यह सामान्य ब्राउज़र सुविधाओं का समर्थन करता है, जैसे</p>
+    <p xml:lang="hu">Támogatja a megszokott szolgáltatásokat, úgy mint</p>
+    <p xml:lang="ia">Il supporta typic characteristicas de navigator, tal como</p>
+    <p xml:lang="id">Ini mendukung fitur-fitur browser biasanya, sepertihalnya</p>
+    <p xml:lang="it">Supporta le funzionalità tipiche del browser, quali</p>
+    <p xml:lang="ka">მას აქვს ისეთი ფუნქციების ტიპიური ნაკრები, როგორიცაა</p>
+    <p xml:lang="ko">다음과 같은 웹 브라우저 기능을 제공합니다</p>
+    <p xml:lang="lt">Ji palaiko tipines naršyklės ypatybes, tokias kaip</p>
+    <p xml:lang="lv">Tā atbalsta ierastās pārlūku iespējas, tai skaitā:</p>
+    <p xml:lang="nl">Het ondersteunt typische browserfuncties, zoals</p>
+    <p xml:lang="nn">Han støttar vanlege nettlesarfunksjonar:</p>
+    <p xml:lang="pa">ਇਹ ਸਧਾਰਨ ਬਰਾਊਜ਼ਰ ਫੀਚਰਾਂ ਲਈ ਸਹਾਇਕ ਹੈ ਜਿਵੇਂ ਕਿ</p>
+    <p xml:lang="pl">Obsługuje zwyczajne funkcje przeglądarki, takie jak</p>
+    <p xml:lang="pt">Suporta as funcionalidades típicas de navegação, como</p>
+    <p xml:lang="pt-BR">Tem suporte a funcionalidades típicas de navegação, como</p>
+    <p xml:lang="ru">Он поддерживает типичные функции веб-браузеров, такие как</p>
+    <p xml:lang="sa">एतत् विशिष्टानि ब्राउजर्-विशेषतानि समर्थयति, यथा...</p>
+    <p xml:lang="sk">Podporuje typické funkcie prehliadača, ako napr.</p>
+    <p xml:lang="sl">Podpira tipične možnosti brskalnikov, kot so</p>
+    <p xml:lang="sv">Den stöder typiska webbläsarfunktioner, såsom</p>
+    <p xml:lang="tr">Aşağıda bir listesini görebileceğiniz standart web tarayıcısı özelliklerine sahiptir:</p>
+    <p xml:lang="uk">Передбачено типові можливості браузера, зокрема</p>
+    <p xml:lang="zh-CN">它支持典型的浏览器功能，例如：</p>
+    <p xml:lang="zh-TW">此瀏覽器支援一般瀏覽器會有的功能，例如</p>
+    <ul>
+      <li>bookmarks</li>
+      <li xml:lang="ar">المفضلة</li>
+      <li xml:lang="az">əlfəcinlər</li>
+      <li xml:lang="ca">adreces d'interès</li>
+      <li xml:lang="ca-valencia">adreces d'interés</li>
+      <li xml:lang="cs">záložky</li>
+      <li xml:lang="da">bogmærker</li>
+      <li xml:lang="de">Lesezeichen</li>
+      <li xml:lang="el">σελιδοδείκτες</li>
+      <li xml:lang="en-GB">bookmarks</li>
+      <li xml:lang="eo">legosignoj</li>
+      <li xml:lang="es">marcadores</li>
+      <li xml:lang="et">järjehoidjad</li>
+      <li xml:lang="eu">laster-markak</li>
+      <li xml:lang="fi">kirjanmerkit</li>
+      <li xml:lang="fr">signets</li>
+      <li xml:lang="gl">marcadores</li>
+      <li xml:lang="he">סימניות</li>
+      <li xml:lang="hi">बुकमार्क</li>
+      <li xml:lang="hu">könyvjelzők</li>
+      <li xml:lang="ia">Marcatores de libro</li>
+      <li xml:lang="id">markah</li>
+      <li xml:lang="it">segnalibri</li>
+      <li xml:lang="ka">სანიშნები</li>
+      <li xml:lang="ko">책갈피</li>
+      <li xml:lang="lt">žymeles</li>
+      <li xml:lang="lv">grāmatzīmess</li>
+      <li xml:lang="nl">bladwijzers</li>
+      <li xml:lang="nn">bokmerke</li>
+      <li xml:lang="pa">ਬੁੱਕਮਾਰਕ</li>
+      <li xml:lang="pl">zakładki</li>
+      <li xml:lang="pt">favoritos</li>
+      <li xml:lang="pt-BR">favoritos</li>
+      <li xml:lang="ru">закладки</li>
+      <li xml:lang="sa">पुस्तकचिह्नानि</li>
+      <li xml:lang="sk">zalozky</li>
+      <li xml:lang="sl">zaznamki</li>
+      <li xml:lang="sv">bokmärken</li>
+      <li xml:lang="tr">yer imleri</li>
+      <li xml:lang="ug">خەتكۈش</li>
+      <li xml:lang="uk">закладки</li>
+      <li xml:lang="zh-CN">书签</li>
+      <li xml:lang="zh-TW">書籤</li>
+      <li>history</li>
+      <li xml:lang="ar">السجل</li>
+      <li xml:lang="az">tarixçə</li>
+      <li xml:lang="ca">historial</li>
+      <li xml:lang="ca-valencia">historial</li>
+      <li xml:lang="cs">historie</li>
+      <li xml:lang="da">historik</li>
+      <li xml:lang="de">Verlauf</li>
+      <li xml:lang="el">ιστορικό</li>
+      <li xml:lang="en-GB">history</li>
+      <li xml:lang="eo">historio</li>
+      <li xml:lang="es">historial</li>
+      <li xml:lang="et">ajalugu</li>
+      <li xml:lang="eu">historiala</li>
+      <li xml:lang="fi">historia</li>
+      <li xml:lang="fr">historique</li>
+      <li xml:lang="gl">historial</li>
+      <li xml:lang="he">היסטוריה</li>
+      <li xml:lang="hi">इतिहास</li>
+      <li xml:lang="hu">előzmények</li>
+      <li xml:lang="ia">Chronologia</li>
+      <li xml:lang="id">histori</li>
+      <li xml:lang="it">cronologia</li>
+      <li xml:lang="ka">ისტორია</li>
+      <li xml:lang="ko">과거 기록</li>
+      <li xml:lang="lt">istoriją</li>
+      <li xml:lang="lv">vēsturi</li>
+      <li xml:lang="nl">geschiedenis</li>
+      <li xml:lang="nn">besøkslogg</li>
+      <li xml:lang="pa">ਅਤੀਤ</li>
+      <li xml:lang="pl">historia</li>
+      <li xml:lang="pt">histórico</li>
+      <li xml:lang="pt-BR">histórico</li>
+      <li xml:lang="ru">журнал</li>
+      <li xml:lang="sa">इतिहास</li>
+      <li xml:lang="sk">História</li>
+      <li xml:lang="sl">zgodovino brskanja</li>
+      <li xml:lang="sv">historik</li>
+      <li xml:lang="tr">geçmiş</li>
+      <li xml:lang="uk">журнал</li>
+      <li xml:lang="zh-CN">历史记录</li>
+      <li xml:lang="zh-TW">歷史記錄</li>
+      <li>tabs</li>
+      <li xml:lang="ar">الألسنة</li>
+      <li xml:lang="az">vərəqlər</li>
+      <li xml:lang="ca">pestanyes</li>
+      <li xml:lang="ca-valencia">pestanyes</li>
+      <li xml:lang="cs">karty</li>
+      <li xml:lang="da">faneblade</li>
+      <li xml:lang="de">Unterfenster</li>
+      <li xml:lang="el">καρτέλες</li>
+      <li xml:lang="en-GB">tabs</li>
+      <li xml:lang="eo">langetoj</li>
+      <li xml:lang="es">pestañas</li>
+      <li xml:lang="et">kaardid</li>
+      <li xml:lang="eu">fitxak</li>
+      <li xml:lang="fi">välilehdet</li>
+      <li xml:lang="fr">onglets</li>
+      <li xml:lang="gl">lapelas</li>
+      <li xml:lang="he">לשוניות</li>
+      <li xml:lang="hi">टैब</li>
+      <li xml:lang="hu">lapok</li>
+      <li xml:lang="ia">schedas</li>
+      <li xml:lang="id">tab</li>
+      <li xml:lang="it">schede</li>
+      <li xml:lang="ka">ჩანართები</li>
+      <li xml:lang="ko">탭</li>
+      <li xml:lang="lt">korteles</li>
+      <li xml:lang="lv">cilnes</li>
+      <li xml:lang="nl">tabs</li>
+      <li xml:lang="nn">faner</li>
+      <li xml:lang="pa">ਟੈਬਾਂ</li>
+      <li xml:lang="pl">karty</li>
+      <li xml:lang="pt">páginas</li>
+      <li xml:lang="pt-BR">abas</li>
+      <li xml:lang="ru">вкладки</li>
+      <li xml:lang="sa">ट्याब्स्</li>
+      <li xml:lang="sk">karty</li>
+      <li xml:lang="sl">zavihke</li>
+      <li xml:lang="sv">flikar</li>
+      <li xml:lang="tr">sekmeler</li>
+      <li xml:lang="uk">вкладки</li>
+      <li xml:lang="zh-CN">标签页</li>
+      <li xml:lang="zh-TW">分頁</li>
+    </ul>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Homepage</caption>
+      <caption xml:lang="ar">الصفحة الرئيسة</caption>
+      <caption xml:lang="az">Ev səhifəsi</caption>
+      <caption xml:lang="ca">Pàgina inicial</caption>
+      <caption xml:lang="ca-valencia">Pàgina inicial</caption>
+      <caption xml:lang="cs">Domovská stránka</caption>
+      <caption xml:lang="da">Startside</caption>
+      <caption xml:lang="de">Startseite</caption>
+      <caption xml:lang="el">Προσωπική σελίδα</caption>
+      <caption xml:lang="en-GB">Homepage</caption>
+      <caption xml:lang="eo">Hejmpaĝo</caption>
+      <caption xml:lang="es">Página de inicio</caption>
+      <caption xml:lang="et">Kodulehekülg</caption>
+      <caption xml:lang="eu">Orri nagusia</caption>
+      <caption xml:lang="fi">Kotisivu</caption>
+      <caption xml:lang="fr">Page d'accueil</caption>
+      <caption xml:lang="gl">Páxina inicial.</caption>
+      <caption xml:lang="he">דף הבית</caption>
+      <caption xml:lang="hi">मुखपृष्ठ</caption>
+      <caption xml:lang="hu">Kezdőlap</caption>
+      <caption xml:lang="ia">Pagina Domo o Principal</caption>
+      <caption xml:lang="id">Laman</caption>
+      <caption xml:lang="it">Pagina iniziale</caption>
+      <caption xml:lang="ka">საწყისი გვერდი</caption>
+      <caption xml:lang="ko">홈페이지</caption>
+      <caption xml:lang="lt">Pagrindinis puslapis</caption>
+      <caption xml:lang="lv">Mājaslapa</caption>
+      <caption xml:lang="nl">Homepagina</caption>
+      <caption xml:lang="nn">Heimeside</caption>
+      <caption xml:lang="pa">ਮੁੱਖ ਸਫ਼ਾ</caption>
+      <caption xml:lang="pl">Strona domowa</caption>
+      <caption xml:lang="pt">Página Web</caption>
+      <caption xml:lang="pt-BR">Site</caption>
+      <caption xml:lang="ru">Домашняя страница</caption>
+      <caption xml:lang="sa">मुखपृष्ठ</caption>
+      <caption xml:lang="sk">Domovská stránka</caption>
+      <caption xml:lang="sl">Domača stran</caption>
+      <caption xml:lang="sv">Hemsida</caption>
+      <caption xml:lang="tr">Ana Sayfa</caption>
+      <caption xml:lang="ug">باش بەت</caption>
+      <caption xml:lang="uk">Домашня сторінка</caption>
+      <caption xml:lang="zh-CN">主页</caption>
+      <caption xml:lang="zh-TW">首頁</caption>
+      <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/homepage.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Menu Actions</caption>
+      <caption xml:lang="ar">إجراءات القائمة</caption>
+      <caption xml:lang="az">Menyu fəaliyyətləri</caption>
+      <caption xml:lang="ca">Accions de menú</caption>
+      <caption xml:lang="ca-valencia">Accions de menú</caption>
+      <caption xml:lang="cs">Činnosti nabídky</caption>
+      <caption xml:lang="da">Menuhandlinger</caption>
+      <caption xml:lang="de">Menüaktionen</caption>
+      <caption xml:lang="el">Ενέργειες μενού</caption>
+      <caption xml:lang="en-GB">Menu Actions</caption>
+      <caption xml:lang="eo">Menuaj Agoj</caption>
+      <caption xml:lang="es">Acciones del menú</caption>
+      <caption xml:lang="et">Menüütoimingud</caption>
+      <caption xml:lang="eu">Menu-ekintzak</caption>
+      <caption xml:lang="fi">Valikkotoimenpiteet</caption>
+      <caption xml:lang="fr">Actions de menu</caption>
+      <caption xml:lang="gl">Accións de menú.</caption>
+      <caption xml:lang="he">פעולות תפריט</caption>
+      <caption xml:lang="hi">मेनू क्रियाएँ</caption>
+      <caption xml:lang="hu">Menüműveletek</caption>
+      <caption xml:lang="ia">Actiones de menu</caption>
+      <caption xml:lang="id">Aksi Menu</caption>
+      <caption xml:lang="it">Menu Azioni</caption>
+      <caption xml:lang="ka">მენიუს ქმედებები</caption>
+      <caption xml:lang="ko">메뉴 동작</caption>
+      <caption xml:lang="lt">Meniu veiksmai</caption>
+      <caption xml:lang="lv">Izvēļņu darbības</caption>
+      <caption xml:lang="nl">Menuopties</caption>
+      <caption xml:lang="nn">Menyhandlingar</caption>
+      <caption xml:lang="pa">ਮੇਨੂ ਕਾਰਵਾਈਆਂ</caption>
+      <caption xml:lang="pl">Działania menu</caption>
+      <caption xml:lang="pt">Acções do Menu</caption>
+      <caption xml:lang="pt-BR">Menu de ações</caption>
+      <caption xml:lang="ru">Действия меню</caption>
+      <caption xml:lang="sa">मेनू क्रियाः</caption>
+      <caption xml:lang="sk">Akcie ponuky</caption>
+      <caption xml:lang="sl">Dejavnosti menija</caption>
+      <caption xml:lang="sv">Menyalternativ</caption>
+      <caption xml:lang="tr">Menü Eylemleri</caption>
+      <caption xml:lang="uk">Пункти меню</caption>
+      <caption xml:lang="zh-CN">菜单操作</caption>
+      <caption xml:lang="zh-TW">選單動作</caption>
+      <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/actions.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Tabs View</caption>
+      <caption xml:lang="ar">عرض اللسان</caption>
+      <caption xml:lang="az">Vərəq görünüşü</caption>
+      <caption xml:lang="ca">Vista en pestanyes</caption>
+      <caption xml:lang="ca-valencia">Vista en pestanyes</caption>
+      <caption xml:lang="cs">Prohlížení karet</caption>
+      <caption xml:lang="de">Unterfensteransicht</caption>
+      <caption xml:lang="el">Προβολή καρτελών</caption>
+      <caption xml:lang="en-GB">Tabs View</caption>
+      <caption xml:lang="eo">Tabs Vido</caption>
+      <caption xml:lang="es">Vista de pestañas</caption>
+      <caption xml:lang="eu">Fitxa-ikuspegia</caption>
+      <caption xml:lang="fi">Välilehtinäkymä</caption>
+      <caption xml:lang="fr">Vue par onglets</caption>
+      <caption xml:lang="gl">Vista de lapelas.</caption>
+      <caption xml:lang="he">תצוגת לשוניות</caption>
+      <caption xml:lang="hi">टैब्स दृश्य</caption>
+      <caption xml:lang="hu">Lapnézet</caption>
+      <caption xml:lang="ia">Vista de Schedas</caption>
+      <caption xml:lang="id">Tampilan Tab</caption>
+      <caption xml:lang="it">Vista a schede</caption>
+      <caption xml:lang="ka">ჩანართების ხედები</caption>
+      <caption xml:lang="ko">탭 보기</caption>
+      <caption xml:lang="lt">Kortelių rodinys</caption>
+      <caption xml:lang="lv">Ciļņu skats</caption>
+      <caption xml:lang="nl">Tabbladenweergave</caption>
+      <caption xml:lang="pa">ਟੈਬ ਝਲਕ</caption>
+      <caption xml:lang="pl">Widok kart</caption>
+      <caption xml:lang="pt">Vista de Páginas</caption>
+      <caption xml:lang="pt-BR">Visualização das abas</caption>
+      <caption xml:lang="ru">Вкладки</caption>
+      <caption xml:lang="sa">ट्याब्स् दृश्यम्</caption>
+      <caption xml:lang="sk">Zobrazenie kariet</caption>
+      <caption xml:lang="sl">Pogled zavihkov</caption>
+      <caption xml:lang="sv">Flikvy</caption>
+      <caption xml:lang="tr">Sekmeler Görünümü</caption>
+      <caption xml:lang="uk">Перегляд з вкладками</caption>
+      <caption xml:lang="zh-CN">标签页视图</caption>
+      <caption xml:lang="zh-TW">分頁檢視</caption>
+      <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/tabs.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Desktop User Interface</caption>
+      <caption xml:lang="ar">واجهة سطح المكتب</caption>
+      <caption xml:lang="az">İş masası İstifadəçi İnterfeysi</caption>
+      <caption xml:lang="ca">Interfície d'usuari d'escriptori</caption>
+      <caption xml:lang="ca-valencia">Interfície d'usuari d'escriptori</caption>
+      <caption xml:lang="cs">Uživatelské rozhraní pracovní plochy</caption>
+      <caption xml:lang="de">Benutzeroberfläche für die Arbeitsfläche</caption>
+      <caption xml:lang="el">Διεπαφή χρήστη της επιφάνειας εργασίας</caption>
+      <caption xml:lang="en-GB">Desktop User Interface</caption>
+      <caption xml:lang="eo">Labortabla Uzantinterfaco</caption>
+      <caption xml:lang="es">Interfaz de usuario del escritorio</caption>
+      <caption xml:lang="eu">Mahaigaineko erabiltzailearen interfazea</caption>
+      <caption xml:lang="fi">Työpöytäkäyttöliittymä</caption>
+      <caption xml:lang="fr">Interface utilisateur de bureau</caption>
+      <caption xml:lang="gl">Interface de escritorio.</caption>
+      <caption xml:lang="he">ממשק משתמש שולחן עבודה</caption>
+      <caption xml:lang="hi">डेस्कटॉप उपयोगकर्ता इंटरफ़ेस</caption>
+      <caption xml:lang="hu">Asztali felhasználói felület</caption>
+      <caption xml:lang="ia">Interfacie de usator de scriptorio</caption>
+      <caption xml:lang="id">Antarmuka Pengguna Desktop</caption>
+      <caption xml:lang="it">Interfaccia utente desktop</caption>
+      <caption xml:lang="ka">სამუშაო მაგიდის მომხმარებლის ინტერფეისი</caption>
+      <caption xml:lang="ko">데스크톱 사용자 인터페이스</caption>
+      <caption xml:lang="lt">Darbalaukio naudotojo sąsaja</caption>
+      <caption xml:lang="lv">Darbvirsmas lietotāja saskarne</caption>
+      <caption xml:lang="nl">Gebruikersinterface op bureaublad</caption>
+      <caption xml:lang="pa">ਡੈਸਕਟਾਪ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ</caption>
+      <caption xml:lang="pl">Interfejs użytkownika na komputerze</caption>
+      <caption xml:lang="pt">Interface de Utilizador</caption>
+      <caption xml:lang="pt-BR">Desktop User Interface</caption>
+      <caption xml:lang="ru">Графический интерфейс пользователя для ПК</caption>
+      <caption xml:lang="sa">डेस्कटॉप उपयोक्तृ-अन्तरफलकम्</caption>
+      <caption xml:lang="sk">Desktopové používateľské rozhranie</caption>
+      <caption xml:lang="sl">Uporabniški vmesnik namizja</caption>
+      <caption xml:lang="sv">Användargränssnitt för skrivbord</caption>
+      <caption xml:lang="tr">Masaüstü Kullanıcı Arayüzü</caption>
+      <caption xml:lang="uk">Інтерфейс користувача стільниці</caption>
+      <caption xml:lang="zh-CN">桌面用户界面</caption>
+      <caption xml:lang="zh-TW">桌面版使用者介面</caption>
+      <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/desktop.png</image>
+    </screenshot>
+  </screenshots>
+  <recommends>
+    <control>touch</control>
+  </recommends>
+  <url type="homepage">https://apps.kde.org/angelfish</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=angelfish</url>
+  <url type="donation">https://www.kde.org/community/donations/?app=angelfish&amp;source=appdata</url>
+  <url type="vcs-browser">https://invent.kde.org/network/angelfish</url>
+  <categories>
+    <category>Network</category>
+    <category>KDE</category>
+    <category>Qt</category>
+    <category>WebBrowser</category>
+  </categories>
+  <provides>
+    <binary>angelfish</binary>
+  </provides>
+  <launchable type="desktop-id">org.kde.angelfish.desktop</launchable>
+  <releases>
+    <release version="26.08.3" date="2026-11-05"/>
+    <release version="26.08.2" date="2026-10-08"/>
+    <release version="26.08.1" date="2026-09-10"/>
+    <release version="26.08.0" date="2026-08-20"/>
+    <release version="26.04.3" date="2026-07-02"/>
+    <release version="26.04.2" date="2026-06-04"/>
+    <release version="26.04.1" date="2026-05-07"/>
+    <release version="26.04.0" date="2026-04-16"/>
+    <release version="25.12.3" date="2026-03-05"/>
+    <release version="25.12.2" date="2026-02-05"/>
+    <release version="25.12.1" date="2026-01-08"/>
+    <release version="25.12.0" date="2025-12-11"/>
+    <release version="25.08.3" date="2025-11-06"/>
+    <release version="25.08.2" date="2025-10-09"/>
+    <release version="25.08.1" date="2025-09-11"/>
+    <release version="25.08.0" date="2025-08-14"/>
+    <release version="25.04.3" date="2025-07-03"/>
+    <release version="25.04.2" date="2025-06-05"/>
+    <release version="25.04.1" date="2025-05-08"/>
+    <release version="25.04.0" date="2025-04-17"/>
+    <release version="24.12.3" date="2025-03-06"/>
+    <release version="24.12.2" date="2025-02-06"/>
+    <release version="24.12.1" date="2025-01-09"/>
+    <release version="24.12.0" date="2024-12-12"/>
+    <release version="24.08.3" date="2024-11-07"/>
+    <release version="24.08.2" date="2024-10-10"/>
+    <release version="24.08.1" date="2024-09-12"/>
+    <release version="24.08.0" date="2024-08-22"/>
+    <release version="24.05.2" date="2024-07-04"/>
+    <release version="24.05.1" date="2024-06-13"/>
+    <release version="24.05.0" date="2024-05-23"/>
+    <release version="24.02.2" date="2024-04-11"/>
+    <release version="24.02.1" date="2024-03-21"/>
+    <release version="24.02.0" date="2024-02-28"/>
+    <release version="23.08.5" date="2024-02-15"/>
+    <release version="23.08.4" date="2023-12-07"/>
+    <release version="23.08.3" date="2023-11-09"/>
+    <release version="23.08.2" date="2023-10-12"/>
+    <release version="23.08.1" date="2023-09-14"/>
+    <release version="23.08.0" date="2023-08-24"/>
+    <release version="23.04.3" date="2023-07-06"/>
+    <release version="23.04.2" date="2023-06-08"/>
+    <release version="23.04.1" date="2023-05-11"/>
+    <release version="23.04.0" date="2023-04-20"/>
+    <release version="23.01" date="2023-01-30">
+      <url>https://plasma-mobile.org/2023/01/30/january-blog-post/</url>
+    </release>
+    <release version="22.11" date="2022-11-30">
+      <url>https://plasma-mobile.org/2022/11/30/plasma-mobile-gear-22-11/</url>
+    </release>
+    <release version="22.09" date="2022-09-27">
+      <url>https://www.plasma-mobile.org/2022/09/27/plasma-mobile-gear-22-09/</url>
+    </release>
+    <release version="22.06" date="2022-06-24">
+      <url>https://www.plasma-mobile.org/2022/06/28/plasma-mobile-gear-22-06/</url>
+      <description>
+        <ul>
+          <li>Allow to hide tab bar when single tab is open</li>
+          <li xml:lang="ar">إتاحة إخفاء شريط الألسنة عند فتح لسان واحد</li>
+          <li xml:lang="ca">Permet ocultar la barra de pestanyes quan hi ha una única pestanya oberta</li>
+          <li xml:lang="ca-valencia">Permet ocultar la barra de pestanyes quan hi ha una única pestanya oberta</li>
+          <li xml:lang="cs">Povoleno skrytí lišty karet, když je otevřena jedna karta</li>
+          <li xml:lang="es">Permitir ocultar la barra de pestañas cuando una sola pestaña está abierta</li>
+          <li xml:lang="eu">Fitxa bakarra irekita dagoenean fitxa-barra ezkutatzeko aukera eman</li>
+          <li xml:lang="fi">salli piilottaa välilehtirivi, kun vain yksi välilehti on auki</li>
+          <li xml:lang="fr">Autoriser le masquage de la barre d'onglets lorsqu'un seul onglet est ouvert</li>
+          <li xml:lang="he">לאפשר את הסתרת סרגל הלשוניות כשרק לשונית אחת פתוחה</li>
+          <li xml:lang="hu">A lapsor elrejthető, ha csak egy lap van megnyitva</li>
+          <li xml:lang="ia">Permitte celar barra de sched quando un singule scheda es aperite</li>
+          <li xml:lang="it">È possibile nascondere la barra delle schede quando ce n'è aperta una sola</li>
+          <li xml:lang="ka">ჩანართების ზოლის დამალვის დაშვება, როცა ღიაა, მხოლოდ, ერთი ჩანართი</li>
+          <li xml:lang="ko">탭 한 개만 열려 있을 때 탭 표시줄 숨기기 허용</li>
+          <li xml:lang="lt">Leidžiama slėpti kortelių juostą, kai atverta viena kortelė</li>
+          <li xml:lang="lv">Ļauts slēpt ciļņu joslu, kad ir atvērta tikai viena cilne</li>
+          <li xml:lang="nl">Toestaan de tabbladbalk te verbergen wanneer een enkel tabblad open is</li>
+          <li xml:lang="pt-BR">Permite ocultar a barra de abas quando apenas uma aba estiver aberta</li>
+          <li xml:lang="ru">Возможность скрывать панель вкладок при одной открытой вкладке</li>
+          <li xml:lang="sk">Možnosť skryť panel kariet pri otvorení jednej karty</li>
+          <li xml:lang="sl">Dovoli skrivanje vrstice z zavihki, ko je odprt en sam zavihek</li>
+          <li xml:lang="sv">Tillåt att flikraden döljs när en enda flik är öppen</li>
+          <li xml:lang="tr">Tek sekme açıkken sekme çubuğunun gizlenmesine izin ver</li>
+          <li xml:lang="uk">Уможливлено приховування панелі вкладок, якщо відкрито єдину вкладку</li>
+          <li xml:lang="zh-CN">当单个标签打开时允许隐藏标签栏</li>
+          <li xml:lang="zh-TW">允許在只開啟一個分頁時隱藏分頁列</li>
+          <li>Fix window activation on wayland</li>
+          <li xml:lang="ar">إصلاح تفعيل النافذة على Wayland</li>
+          <li xml:lang="ca">Corregeix l'activació de la finestra al Wayland</li>
+          <li xml:lang="ca-valencia">Corregix l'activació de la finestra a Wayland</li>
+          <li xml:lang="cs">Oprava aktivace okna na Waylandu</li>
+          <li xml:lang="es">Se ha corregido la activación de la ventana en Wayland</li>
+          <li xml:lang="eu">Waylanden leiho aktibazioa zuzendu</li>
+          <li xml:lang="fi">korjaa ikkunan aktivointi Waylandissä</li>
+          <li xml:lang="fr">Correction de l'activation de fenêtres sous Wayland</li>
+          <li xml:lang="he">תוקנה הפעלת חלון ב־Wayland</li>
+          <li xml:lang="hu">Ablak aktiválása javítva Wayland alatt</li>
+          <li xml:lang="ia">Corrige activation de fenestra sur wayland</li>
+          <li xml:lang="it">È stata corretta l'attivazione della finestra in wayland</li>
+          <li xml:lang="ka">გასწორდა ფანჯრის გააქტიურება wayland-ზე</li>
+          <li xml:lang="ko">Wayland에서의 창 활성화 수정</li>
+          <li xml:lang="lt">Ištaisytas lango aktyvavimas „Wayland“ aplinkoje</li>
+          <li xml:lang="lv">Labota logu aktivizācija „Wayland“ sesijā</li>
+          <li xml:lang="nl">Probleem met vensteractivering op Wayland oplossen</li>
+          <li xml:lang="pt-BR">Corrigida a ativação de janelas no Wayland</li>
+          <li xml:lang="ru">Исправление активации окна в Wayland</li>
+          <li xml:lang="sk">Opravenie aktivácie okna na Waylande</li>
+          <li xml:lang="sl">Popravi aktivacijo oken na Waylandu</li>
+          <li xml:lang="sv">Rätta fönsteraktivering på Wayland</li>
+          <li xml:lang="tr">Wayland üzerinde pencere etkinleştirmesini düzelt</li>
+          <li xml:lang="uk">Виправлено активацію вікна у wayland</li>
+          <li xml:lang="zh-CN">修复在 Wayland 上时的窗口激活问题</li>
+          <li xml:lang="zh-TW">修正 Wayland 上的視窗作用</li>
+        </ul>
+      </description>
+    </release>
+    <release version="22.04" date="2022-04-26">
+      <url>https://www.plasma-mobile.org/2022/04/26/plasma-mobile-gear-22-04/</url>
+      <description>
+        <ul>
+          <li>Update adblock crate version</li>
+          <li xml:lang="ar">تحديث إصدار حزمة (crate) مانع الإعلانات</li>
+          <li xml:lang="ca">Actualitza la versió de la caixa de bloqueig de publicitat</li>
+          <li xml:lang="ca-valencia">Actualitza la versió de la caixa de bloqueig de publicitat</li>
+          <li xml:lang="cs">Aktualizace verze balíčku adblock</li>
+          <li xml:lang="es">Se ha actualizado la versión del bloqueador de publicidad</li>
+          <li xml:lang="eu">Iragarkiak eragozteko crate-aren bertsioa eguneratu</li>
+          <li xml:lang="fi">päivitä mainosestokontin versio</li>
+          <li xml:lang="fr">Mise à jour de la version de création de AdBlock</li>
+          <li xml:lang="he">עודכנה גרסת ה־crate של חסימת הפרסומות</li>
+          <li xml:lang="hu">Az adblock crate verziója frissítve</li>
+          <li xml:lang="ia">Actualisa version de cassa de adblock</li>
+          <li xml:lang="it">È stata aggiornata la versione crate adblock</li>
+          <li xml:lang="ka">განახლდა adblock crate-ის ვერსია</li>
+          <li xml:lang="ko">Adblock crate 버전 업데이트</li>
+          <li xml:lang="lt">Atnaujinta reklamos blokavimo pakuotės versija</li>
+          <li xml:lang="lv">Atjaunināta reklāmu bloķēšanas „crate“ versija</li>
+          <li xml:lang="nl">Adblock crate versie bijwerken</li>
+          <li xml:lang="pt-BR">Atualizada a versão do Adblock Crate</li>
+          <li xml:lang="ru">Обновлена версия библиотеки блокировки рекламы</li>
+          <li xml:lang="sk">Aktualizácia verzie balíčka adblock</li>
+          <li xml:lang="sl">Posodobi različico programa adblock crate</li>
+          <li xml:lang="sv">Uppdatera reklamblockeringsversion</li>
+          <li xml:lang="tr">Reklâm engelleme paketi sürümünü güncelle</li>
+          <li xml:lang="uk">Оновлено версію блокувальника реклами</li>
+          <li xml:lang="zh-CN">更新 adblock crate 版本</li>
+          <li xml:lang="zh-TW">更新 adblock crate 版本</li>
+          <li>Fix webapp entries not showing up in phosh</li>
+          <li xml:lang="ar">إصلاح عدم ظهور مدخلات تطبيقات الويب في Phosh</li>
+          <li xml:lang="ca">Corregeix les entrades «webapp» que no es mostren al «phosh»</li>
+          <li xml:lang="ca-valencia">Corregix les entrades «webapp» que no es mostren al «phosh»</li>
+          <li xml:lang="cs">Oprava položek webové aplikace, které se nezobrazují v phosh</li>
+          <li xml:lang="es">Se ha solucionado el problema de que las entradas de la aplicación web no aparecen en phosh</li>
+          <li xml:lang="eu">phosh-en web-aplikazio sarrerak ez agertzea zuzendu</li>
+          <li xml:lang="fi">korjaa verkkosovellustietueet, jotka eivät näkyneet phoshissa</li>
+          <li xml:lang="fr">Correction des entrées de l'application Internet n'apparaissant pas dans phosh</li>
+          <li xml:lang="he">תוקנו רשומות יישומי אתרים שלא מופיעות ב־phosh</li>
+          <li xml:lang="hu">A Phoshon nem megjelenő webalkalmazások bejegyzései javítva</li>
+          <li xml:lang="ia">Corrige entratas de webapp que non se monstra in phosh</li>
+          <li xml:lang="it">Sono state corrette le voci webapp che non venivano mostrate in phosh</li>
+          <li xml:lang="ka">გასწორდა ვებაპის ჩანაწერების არჩვენება phosh-ში</li>
+          <li xml:lang="ko">Phosh에 웹 앱 항목이 표시되지 않는 문제 수정</li>
+          <li xml:lang="lt">Ištaisyta klaida, kai įrašai nebuvo rodomi „Phosh“ aplinkoje</li>
+          <li xml:lang="lv">Labota tīmekļa lietotņu ierakstu neparādīšanās „phosh“</li>
+          <li xml:lang="nl">Los het probleem op dat webapp-items niet worden weergegeven in Phosh</li>
+          <li xml:lang="pt-BR">Corrigido problema em que entradas de aplicativos web não aparecem no Phosh</li>
+          <li xml:lang="ru">Исправлено отсутствие записей веб-приложений в Phosh</li>
+          <li xml:lang="sk">Opravenie zobrazenia položiek webových aplikácií v phosh</li>
+          <li xml:lang="sl">Popravi vnose, ki se ne prikazujejo v phoshu</li>
+          <li xml:lang="sv">Rätta att webbprogramposter inte visas i phosh</li>
+          <li xml:lang="tr">Web uygulaması girdilerinin Phosh’ta görünmemesi sorununu düzelt</li>
+          <li xml:lang="uk">Виправлено показ записів вебпрограми у phosh</li>
+          <li xml:lang="zh-CN">修复在 Phosh 中不显示网页应用条目</li>
+          <li xml:lang="zh-TW">修正網頁應用程式項目不會出現在 Phosh 的問題</li>
+          <li>Expose downloads in the desktop version</li>
+          <li xml:lang="ar">إظهار التنزيلات في إصدار سطح المكتب</li>
+          <li xml:lang="ca">Exposa les baixades a la versió d'escriptori</li>
+          <li xml:lang="ca-valencia">Exposa les baixades a la versió d'escriptori</li>
+          <li xml:lang="cs">Zobrazení souborů ke stažení v desktopové verzi</li>
+          <li xml:lang="es">Exponer descargas en la versión de escritorio</li>
+          <li xml:lang="eu">Mahaigaineko bertsioan zama-jaitsierak agerian jarri</li>
+          <li xml:lang="fi">paljasta lataukset työpöytäversiossa</li>
+          <li xml:lang="fr">Affichage des téléchargements dans la version de bureau</li>
+          <li xml:lang="he">חשיפת הורדות בגרסה לשולחן העבודה</li>
+          <li xml:lang="hu">Letöltések megjelenítése az asztali verzióban</li>
+          <li xml:lang="ia">Expone discargamentos in le version de scriptorio</li>
+          <li xml:lang="it">Vengono mostrati gli scaricamenti nella versione desktop</li>
+          <li xml:lang="ka">გადმოწერების ჩვენება კომპიუტერის ვერსიაში</li>
+          <li xml:lang="ko">데스크톱 버전에서 다운로드 표시</li>
+          <li xml:lang="lt">Darbalaukio versijoje parodomi atsiuntimai</li>
+          <li xml:lang="lv">Parādīt lejupielādes darbvirsmas versijā</li>
+          <li xml:lang="nl">Downloads in de bureaubladversie tonen</li>
+          <li xml:lang="pt-BR">Exibir downloads na versão para desktop</li>
+          <li xml:lang="ru">Просмотр загрузки в версии для настольных компьютеров</li>
+          <li xml:lang="sk">Sprístupnenie sťahovaní v desktopovej verzii</li>
+          <li xml:lang="sl">Izpostavi prenose v namizni različici</li>
+          <li xml:lang="sv">Exponera nerladdningar i skrivbordsversionen</li>
+          <li xml:lang="tr">Masaüstü sürümünde indirilenleri göster</li>
+          <li xml:lang="uk">Реалізовано показ отриманих файлів у версії для робочих станцій</li>
+          <li xml:lang="zh-CN">显示桌面版本中的下载</li>
+          <li xml:lang="zh-TW">在桌面版也顯示下載項目</li>
+        </ul>
+      </description>
+    </release>
+    <release version="22.02" date="2022-02-09">
+      <url>https://www.plasma-mobile.org/2022/02/09/plasma-mobile-gear-22-02/</url>
+      <description>
+        <ul>
+          <li>Fix developer tools</li>
+          <li xml:lang="ar">إصلاح أدوات المطور</li>
+          <li xml:lang="ca">Corregeix les eines de desenvolupador</li>
+          <li xml:lang="ca-valencia">Corregix les eines de desenvolupador</li>
+          <li xml:lang="cs">Opraveny vývojářské nástroje</li>
+          <li xml:lang="es">Se han corregido las herramientas del desarrollador</li>
+          <li xml:lang="eu">Garatzaile-tresnak zuzendu</li>
+          <li xml:lang="fi">korjaa kehitystyökalut</li>
+          <li xml:lang="fr">Correction des outils de développement</li>
+          <li xml:lang="he">תוקנו כלי הפיתוח</li>
+          <li xml:lang="hu">Fejlesztői eszközök javítása</li>
+          <li xml:lang="ia">Corrige instrumentos de disveloppator</li>
+          <li xml:lang="it">Sono stati corretti gli strumenti per sviluppatori</li>
+          <li xml:lang="ka">გასწორდა პროგრამისტის ხელსაწყოები</li>
+          <li xml:lang="ko">개발자 도구 수정</li>
+          <li xml:lang="lt">Ištaisyti plėtotojo įrankiai</li>
+          <li xml:lang="lv">Laboti rīki izstrādātājiem</li>
+          <li xml:lang="nl">Hulpmiddelen voor ontwikkelaars repareren</li>
+          <li xml:lang="pt-BR">Correção nas ferramentas de desenvolvedor</li>
+          <li xml:lang="ru">Исправлены инструменты разработчика</li>
+          <li xml:lang="sk">Opravenie nástrojov pre vývojárov</li>
+          <li xml:lang="sl">Popravi orodja za razvijalce</li>
+          <li xml:lang="sv">Rätta utvecklingsverktyg</li>
+          <li xml:lang="tr">Geliştirici araçlarını onar</li>
+          <li xml:lang="uk">Виправлено інструменти розробника</li>
+          <li xml:lang="zh-CN">修复开发者工具</li>
+          <li xml:lang="zh-TW">修正開發者工具</li>
+          <li>Fix displaying the page title in tab switcher</li>
+          <li xml:lang="ar">إصلاح عرض عنوان الصفحة في مبدل الألسنة</li>
+          <li xml:lang="ca">Corregeix la visualització del títol de la pàgina al commutador de pestanyes</li>
+          <li xml:lang="ca-valencia">Corregix la visualització del títol de la pàgina al commutador de pestanyes</li>
+          <li xml:lang="cs">Oprava zobrazení názvu stránky v přepínači karet</li>
+          <li xml:lang="es">Se ha corregido la visualización del título de la página en el selector de pestañas</li>
+          <li xml:lang="eu">Fitxa-aldatzailean orrialdearen titulua bistaratzea zuzendu</li>
+          <li xml:lang="fi">korjaa sivun otsikon näyttäminen välilehtivaihdossa</li>
+          <li xml:lang="fr">Correction de l'affichage du titre de page dans le sélecteur d'onglets</li>
+          <li xml:lang="he">תוקנה הצגת כותרת העמוד במחליף הלשוניות</li>
+          <li xml:lang="hu">Oldalcím megjelenítésének javítása a lapváltóban</li>
+          <li xml:lang="ia">Corrige monstrar le titulo de pagina in commutator de scheda</li>
+          <li xml:lang="it">È stata corretta la visualizzazione del titolo della pagina nel selettore di schede</li>
+          <li xml:lang="ka">გასწორდა გვერდის სათაურის ჩვენება ჩანართების გადამრთველში</li>
+          <li xml:lang="ko">탭 전환기의 페이지 제목 표시 수정</li>
+          <li xml:lang="lt">Ištaisytas puslapio pavadinimo atvaizdavimas kortelių perjungiklyje</li>
+          <li xml:lang="lv">Labota vietņu virsraksta parādīšanas ciļņu pārslēdzējā</li>
+          <li xml:lang="nl">De paginatitel tonen in tabbladwisselaar repareren</li>
+          <li xml:lang="pt-BR">Corrigido o problema de exibição do título da página no seletor de abas</li>
+          <li xml:lang="ru">Исправлено отображение заголовка страницы в переключателе вкладок</li>
+          <li xml:lang="sk">Opravenie zobrazenia názvu stránky v prepínači kariet</li>
+          <li xml:lang="sl">Popravi prikaz naslova strani v preklopniku zavihkov</li>
+          <li xml:lang="sv">Rätta visning av sidrubrik i flikbytaren</li>
+          <li xml:lang="tr">Sekme değiştiricisinde sayfa başlığının görüntülenmesini düzelt</li>
+          <li xml:lang="uk">Виправлено показ заголовка сторінки на панелі перемикання вкладок</li>
+          <li xml:lang="zh-CN">修复在标签切换器中显示页面标题的问题</li>
+          <li xml:lang="zh-TW">修正分頁切換器當中的頁面標題顯示</li>
+          <li>Fix wrong check in ad-blocker</li>
+          <li xml:lang="ar">إصلاح فحص خاطئ في مانع الإعلانات</li>
+          <li xml:lang="ca">Corregeix una comprovació incorrecta al bloquejador de publicitat</li>
+          <li xml:lang="ca-valencia">Corregix una comprovació incorrecta al bloquejador de publicitat</li>
+          <li xml:lang="cs">Opravena nesprávná funkce v blokování reklam</li>
+          <li xml:lang="es">Se ha corregido la comprobación en el bloqueador de publicidad</li>
+          <li xml:lang="eu">Iragarki-eragozlean egiaztapen okerra zuzendu</li>
+          <li xml:lang="fi">korjaa väärä tarkistus mainosestossa</li>
+          <li xml:lang="fr">Correction de la vérification erronée dans le bloqueur de publicités</li>
+          <li xml:lang="he">תוקנה בדיקה שגויה בחוסם הפרסומות</li>
+          <li xml:lang="hu">Hibás ellenőrzés javítva a reklámblokkolóban</li>
+          <li xml:lang="ia">Corrige verifica errate in adblocker</li>
+          <li xml:lang="it">È stato corretto il segno sbagliato nel sistema di blocco degli annunci</li>
+          <li xml:lang="ka">გასწორდა არასწორი შემოწმება რეკლამთმბლოკავში</li>
+          <li xml:lang="ko">광고 차단기의 잘못된 검사 수정</li>
+          <li xml:lang="lt">Ištaisytas klaidingas patikrinimas reklamos blokavime</li>
+          <li xml:lang="lv">Labota nepareiza pārbaude reklāmu bloķētājā</li>
+          <li xml:lang="nl">Verkeerd inchecken in ad-blocker repareren</li>
+          <li xml:lang="pt-BR">Correção da verificação incorreta no bloqueador de anúncios</li>
+          <li xml:lang="ru">Исправлена неверная проверка в блокировщике рекламы</li>
+          <li xml:lang="sk">Opravenie chybnej kontroly v blokovaní reklám</li>
+          <li xml:lang="sl">Popravi napačno prijavo v blokator oglasov</li>
+          <li xml:lang="sv">Rätta felaktig kontroll i reklamblockering</li>
+          <li xml:lang="tr">Reklâm engelleyicisindeki yanlış denetimi düzelt</li>
+          <li xml:lang="uk">Виправлено помилкову перевірку у засобі блокування екрана</li>
+          <li xml:lang="zh-CN">修复广告拦截器中错误的检查</li>
+          <li xml:lang="zh-TW">修正廣告阻擋器的錯誤檢查</li>
+          <li>Implement a desktop UI</li>
+          <li xml:lang="ar">توفير واجهة مستخدم لسطح المكتب</li>
+          <li xml:lang="ca">Implementa una interfície d'usuari d'escriptori</li>
+          <li xml:lang="ca-valencia">Implementa una interfície d'usuari d'escriptori</li>
+          <li xml:lang="cs">Implementace uživatelského rozhraní pro stolní počítače</li>
+          <li xml:lang="es">Se ha implementado una interfaz de usuario en el escritorio</li>
+          <li xml:lang="eu">Mahaigaineko erabiltzailearen interfaze bat inplementatu</li>
+          <li xml:lang="fi">toteuta työpöytäkäyttöliittymä</li>
+          <li xml:lang="fr">Mettre en œuvre une interface utilisateur de bureau</li>
+          <li xml:lang="he">מימוש ממשק משתמש לשולחן עבודה</li>
+          <li xml:lang="hu">Asztali felhasználói felület megvalósítása</li>
+          <li xml:lang="ia">Implementa un UI de scriptoprio</li>
+          <li xml:lang="it">È stata implementata un'interfaccia utente per desktop</li>
+          <li xml:lang="ka">განხორციელდა სამუშაო მაგიდის ინტერფეისი</li>
+          <li xml:lang="ko">데스크톱 UI 구현</li>
+          <li xml:lang="lt">Įgyvendinta darbalaukio naudotojo sąsaja</li>
+          <li xml:lang="lv">Darbvirsmas saskarnes implementācija</li>
+          <li xml:lang="nl">Een bureaublad-UI implementeren</li>
+          <li xml:lang="pt-BR">Implementada uma interface de usuário para desktop</li>
+          <li xml:lang="ru">Реализован пользовательский интерфейс для настольных систем</li>
+          <li xml:lang="sk">Implementácia desktopového používateľského rozhrania</li>
+          <li xml:lang="sl">Implementira uporabniški vmesnik za namizje</li>
+          <li xml:lang="sv">Implementera ett användargränssnitt för skrivbord</li>
+          <li xml:lang="tr">Bir masaüstü kullanıcı arayüzü gerçekle</li>
+          <li xml:lang="uk">Реалізовано інтерфейс для робочих станцій</li>
+          <li xml:lang="zh-CN">实现适合桌面的用户界面</li>
+          <li xml:lang="zh-TW">實作桌面版介面</li>
+          <li>Re-organize the settings UI and unify for desktop and mobile</li>
+          <li xml:lang="ar">إعادة تنظيم واجهة الإعدادات وتوحيدها لسطح المكتب والمحمول</li>
+          <li xml:lang="ca">Reorganitza la interfície d'usuari de configuració i l'unifica per a l'escriptori i el mòbil</li>
+          <li xml:lang="ca-valencia">Reorganitza la interfície d'usuari de configuració i l'unifica per a l'escriptori i el mòbil</li>
+          <li xml:lang="cs">Reorganizace nastavení uživatelského rozhraní a jeho sjednocení pro stolní počítače a mobilní zařízení.</li>
+          <li xml:lang="es">Se han reorganizado la interfaz de las preferencias y se ha unificado para el escritorio y para móviles</li>
+          <li xml:lang="eu">Ezarpenen erabiltzailearen interfazea berrantolatu eta mahaigainerako eta mugikorrerako bateratu</li>
+          <li xml:lang="fi">järjestä asetuskäyttöliittymä uudelleen ja yhtenäistä työpöytä ja mobiili</li>
+          <li xml:lang="fr">Réorganiser l'interface utilisateur de la configuration et la rendre les versions de bureau et mobile plus homogène</li>
+          <li xml:lang="he">ממשק המשתמש של ההגדרות סודר מחדש ובוצע איחוד לשולחן עבודה וניידים</li>
+          <li xml:lang="hu">A beállítások átszervezése és egységesítése az asztali és mobil felületeken</li>
+          <li xml:lang="ia">Re.organisa le UI de preferentias e unifica per scriptorios e mobile</li>
+          <li xml:lang="it">Riorganizzazione dell'interfaccia utente delle impostazioni, e uniformazione tra desktop e dispositivi mobili</li>
+          <li xml:lang="ka">მორგების ინტერფეისის რეორგანიზაცია და გაერთიანება კომპიუტერისთვის და მობილურისთვის</li>
+          <li xml:lang="ko">설정 UI 재배치 및 데스크톱과 모바일 통합</li>
+          <li xml:lang="lt">Pertvarkyta ir suvienyta darbalaukiui ir mobiliesiems įrenginiams skirta nuostatų naudotojo sąsaja</li>
+          <li xml:lang="lv">Iestatījumu saskarnes pārkārtošana, lai apvienotu datora un mobilo versiju</li>
+          <li xml:lang="nl">Herstructureer de gebruikersinterface van de instellingen en zorg voor een uniforme interface voor desktop en mobiel.</li>
+          <li xml:lang="pt-BR">Reorganização da interface de configuração e unificação para desktop e dispositivos móveis</li>
+          <li xml:lang="ru">Реорганизация интерфейса настроек и унификация для настольных и мобильных систем</li>
+          <li xml:lang="sk">Reorganizácia nastavení a zjednotenie pre desktop a mobil</li>
+          <li xml:lang="sl">Reorganizira uporabniški vmesnik z nastavitvami in jih poenoti za namizne in mobilne naprave</li>
+          <li xml:lang="sv">Omorganisera inställningsanvändargränssnittet och kombinera för skrivbord och mobil</li>
+          <li xml:lang="tr">Ayarlar arayüzünü yeniden düzenle ve masaüstü ile taşınabilir için birleştir</li>
+          <li xml:lang="uk">Перевпорядковано інтерфейс параметрів та уніфіковано інтерфейс на комп'ютері та на мобільному пристрої</li>
+          <li xml:lang="zh-CN">重整设置界面，统一桌面和移动版</li>
+          <li xml:lang="zh-TW">整理設定介面並統一桌面版與行動版設定頁面</li>
+          <li>Simplify the navigation logic</li>
+          <li xml:lang="ar">تبسيط منطق التنقل</li>
+          <li xml:lang="ca">Simplifica la lògica de navegació</li>
+          <li xml:lang="ca-valencia">Simplifica la lògica de navegació</li>
+          <li xml:lang="cs">Zjednodušena logika navigace</li>
+          <li xml:lang="es">Se ha simplificado la lógica de nevegación</li>
+          <li xml:lang="eu">Nabigazioaren logika sinplifikatu</li>
+          <li xml:lang="fi">yksinkertaista navigointilogiikkaa</li>
+          <li xml:lang="fr">Simplifier la logique de navigation</li>
+          <li xml:lang="he">פישוט לוגיקת הניווט</li>
+          <li xml:lang="hu">Navigációs logika egyszerűsítése</li>
+          <li xml:lang="ia">Simplifica le logica de navigation </li>
+          <li xml:lang="it">Semplificazione della logica di navigazione</li>
+          <li xml:lang="ka">გამარტივდა ნავიგაციის ლოგიკა</li>
+          <li xml:lang="ko">탐색 로직 단순화</li>
+          <li xml:lang="lt">Supaprastinta naršymo logika</li>
+          <li xml:lang="lv">Vienkāršota navigācijas loģika</li>
+          <li xml:lang="nl">Vereenvoudig de navigatielogica</li>
+          <li xml:lang="pt-BR">Simplificação da lógica de navegação</li>
+          <li xml:lang="ru">Упрощена логика навигации</li>
+          <li xml:lang="sk">Zjednodušenie logiky navigácie</li>
+          <li xml:lang="sl">Poenostavi logiko navigacije</li>
+          <li xml:lang="sv">Förenkla navigeringslogiken</li>
+          <li xml:lang="tr">Dalaşma mantığını basitleştir</li>
+          <li xml:lang="uk">Спрощено логіку навігації</li>
+          <li xml:lang="zh-CN">简化导航逻辑。</li>
+          <li xml:lang="zh-TW">簡化導覽邏輯</li>
+          <li>Show a popup when URL bar is focused showing history and related text for current URL</li>
+          <li xml:lang="ar">إظهار نافذة منبثقة عند تركيز شريط العنوان تعرض السجل والنصوص المتعلقة بالعنوان الحالي</li>
+          <li xml:lang="ca">Mostra una finestra emergent quan la barra d'URL està centrada mostrant l'historial i el text relacionat de l'URL actual</li>
+          <li xml:lang="ca-valencia">Mostra una finestra emergent quan la barra d'URL està centrada mostrant l'historial i el text relacionat de l'URL actual</li>
+          <li xml:lang="cs">Zobrazení vyskakovacího okna, když je zaměřena adresní lišta, s historií a souvisejícím textem pro aktuální URL</li>
+          <li xml:lang="es">Mostrar una ventana emergente cuando la barra de URL tiene el foco y muestra el historial y texto relacionado con la URL actual</li>
+          <li xml:lang="eu">URL-barra fokuratzean, uneko URLarekin lotutako historia eta testua erakusten dituen leiho gainerakor bat erakutsi</li>
+          <li xml:lang="fi">näytä ponnahdusviesti, kun historian ja verkko-osoitteeseen liittyvää tekstiä näyttävä osoiterivi kohdistetaan</li>
+          <li xml:lang="fr">Afficher une fenêtre contextuelle lorsque la barre d'URL reçoit le focus, affichant l'historique et le texte associé à l'URL actuelle</li>
+          <li xml:lang="he">להציג חלונית צצה כשהמיקוד הוא על סרגל הכתובות וההיסטוריה מופיעה לצד טקסט תואם לכתובת הנוכחית</li>
+          <li xml:lang="hu">Felugró megjelenítése, amikor a címsávra kerül a fókusz, megjelenítve az előzményeket és a jelenlegi URL-hez kapcsolódó szöveget</li>
+          <li xml:lang="ia">Monstra un popup quando le barra de URL es focalisate monstrante chronologia e texto affin per URL currente</li>
+          <li xml:lang="it">Visualizzazione di una finestra a comparsa quando il cursore si trova sulla barra degli indirizzi, che mostra la cronologia e il testo correlato all'URL corrente</li>
+          <li xml:lang="ka">მხტუნარას ჩვენება, როცა URL-ის პანელს ფოკუსი აქვს, აჩვენებს ისტორიას და შესაბამის ტექსტს მიმდინარე URL-ისთვის</li>
+          <li xml:lang="ko">URL 표시줄에 포커스가 맞춰져 있을 때 현재 URL의 과거 기록과 연관 텍스트를 표시하는 팝업 표시</li>
+          <li xml:lang="lt">Rodomas iškylantysis langas, kai URL juosta sufokusuota ir atvaizduoja istoriją bei su esamu URL adresu susijusį tekstą</li>
+          <li xml:lang="lv">Parādīs izlecošo logu, kad fokusā ir URL joslā, parādot vēsturi un ar pašreizējo URL saistīto tekstu</li>
+          <li xml:lang="nl">Toon een pop-upvenster wanneer de URL-balk is geselecteerd, met de geschiedenis en gerelateerde tekst voor de huidige URL.</li>
+          <li xml:lang="pt-BR">Exibir uma janela pop-up quando a barra de URL estiver em foco, mostrando o histórico e o texto relacionado à URL atual</li>
+          <li xml:lang="ru">Вывод всплывающего окна при фокусировке на адресной строке с историей и связанным текстом для текущего URL</li>
+          <li xml:lang="sk">Zobraziť vyskakovacie okno pri zameraní panela URL zobrazujúce históriu a súvisiaci text pre aktuálnu URL</li>
+          <li xml:lang="sl">Prikaži pojavno okno, ko je v fokusu vrstica URL, ki prikazuje zgodovino in povezano besedilo za trenutni URL</li>
+          <li xml:lang="sv">Visa en meddelanderuta när webbadressraden har fokus som visar historik och samhörande text för aktuell webbadress</li>
+          <li xml:lang="tr">URL çubuğu odaklandığında geçerli URL için geçmişi ve ilgili metni gösteren bir açılır pencere göster</li>
+          <li xml:lang="uk">Реалізовано показ контекстної панелі зі журналом та пов'язаним текстом для поточної адреси, якщо панель адреси перебуває у фокусі</li>
+          <li xml:lang="zh-CN">当 URL 栏被聚焦时显示弹出窗口，显示当前 URL 的历史记录和相关文本</li>
+          <li xml:lang="zh-TW">聚焦網址列時顯示包含歷史記錄與相關文字的彈出視窗</li>
+          <li>Use a better default user-agent for mobile devices</li>
+          <li xml:lang="ar">استخدام وكيل مستخدم مبدئي أفضل للأجهزة المحمولة</li>
+          <li xml:lang="ca">Utilitza un agent d'usuari predeterminat millor per a dispositius mòbils</li>
+          <li xml:lang="ca-valencia">Utilitza un agent d'usuari predeterminat millor per a dispositius mòbils</li>
+          <li xml:lang="cs">Použit lepší výchozí uživatelský agent pro mobilní zařízení</li>
+          <li xml:lang="es">Usar un mejor agente de usuario predeterminado para dispositivos móviles</li>
+          <li xml:lang="eu">Gailu mugikorretarako erabiltzaile-agente hobe bat erabili</li>
+          <li xml:lang="fi">käytä mobiililaitteissa parempaa oletuskäyttäjäagenttia</li>
+          <li xml:lang="fr">Utiliser un agent utilisateur meilleur par défaut pour les périphériques mobiles</li>
+          <li xml:lang="he">להשתמש בסוכן משתמש טוב יותר כברירת מחדל למכשירים ניידים</li>
+          <li xml:lang="hu">Jobb alapértelmezett böngészőazonosító mobil eszközökhöz</li>
+          <li xml:lang="ia">Usa un melior agente-usator predefinite per dispositivos mobile</li>
+          <li xml:lang="it">Utilizzo di un user-agent predefinito più adeguato per i dispositivi mobili</li>
+          <li xml:lang="ka">უკეთესი ნაგულისხმევი user-agent-ის გამოყენება მობილური მოწყობილობებისთვის</li>
+          <li xml:lang="ko">모바일 장치의 기본 User-Agent 개선</li>
+          <li xml:lang="lt">Naudojamas geresnis numatytasis naudotojo agentas mobiliesiems įrenginiams</li>
+          <li xml:lang="lv">Lietot labāku noklusējum lietotāja aģentu mobilajām ierīcēm</li>
+          <li xml:lang="nl">Gebruik een betere standaard gebruikersagent voor mobiele apparaten</li>
+          <li xml:lang="pt-BR">Uso de um agente de usuário padrão melhor para dispositivos móveis</li>
+          <li xml:lang="ru">Использован более подходящий пользовательский агент по умолчанию для мобильных устройств</li>
+          <li xml:lang="sk">Použitie lepšieho predvoleného user-agent pre mobilné zariadenia</li>
+          <li xml:lang="sl">Uporabi boljši privzeti uporabniški agent za mobilne naprave</li>
+          <li xml:lang="sv">Visa en bättre förvald användarmodul för mobilapparater</li>
+          <li xml:lang="tr">Taşınabilir aygıtlar için daha iyi bir öntanımlı kullanıcı aracısı (user-agent) kullan</li>
+          <li xml:lang="uk">Використано кращий агент користувача для мобільних пристроїв</li>
+          <li xml:lang="zh-CN">让移动设备使用更好的默认用户代理</li>
+          <li xml:lang="zh-TW">為行動裝置使用更適合的預設使用者代理字串</li>
+        </ul>
+      </description>
+    </release>
+    <release version="21.12" date="2021-12-07">
+      <url>https://www.plasma-mobile.org/2021/12/07/plasma-mobile-gear-21-12/</url>
+      <description>
+        <ul>
+          <li>Add action button to clear history</li>
+          <li xml:lang="ar">إضافة زر إجراء لمسح السجل</li>
+          <li xml:lang="ca">Afegeix un botó d'acció per a netejar l'historial</li>
+          <li xml:lang="ca-valencia">Afig un botó d'acció per a netejar l'historial</li>
+          <li xml:lang="cs">Přidáno tlačítko pro vymazání historie</li>
+          <li xml:lang="es">Se ha añadido un botón de acción para borrar el historial</li>
+          <li xml:lang="eu">Historia borratzeko ekintza-botoia gehitu</li>
+          <li xml:lang="fi">lisää historian tyhjentävä toimintopainike</li>
+          <li xml:lang="fr">Ajouter un bouton d'action pour l'effacement de l'historique</li>
+          <li xml:lang="he">נוסף כפתור פעולה לפינוי ההיסטוריה</li>
+          <li xml:lang="hu">Műveletgomb az előzmények törléséhez</li>
+          <li xml:lang="ia">Adde button de action per nettar chronologia</li>
+          <li xml:lang="it">Aggiunta di un pulsante di azione per pulire la cronologia</li>
+          <li xml:lang="ka">დაემატა ქმედების ღილაკი ისტორიის გასასუფთავებლად</li>
+          <li xml:lang="ko">과거 기록 비우기 동작 단추 추가</li>
+          <li xml:lang="lt">Pridėtas veiksmo mygtukas, skirtas išvalyti istoriją</li>
+          <li xml:lang="lv">Pievienot pogu vēstures notīrīšanai</li>
+          <li xml:lang="nl">Voeg een actieknop toe om de geschiedenis te wissen</li>
+          <li xml:lang="pt-BR">Adicionado botão de ação para limpar o histórico</li>
+          <li xml:lang="ru">Добавлена кнопка действия для очистки истории</li>
+          <li xml:lang="sk">Pridanie tlačidla akcie na vymazanie histórie</li>
+          <li xml:lang="sl">Doda akcijski gumb za brisanje zgodovine</li>
+          <li xml:lang="sv">Lägg till en åtgärdsknapp för att rensa historik</li>
+          <li xml:lang="tr">Geçmişi temizlemek için eylem düğmesi ekle</li>
+          <li xml:lang="uk">Дано кнопку дії для спорожнення журналу</li>
+          <li xml:lang="zh-CN">添加清除历史记录的动作按钮</li>
+          <li xml:lang="zh-TW">新增清除歷史用的動作按鈕</li>
+          <li>Improve virtual keyboard integration</li>
+          <li xml:lang="ar">تحسين تكامل لوحة المفاتيح الافتراضية</li>
+          <li xml:lang="ca">Millora la integració del teclat virtual</li>
+          <li xml:lang="ca-valencia">Millora la integració del teclat virtual</li>
+          <li xml:lang="cs">Vylepšena integrace virtuální klávesnice</li>
+          <li xml:lang="es">Se ha mejorado la integración del teclado virtual</li>
+          <li xml:lang="eu">Alegiazko teklatuaren integrazioa hobetu</li>
+          <li xml:lang="fi">paranna näyttönäppäimistöeheytystä</li>
+          <li xml:lang="fr">Améliorer l'intégration du clavier virtuel</li>
+          <li xml:lang="he">שילוב מקלדת וירטואלית השתפרה</li>
+          <li xml:lang="hu">Virtuális billentyűzet integrációjának javítása</li>
+          <li xml:lang="ia">Meliora integration de claviero virtual</li>
+          <li xml:lang="it">Miglioramenti all'integrazione con la tastiera virtuale</li>
+          <li xml:lang="ka">გაუმჯობესდა ვირტუალური კლავიატურის ინტეგრაცია</li>
+          <li xml:lang="ko">가상 키보드 통합 개선</li>
+          <li xml:lang="lt">Patobulinta virtualios klaviatūros integracija</li>
+          <li xml:lang="lv">Uzlabota virtuālās tastatūras integrācija</li>
+          <li xml:lang="nl">Verbeter de virtuele toetsenbordintegratie</li>
+          <li xml:lang="pt-BR">Melhoria na integração do teclado virtual</li>
+          <li xml:lang="ru">Улучшена интеграция с экранной клавиатурой</li>
+          <li xml:lang="sk">Zlepšenie integrácie virtuálnej klávesnice</li>
+          <li xml:lang="sl">Izboljša integracijo virtualne tipkovnice</li>
+          <li xml:lang="sv">Förbättra integrering med virtuellt tangentbord</li>
+          <li xml:lang="tr">Sanal klavye tümleşimini iyileştir</li>
+          <li xml:lang="uk">Удосконалено інтеграцію з віртуальною клавіатурою</li>
+          <li xml:lang="zh-CN">改进虚拟键盘的整合</li>
+          <li xml:lang="zh-TW">改善虛擬鍵盤整合</li>
+          <li>Allow user to ignore SSL errors</li>
+          <li xml:lang="ar">السماح للمستخدم بتجاهل أخطاء SSL</li>
+          <li xml:lang="ca">Permet a l'usuari ignorar els errors de SSL</li>
+          <li xml:lang="ca-valencia">Permet a l'usuari ignorar els errors de SSL</li>
+          <li xml:lang="cs">Povoleno uživateli ignorovat chyby SSL</li>
+          <li xml:lang="es">Permitir que el usuario ignore errores de SSL</li>
+          <li xml:lang="eu">Erabiltzaileari SSL erroreak ez ikusteko aukera eman</li>
+          <li xml:lang="fi">salli käyttäjä sivuuttaa SSL-virheet</li>
+          <li xml:lang="fr">Permettre à l'utilisateur d'ignorer les erreurs de SSL</li>
+          <li xml:lang="he">לאפשר למשתמש להתעלם משגיאות SSL</li>
+          <li xml:lang="hu">A felhasználó figyelmen kívül hagyhatja az SSL hibákat</li>
+          <li xml:lang="ia">Permitte que le usator ignora errores de SSL</li>
+          <li xml:lang="it">È stato permesso all'utente di ignorare gli errori SSL</li>
+          <li xml:lang="ka">მომხმარებლებისთვის SSL შეცდომების გამოტოვების უფლების მიცემა</li>
+          <li xml:lang="ko">SSL 오류 무시 허용</li>
+          <li xml:lang="lt">Leidžiama naudotojui nepaisyti SSL klaidų</li>
+          <li xml:lang="lv">Atļaut lietotājam ignorēt SSL kļūdas</li>
+          <li xml:lang="nl">Sta de gebruiker toe SSL-fouten te negeren</li>
+          <li xml:lang="pt-BR">Permite que o usuário ignore erros SSL</li>
+          <li xml:lang="ru">Пользователю разрешено игнорировать ошибки SSL</li>
+          <li xml:lang="sk">Povolenie ignorovania chýb SSL používateľom</li>
+          <li xml:lang="sl">Dovoli uporabniku prezreti napake SSL</li>
+          <li xml:lang="sv">Tillåt användaren ignorera SSL-fel</li>
+          <li xml:lang="tr">Kullanıcının SSL hatalarını yok saymasına izin ver</li>
+          <li xml:lang="uk">Уможливлено ігнорування користувачем помилок SSL</li>
+          <li xml:lang="zh-CN">允许用户忽略 SSL 错误</li>
+          <li xml:lang="zh-TW">允許使用者忽略 SSL 錯誤</li>
+          <li>Fix loading chrome:// URLs</li>
+          <li xml:lang="ar">إصلاح تحميل عناوين وبّ من نوع //:chrome</li>
+          <li xml:lang="ca">Corregeix la càrrega dels URL chrome://</li>
+          <li xml:lang="ca-valencia">Corregix la càrrega dels URL chrome://</li>
+          <li xml:lang="cs">Oprava načítání URL adres chrome://</li>
+          <li xml:lang="es">Se ha corregido la carga de URL de tipo chrome://</li>
+          <li xml:lang="eu">chrome:// URLak zamatzea zuzendu</li>
+          <li xml:lang="fi">korjaa chrome://-osoitteiden lataaminen</li>
+          <li xml:lang="fr">Correction des chargement des URL « chrome:// »</li>
+          <li xml:lang="he">תוקנה טעינת כתובות chrome://‎</li>
+          <li xml:lang="hu">A chrome:// URL-ek betöltése javítva</li>
+          <li xml:lang="ia">Corrige cargar chrome://URLs</li>
+          <li xml:lang="it">Correzione nel caricamento degli URL chrome://</li>
+          <li xml:lang="ka">გასწორდა chrome:// ბმულების ჩატვირთვა</li>
+          <li xml:lang="ko">chrome:// URL 불러오기 수정</li>
+          <li xml:lang="lt">Ištaisytas chrome:// URL adresų įkėlimas</li>
+          <li xml:lang="lv">Labota „chrome://“ URL ielādēšana</li>
+          <li xml:lang="nl">Het laden van chrome:// URL's wordt nu correct gedaan</li>
+          <li xml:lang="pt-BR">Correção do carregamento de URLs chrome://</li>
+          <li xml:lang="ru">Исправлена загрузка адресов chrome://</li>
+          <li xml:lang="sk">Opravenie načítavania URL chrome://</li>
+          <li xml:lang="sl">Popravi nalaganje URL-jev chrome://</li>
+          <li xml:lang="sv">Rätta inläsning av chrome:// webbadresser</li>
+          <li xml:lang="tr">chrome:// URL’lerinin yüklenmesini düzelt</li>
+          <li xml:lang="uk">Виправлено завантаження адрес chrome://</li>
+          <li xml:lang="zh-CN">修复加载 chrome:// URL</li>
+          <li xml:lang="zh-TW">修正 chrome:// 網址的載入</li>
+          <li>Improved ad-blocker support for cosmetic filters</li>
+          <li xml:lang="ar">تحسين دعم مانع الإعلانات للمرشحات التجميلية</li>
+          <li xml:lang="ca">Millora la implementació del bloquejador de publicitat per a filtres cosmètics</li>
+          <li xml:lang="ca-valencia">Millora la implementació del bloquejador de publicitat per a filtres cosmètics</li>
+          <li xml:lang="cs">Vylepšená podpora blokování reklam pro kosmetické filtry</li>
+          <li xml:lang="es">Se ha mejorado la compatibilidad del bloqueador de publicidad con filtros cosméticos</li>
+          <li xml:lang="eu">Iragazki kosmetikoetarako iragarki-eragozlearen euskarri hobetua</li>
+          <li xml:lang="fi">parannettu mainosestotuki kosmeettisille suodattimille</li>
+          <li xml:lang="fr">Amélioration de la prise en charge des bloqueurs de publicités pour les filtres cosmétiques</li>
+          <li xml:lang="he">התמיכה במסננים קומסטיים בחוסם הפרסומות השתפרה</li>
+          <li xml:lang="hu">Fejlesztett reklámblokkoló-támogatás kozmetikai szűrőkhöz</li>
+          <li xml:lang="ia">Meliorate supporto de ad-blocker per filtros cosmetic</li>
+          <li xml:lang="it">Miglioramento al supporto del blocco degli annunci per i filtri estetici</li>
+          <li xml:lang="ka">გაუმჯობესდა რეკლამთმბლოკავის მხარდაჭერა კოსმეტიკური ფილტრებისთვის</li>
+          <li xml:lang="ko">광고 차단기의 표시 필터 지원 개선</li>
+          <li xml:lang="lt">Patobulintas reklamos blokavimo palaikymas, skirtas kosmetiniams filtrams</li>
+          <li xml:lang="lv">Uzlabots reklāmu bloķētāja atbalsts kosmētiskiem filtriem</li>
+          <li xml:lang="nl">Verbeterde ondersteuning voor advertentieblokkers bij cosmetische filters</li>
+          <li xml:lang="pt-BR">Melhoria no suporte a bloqueadores de anúncios para filtros cosméticos</li>
+          <li xml:lang="ru">Улучшена поддержка блокировщика рекламы для косметических фильтров</li>
+          <li xml:lang="sk">Vylepšená podpora blokovania reklám pre kozmetické filtre</li>
+          <li xml:lang="sl">Izboljšana podpora za blokiranje oglasov za kozmetične filtre</li>
+          <li xml:lang="sv">Förbättrat stöd för kosmetiska filter i reklamblockering</li>
+          <li xml:lang="tr">Kozmetik süzgeçler için reklâm engelleyicisi desteğini iyileştir</li>
+          <li xml:lang="uk">Удосконалено підтримку блокування реклами для косметичних фільтрів</li>
+          <li xml:lang="zh-CN">改进广告拦截器对装饰过滤器的支持</li>
+          <li xml:lang="zh-TW">改善廣告阻擋器對外觀過濾器 (cosmetic filter) 的支援</li>
+        </ul>
+      </description>
+    </release>
+    <release version="21.08" date="2021-08-31">
+      <url>https://www.plasma-mobile.org/2021/08/31/plasma-mobile-gear-21-08/</url>
+    </release>
+    <release version="21.07" date="2021-07-20">
+      <description>
+        <ul>
+          <li>Improve the startup time of the ad blocker</li>
+          <li xml:lang="ar">تحسين وقت بدء تشغيل مانع الإعلانات</li>
+          <li xml:lang="ca">Millora el temps d'inici del bloquejador de publicitat</li>
+          <li xml:lang="ca-valencia">Millora el temps d'inici del bloquejador de publicitat</li>
+          <li xml:lang="cs">Zlepšena doba spuštění blokování reklam</li>
+          <li xml:lang="es">Se ha mejorado el tiempo de inicio del bloqueador de publicidad</li>
+          <li xml:lang="eu">Iragarki-eragozlearen abio-denbora hobetu</li>
+          <li xml:lang="fi">nopeuta mainoseston käynnistysaikaa</li>
+          <li xml:lang="fr">Améliorer le temps de démarrage du bloqueur de publicités</li>
+          <li xml:lang="he">זמן העלייה של חוסם הפרסומות השתפר</li>
+          <li xml:lang="hu">A reklámblokkoló indulási ideje javítva</li>
+          <li xml:lang="ia">Meliora le tempore de startar del ad blocker (blocator de reclamos)</li>
+          <li xml:lang="it">Miglioramento del tempo di avvio del blocco degli annunci</li>
+          <li xml:lang="ka">გაუმჯობესდა რეკლამთმბლოკავის გაშვების დრო</li>
+          <li xml:lang="ko">광고 차단기 시작 시간 개선</li>
+          <li xml:lang="lt">Patobulintas reklamos blokavimo paleidimo laikas</li>
+          <li xml:lang="lv">Saīsināts reklāmu bloķētāja palaišanas laiks</li>
+          <li xml:lang="nl">Verbeter de opstarttijd van de advertentieblokker</li>
+          <li xml:lang="pt-BR">Melhoria do tempo de inicialização do bloqueador de anúncios</li>
+          <li xml:lang="ru">Ускорение запуска блокировщика рекламы</li>
+          <li xml:lang="sk">Zlepšenie času spustenia blokovania reklám</li>
+          <li xml:lang="sl">Izboljša čas zagona blokatorja oglasov</li>
+          <li xml:lang="sv">Förbättra reklamblockeringens starttid</li>
+          <li xml:lang="tr">Reklâm engelleyicisinin başlangıç süresini iyileştir</li>
+          <li xml:lang="uk">Пришвидшено час завантаження засобу блокування реклами</li>
+          <li xml:lang="zh-CN">改进广告拦截器的启动时间</li>
+          <li xml:lang="zh-TW">改善廣告阻擋器啟動所需的時間</li>
+          <li>Fix various bugs and safety issues in the web app manager</li>
+          <li xml:lang="ar">إصلاح علل متنوعة ومشاكل أمنية في مدير تطبيقات الويب</li>
+          <li xml:lang="ca">Corregeix diversos errors i problemes de seguretat al gestor d'aplicacions web</li>
+          <li xml:lang="ca-valencia">Corregix diversos errors i problemes de seguretat al gestor d'aplicacions web</li>
+          <li xml:lang="cs">Opraveny různé chyby a bezpečnostní problémy ve správci webových aplikací</li>
+          <li xml:lang="es">Se han corregido diversos fallos y problemas de seguridad en el gestor de la aplicación web</li>
+          <li xml:lang="eu">Web-aplikazio kudeatzaileko hainbat akats eta segurtasun-arazo zuzendu</li>
+          <li xml:lang="fi">korjaa eri vikoja ja tietoturvaongelmia verkkosovellushallinnassa</li>
+          <li xml:lang="fr">Correction de divers bogues et problèmes de sécurité dans le gestionnaire d'applications Internet</li>
+          <li xml:lang="he">תוקנו מספר תקלות ובעיות אבטחה במנהל יישומי האתרים</li>
+          <li xml:lang="hu">Különböző hibák és biztonsági problémák javítva a webalkalmazás-kezelőben</li>
+          <li xml:lang="ia">Corrige varie faltas e problemas de securitate in le gerente de app de web</li>
+          <li xml:lang="it">Correzione di vari bug e problemi di sicurezza nel gestore delle applicazioni web</li>
+          <li xml:lang="ka">გასწორდა სხვადასხვა შეცდომები და უსაფრთხოების პრობლემები ვებაპების მმართველში</li>
+          <li xml:lang="ko">웹 앱 관리자의 다양한 버그와 보안 문제 개선</li>
+          <li xml:lang="lt">Saityno programėlių tvarkytuvėje ištaisytos įvairios klaidos ir saugumo problemos</li>
+          <li xml:lang="lv">Labotas dažādas kļūdas un drošības problēmas tīmekļa lietotņu pārvaldniekā</li>
+          <li xml:lang="nl">Diverse bugs en beveiligingsproblemen in de webapp-beheerder opgelost</li>
+          <li xml:lang="pt-BR">Correção de diversos erros e problemas de segurança no gerenciador de aplicativos da web</li>
+          <li xml:lang="ru">Исправлены различные ошибки и проблемы безопасности в менеджере веб-приложений</li>
+          <li xml:lang="sk">Opravenie rôznych chýb a bezpečnostných problémov v správcovi webových aplikácií</li>
+          <li xml:lang="sl">Popravi različne napake in varnostne težave v upravitelju spletnih aplikacij</li>
+          <li xml:lang="sv">Rätta diverse fel och säkerhetsproblem i webbprogramhanteraren</li>
+          <li xml:lang="tr">Web uygulaması yöneticisindeki çeşitli hataları ve güvenlik sorunlarını düzelt</li>
+          <li xml:lang="uk">Виправлено різні вади та проблеми із захистом у засобі керування вебпрограмами</li>
+          <li xml:lang="zh-CN">修复网页应用管理器中的各种错误和安全问题</li>
+          <li xml:lang="zh-TW">修正網頁應用程式管理器中的一些錯誤與安全性問題</li>
+          <li>Improve flatpak support</li>
+          <li xml:lang="ar">تحسين دعم Flatpak</li>
+          <li xml:lang="ca">Millora la implementació de flatpak</li>
+          <li xml:lang="ca-valencia">Millora la implementació de flatpak</li>
+          <li xml:lang="cs">Vylepšená podpora Flatpak</li>
+          <li xml:lang="es">Se ha mejorado la compatibilidad con flatpak</li>
+          <li xml:lang="eu">Flatpaken euskarria hobetu</li>
+          <li xml:lang="fi">paranna Flatpak-tukea</li>
+          <li xml:lang="fr">Améliorer la prise en charge de FlatPak</li>
+          <li xml:lang="he">התמיכה ב־flatpak השתפרה</li>
+          <li xml:lang="hu">Javított Flatpak támogatás</li>
+          <li xml:lang="ia">Meliora supporto de flatpack</li>
+          <li xml:lang="it">Miglioramento al supporto per Flatpak</li>
+          <li xml:lang="ka">გაუმჯობესდა Flatpak-ის მხარდაჭერა</li>
+          <li xml:lang="ko">Flatpak 지원 개선</li>
+          <li xml:lang="lt">Patobulintas Flatpak palaikymas</li>
+          <li xml:lang="lv">Uzlabots „flatpak“ atbalsts</li>
+          <li xml:lang="nl">Ondersteuning van Flatpak verbeterd</li>
+          <li xml:lang="pt-BR">Melhoria no suporte a flatpak</li>
+          <li xml:lang="ru">Улучшена поддержка Flatpak</li>
+          <li xml:lang="sk">Zlepšenie podpory flatpak</li>
+          <li xml:lang="sl">Izboljša podporo za flatpak</li>
+          <li xml:lang="sv">Förbättra stöd för Flatpak</li>
+          <li xml:lang="tr">Flatpak desteğini iyileştir</li>
+          <li xml:lang="uk">Удосконалено підтримку flatpak</li>
+          <li xml:lang="zh-CN">改进 flatpak 支持</li>
+          <li xml:lang="zh-TW">改善 Flatpak 支援</li>
+        </ul>
+      </description>
+      <url>https://www.plasma-mobile.org/2021/07/20/plasma-mobile-gear-21-07/</url>
+    </release>
+    <release version="21.06" date="2021-06-10">
+      <description>
+        <ul>
+          <li>Add a settings page for managing web apps</li>
+          <li xml:lang="ar">إضافة صفحة إعدادات لإدارة تطبيقات الويب</li>
+          <li xml:lang="ca">Afegeix una pàgina de configuració per a gestionar aplicacions web</li>
+          <li xml:lang="ca-valencia">Afig una pàgina de configuració per a gestionar aplicacions web</li>
+          <li xml:lang="cs">Přidána stránka nastavení pro správu webových aplikací</li>
+          <li xml:lang="es">Se ha añadido una página de preferencias para la gestión de aplicaciones web</li>
+          <li xml:lang="eu">Web-aplikazioak kudeatzeko ezarpen-orrialde bat gehitu</li>
+          <li xml:lang="fi">lisää asetussivu verkkosovelluksille</li>
+          <li xml:lang="fr">Ajouter une page de configuration pour la gestion des applications Internet</li>
+          <li xml:lang="he">נוסף עמוד הגדרות לניהול יישומי אתרים</li>
+          <li xml:lang="hu">Beállítások oldal hozzáadva webalkalmazások kezeléséhez</li>
+          <li xml:lang="ia">Adde un pagina de preferentias per gerer appsde web</li>
+          <li xml:lang="it">Aggiunta di una pagina delle impostazioni per la gestione delle applicazioni web</li>
+          <li xml:lang="ka">დაემატა მორგების გვერდი ვებაპების სამართავად</li>
+          <li xml:lang="ko">웹 앱 관리 설정 페이지 추가</li>
+          <li xml:lang="lt">Pridėtas nuostatų puslapis, skirtas tvarkyti saityno programėles</li>
+          <li xml:lang="lv">Pievienota iestatījumu lapa tīmekļa lietotņu pārvaldīšanai</li>
+          <li xml:lang="nl">Voeg een instellingenpagina toe voor het beheren van webapps.</li>
+          <li xml:lang="pt-BR">Adicionada uma página de configurações para gerenciar aplicativos da web</li>
+          <li xml:lang="ru">Добавлена страница параметров для управления веб-приложениями</li>
+          <li xml:lang="sk">Pridanie stránky nastavení na správu webových aplikácií</li>
+          <li xml:lang="sl">Doda stran z nastavitvami za upravljanje spletnih aplikacij</li>
+          <li xml:lang="sv">Lägg till en inställningssida för att hantera webbprogram</li>
+          <li xml:lang="tr">Web uygulamalarını yönetmek için bir ayarlar sayfası ekle</li>
+          <li xml:lang="uk">Додано сторінку параметрів для керування вебпрограмами</li>
+          <li xml:lang="zh-CN">添加用于管理网页应用的设置页面</li>
+          <li xml:lang="zh-TW">新增管理網頁應用程式用的設定頁面</li>
+        </ul>
+      </description>
+      <url>https://www.plasma-mobile.org/2021/06/10/plasma-mobile-update-june/</url>
+    </release>
+    <release version="21.05" date="2021-05-10"/>
+  </releases>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+</component>

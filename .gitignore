@@ -7,3 +7,9 @@ aptlists/
 aptcache/
 .env
 angelfish.tar.gz
+kf6-out/
+click-qt6/
+build-qt6/
+angelfish-src/*.tar.gz
+kf6-src/*.tar.xz
+kf6-src/*.tar.gz
