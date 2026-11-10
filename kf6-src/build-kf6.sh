@@ -29,7 +29,7 @@ build kcoreaddons-6.31.0 -DBUILD_TESTING=OFF
 build kconfig-6.31.0 -DBUILD_TESTING=OFF
 build ki18n-6.31.0 -DBUILD_TESTING=OFF
 build kdbusaddons-6.31.0 -DBUILD_TESTING=OFF
-build kwindowsystem-6.31.0 -DBUILD_TESTING=OFF
+build kwindowsystem-6.31.0 -DBUILD_TESTING=OFF -DKWINDOWSYSTEM_WAYLAND=OFF
 build kguiaddons-6.31.0 -DBUILD_TESTING=OFF
 build kcolorscheme-6.31.0 -DBUILD_TESTING=OFF
 build knotifications-6.31.0 -DBUILD_TESTING=OFF
