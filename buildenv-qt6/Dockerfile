@@ -39,7 +39,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends -o Acquire::Ret
 
 # KF6 build deps (noble arm64) + ECM 6.31 (noble only ships ECM 5.115)
 RUN apt-get update && apt-get install -y --no-install-recommends -o Acquire::Retries=5 \
-    gettext libcanberra-dev libwayland-dev wayland-protocols libxkbcommon-dev libxkbcommon-x11-dev \
+    gettext liblzma-dev libzstd-dev libbz2-dev libcanberra-dev libwayland-dev wayland-protocols libxkbcommon-dev libxkbcommon-x11-dev \
     libxcb1-dev libxcb-util-dev libxcb-keysyms1-dev libxcb-res0-dev libxcb-icccm4-dev \
     libxcb-ewmh-dev libxcb-image0-dev libxcb-render-util0-dev libxcb-xkb-dev \
     libxcb-cursor-dev libxcb-randr0-dev libxcb-xfixes0-dev libxcb-shape0-dev \
@@ -48,6 +48,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends -o Acquire::Ret
     libxcb-damage0-dev libxcb-render0-dev libxcb-shm0-dev libxcb-glx0-dev \
     libxcb-xinput-dev libxcb-xv0-dev libxcb-dri2-0-dev libxfixes-dev libxrender-dev libxext-dev \
  && rm -rf /var/lib/apt/lists/*
+
+# KF6 6.31 needs cmake >= 3.30; noble ships 3.28 — upstream binary to /usr/local (wins PATH)
+RUN curl -fsSL https://github.com/Kitware/CMake/releases/download/v3.31.9/cmake-3.31.9-linux-aarch64.tar.gz | \
+    tar xz --strip-components=1 -C /usr/local
 
 COPY kf6-src/extra-cmake-modules-6.31.0.tar.xz /tmp/
 RUN cd /tmp && tar xJf extra-cmake-modules-6.31.0.tar.xz && \
