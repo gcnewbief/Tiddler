@@ -58,8 +58,9 @@ elif [ -f /usr/lib/$TRIPLET/qt6/libexec/QtWebEngineProcess ]; then
 elif [ -f /usr/lib/qt6/bin/QtWebEngineProcess ]; then
   cp -a /usr/lib/qt6/bin/QtWebEngineProcess "$LIB/bin/"
 fi
-cp -a /usr/lib/qt6/resources/. "$LIB/resources/" 2>/dev/null || true
-cp -a /usr/lib/$TRIPLET/qt6/resources/. "$LIB/resources/" 2>/dev/null || true
+for r in /usr/lib/qt6/resources /usr/lib/$TRIPLET/qt6/resources /usr/share/qt6/resources; do
+  [ -d "$r" ] && cp -a "$r"/. "$LIB/resources/"
+done
 for t in /usr/share/qt6/translations /usr/lib/qt6/translations; do
   [ -d "$t/qtwebengine_locales" ] && cp -a "$t/qtwebengine_locales" "$LIB/translations/"
   [ -d "$t" ] && cp -a "$t"/*.qm "$LIB/translations/" 2>/dev/null || true
