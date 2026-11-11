@@ -85,6 +85,76 @@ running on a MediaTek aarch64 device. Renamed/branded **Tiddler**.
 - Local emulated adblock build was abandoned (rust crate pathological under qemu,
   9h+). Future adblock builds come from CI or native arm64.
 
+## Qt6 port status (2026-11-10 — WORKING, some UI issues open)
+
+**v26.08.3.1 is built, installed, and launches on device** — `tiddler.entropy`
+26.08.3.1 lives at `/opt/click.ubuntu.com/tiddler.entropy/26.08.3.1/` with full
+bundled Qt6 runtime (ubports 24.04-2.x: Qt base 6.10.2 + WebEngine 6.11.2 =
+~Chromium 140). angelfish + QtWebEngineProcess spawn under `ubuntumirclient`,
+pages load, session restores. The OpenStore "Error Installing" toast was noise —
+the package actually installs fine via the URLDispatcher flow.
+
+**Source**: `angelfish-src/angelfish-v26.08.3/` — patches applied: Tiddler
+branding (title/About/main.cpp), NavSheet OSK fix (`fullHeight: parent.height` +
+top-anchored editRow — carried over), ShareSheet replaced with a copy-URL dialog
+(Purpose removed entirely — no Purpose plugins exist on UT; avoids the KIO chain).
+ContextDrawer topMargin pin REMOVED — it caused a binding loop against kirigami
+6.31's `root.handle.y > 0` guard → zero-height menu ("missing menus" symptom).
+
+**Pipeline (CI-first, all pushed to `gcnewbief/Tiddler`)**:
+- `.github/workflows/build-qt6.yml` — `ubuntu-24.04-arm` runner (native arm64,
+  ~12-15 min/cycle): ubports 24.04-2.x repo + pin preferences, apt Qt6 dev stack
+  (`--allow-downgrades` needed — runner image has newer mesa/apparmor), fetch +
+  build KF6 6.31 stack, build angelfish, `assemble-click-qt6.sh`, upload
+  `tiddler-qt6-click` artifact.
+- `fetch-kf6.sh` — KDE tarball fetcher with `curl --resolve` fallback
+  (download.kde.org 49.12.122.15, invent.kde.org 188.40.133.145 — host DNS is flaky).
+- `kf6-src/build-kf6.sh` — builds into `kf6-out/`: ECM → plasma-wayland-protocols →
+  kcoreaddons → kconfig → ki18n → kdbusaddons → kwindowsystem
+  (`-DKWINDOWSYSTEM_WAYLAND=OFF`, we run on ubuntumirclient) → kguiaddons →
+  kcolorscheme → knotifications → kcrash → kitemmodels → kirigami → karchive →
+  kwidgetsaddons → breeze-icons → kiconthemes → kglobalaccel → kirigami-addons
+  1.16.1 → qcoro 0.13 → futuresql (master). Global flags:
+  `-DBUILD_PYTHON_BINDINGS=OFF -DBUILD_TESTING=OFF`.
+- `scripts/assemble-click-qt6.sh` — bundles binary + all libQt6*, qt6 plugins/QML,
+  KF6 prefix, `QtWebEngineProcess`, resources, locales → click layout.
+- `packaging/wrapper.qt6` — morph-style env: LD_LIBRARY_PATH,
+  QTWEBENGINEPROCESS/RESOURCES/LOCALES_PATH, QT_PLUGIN_PATH, QML_IMPORT_PATH,
+  QT_IM_MODULE=maliit, QT_OPENGL_VARIANT=gles, Material style, **QT_SCALE_FACTOR**.
+- `buildenv-qt6/Dockerfile` — local fallback image (`tiddler-builder-qt6`);
+  cmake tarball ≥3.30 needed (noble ships 3.28, KF6 6.31 requires 3.30+).
+
+**Dep fixes made through CI iterations** (all in the scripts now):
+`libxfixes/xrender/xext-dev` (kwindowsystem X11), `libcanberra-dev`
+(knotifications), `liblzma/zstd/bz2-dev` (karchive), `python3-lxml`
+(breeze-icons icon generator), `BUILD_PYTHON_BINDINGS=OFF` (kcoreaddons wants
+shiboken6), `KWINDOWSYSTEM_WAYLAND=OFF` (needs wayland-protocols ≥1.46; noble has 1.45).
+
+**OPEN ISSUES (next session)**:
+- **App still looks "stock angelfish" / wrong to the user** — specifics TBD. Scale
+  went 1.5 → 1.8 (`QT_SCALE_FACTOR` in wrapper) — UT uses GRID_UNIT_PX=21 vs
+  kirigami gridUnit=18px; likely needs tuning further or a different knob.
+- ContextDrawer in kirigami 6.31 throws `width of null` (line 166 delegate
+  `required property`) + a topMargin binding loop (line 135) even WITHOUT our pin —
+  menu opens but may render/misbehave; needs a look at the new delegate code path.
+- `module "QtFeedback" is not installed` → no haptics (HapticsEffectWrapper.qml);
+  `qml6-module-ktactilefeedback` exists in 24.04-2.x if wanted.
+- `WebGL1 blocklisted` — Chromium GPU context fatal failure on Mali; may need
+  `QTWEBENGINE_CHROMIUM_FLAGS` (morph sets some) or a QtWebEngine flag.
+- `libxcb-cursor0` needed to bundle for xcb ssh smoke tests (cosmetic).
+- `libQt6WebEngineCore.so.6.10.2` filename is misleading — ubports' 6.11.2
+  package ships that ABI name; the click does contain the new 6.11.2 core.
+- Corrosion/adblock still disabled in the Qt6 build (`-DCMAKE_BUILD_TYPE=Release`
+  only); re-enable once UI is stable.
+- Debug `NavSheet geom:` log still in source (from Qt5 days — re-check if the
+  same debug print exists in 26.08.3 source and strip it).
+
+**Quick iteration path** (≈2-3 min/cycle, no CI wait):
+`~/t6test/` on the phone is a writable extracted-click staging dir — patch
+files in place (e.g. `~/t6test/wrapper`), `cd ~ && click build t6test`, then
+the DispatchURL dbus-send → tap install → relaunch. Full click rebuilds for
+real work go through CI artifact → scp → DispatchURL.
+
 ## Known issues / papercuts
 
 - FIXED: address-bar sheet — maliit keyboard reports `keyboardRectangle=831` leaving a
